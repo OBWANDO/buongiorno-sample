@@ -1,0 +1,29 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Crates/source/Crates_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.42327001690864563,
+                0.29176774621009827,
+                0.17143511772155762,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Village/Props/Crates/source/Crates_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Crates/source/Crates_AO.png",
+            "specularTextureMap": "Village/Props/Crates/source/Crates_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Crates/source/Crates_Roughness.png"
+        }
+    }
+}

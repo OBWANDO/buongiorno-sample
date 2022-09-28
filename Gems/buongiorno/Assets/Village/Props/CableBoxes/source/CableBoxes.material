@@ -1,0 +1,30 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/CableBoxes/source/CableBoxes_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.21176470816135406,
+                0.23529411852359772,
+                0.30980393290519714,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/CableBoxes/source/CableBoxes_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/CableBoxes/source/CableBoxes_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/CableBoxes/source/CableBoxes_AO.png",
+            "specularTextureMap": "Village/Props/CableBoxes/source/CableBoxes_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/CableBoxes/source/CableBoxes_Roughness.png"
+        }
+    }
+}

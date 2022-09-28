@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "Cloud01_e",
+            "selectedRootBone": "RootNode.Armature",
+            "id": "{7A5ECE1E-2445-51B1-AE32-3E6059B68DD7}"
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "Cloud01_e",
+            "selectedRootBone": "RootNode.Armature",
+            "id": "{F165D61F-1EA1-5232-B71B-482735263146}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Cloud01_e",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cloud01",
+                    "RootNode.Cloud01.Cloud01_1",
+                    "RootNode.Cloud01.Cloud01_2",
+                    "RootNode.Armature",
+                    "RootNode.Armature.Bone",
+                    "RootNode.Armature.Bone.Bone1",
+                    "RootNode.Armature.Bone.Bone1.Bone2",
+                    "RootNode.Armature.Bone.Bone1.Bone2.Bone2_end"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{7EB958D1-3169-5A31-84B5-70C4F6318F07}"
+        }
+    ]
+}

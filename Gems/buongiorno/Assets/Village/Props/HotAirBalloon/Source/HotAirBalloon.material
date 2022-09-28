@@ -1,0 +1,30 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.05098039284348488,
+                0.9176470637321472,
+                0.05098039284348488,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_AO.png",
+            "specularTextureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/HotAirBalloon/Source/HotAirBalloon_Roughness.png"
+        }
+    }
+}

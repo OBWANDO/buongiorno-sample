@@ -1,0 +1,26 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Fountain",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Fountain",
+                    "RootNode.Fountain.Fountain_1",
+                    "RootNode.Fountain.Fountain_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true
+                    }
+                ]
+            },
+            "id": "{C27E05C8-538B-5D77-9FB8-F42CE06B5925}"
+        }
+    ]
+}

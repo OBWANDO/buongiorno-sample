@@ -1,0 +1,1311 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Roads_And_Stairs",
+        "Components": {
+            "Component_[11612441531846671778]": {
+                "$type": "EditorLockComponent",
+                "Id": 11612441531846671778
+            },
+            "Component_[13248214359933180834]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13248214359933180834
+            },
+            "Component_[13632485327037384165]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13632485327037384165
+            },
+            "Component_[14179195586855075854]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14179195586855075854
+            },
+            "Component_[14508792912151782906]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14508792912151782906,
+                "Parent Entity": ""
+            },
+            "Component_[17887688549878480571]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17887688549878480571
+            },
+            "Component_[4536922129104266726]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4536922129104266726
+            },
+            "Component_[8449770130027087793]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8449770130027087793
+            },
+            "Component_[8561273496481058779]": {
+                "$type": "SelectionComponent",
+                "Id": 8561273496481058779
+            },
+            "Component_[9081106144342355131]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9081106144342355131,
+                "Child Entity Order": [
+                    "Entity_[225176781776451]",
+                    "Entity_[225168191841859]"
+                ]
+            },
+            "Component_[9816161742703665832]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9816161742703665832
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[225151011972675]": {
+            "Id": "Entity_[225151011972675]",
+            "Name": "Road Right Turn",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7FDA7617-EC96-5396-8443-F1D96B6EF67E}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/road_main.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0B815932-220C-52B5-A3F6-8D47245F046A}",
+                                    "subId": 276791531
+                                },
+                                "assetHint": "village/pavement/road/source/road_angle_link_right.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "Entity_[225155306939971]",
+                    "Transform Data": {
+                        "Translate": [
+                            -22.193506240844727,
+                            3.8081345558166504,
+                            -6.220714569091797
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[225155306939971]": {
+            "Id": "Entity_[225155306939971]",
+            "Name": "Flat_Road",
+            "Components": {
+                "Component_[10728297644442111476]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10728297644442111476
+                },
+                "Component_[11246091579552010623]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11246091579552010623
+                },
+                "Component_[1203075380649648695]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1203075380649648695
+                },
+                "Component_[1423846018019853490]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1423846018019853490,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9263376368770798018
+                        }
+                    ]
+                },
+                "Component_[14250148632953223659]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14250148632953223659
+                },
+                "Component_[14994474509115560987]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14994474509115560987,
+                    "Child Entity Order": [
+                        "Entity_[225159601907267]",
+                        "Entity_[225185371711043]",
+                        "Entity_[225151011972675]",
+                        "Instance_[181715545875204]/ContainerEntity",
+                        "Instance_[239427021431556]/ContainerEntity",
+                        "Instance_[230660993180420]/ContainerEntity",
+                        "Instance_[212063784788740]/ContainerEntity",
+                        "Instance_[338937118712580]/ContainerEntity",
+                        "Instance_[85297825047300]/ContainerEntity",
+                        "Instance_[89700166525700]/ContainerEntity"
+                    ]
+                },
+                "Component_[16512388594700507217]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16512388594700507217
+                },
+                "Component_[2553805648699039519]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2553805648699039519
+                },
+                "Component_[9263376368770798018]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9263376368770798018,
+                    "Parent Entity": "Entity_[225163896874563]"
+                },
+                "Component_[9314819477418151470]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9314819477418151470
+                }
+            }
+        },
+        "Entity_[225159601907267]": {
+            "Id": "Entity_[225159601907267]",
+            "Name": "Road Knot",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "Entity_[225155306939971]",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.0633327960968018,
+                            1.2380000352859497,
+                            -2.379214286804199
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7FDA7617-EC96-5396-8443-F1D96B6EF67E}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/road_main.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{26A004ED-0925-5088-8360-B1A4D9C16832}",
+                                    "subId": 275634560
+                                },
+                                "assetHint": "village/pavement/road/source/road_knot_link.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[225163896874563]": {
+            "Id": "Entity_[225163896874563]",
+            "Name": "Flat_Road_TOT",
+            "Components": {
+                "Component_[11462799445320353734]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11462799445320353734
+                },
+                "Component_[11811301277289136985]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11811301277289136985
+                },
+                "Component_[12709679471930479609]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12709679471930479609
+                },
+                "Component_[12865607592067035368]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12865607592067035368
+                },
+                "Component_[13880221702854157139]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13880221702854157139
+                },
+                "Component_[16560057202770747334]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16560057202770747334
+                },
+                "Component_[17395333385305350093]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17395333385305350093
+                },
+                "Component_[17426522619374287111]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17426522619374287111,
+                    "Parent Entity": "Entity_[225168191841859]"
+                },
+                "Component_[6367412329044710316]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6367412329044710316,
+                    "Child Entity Order": [
+                        "Entity_[225155306939971]"
+                    ]
+                },
+                "Component_[8101264988556158606]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8101264988556158606
+                }
+            }
+        },
+        "Entity_[225168191841859]": {
+            "Id": "Entity_[225168191841859]",
+            "Name": "Flat_Road",
+            "Components": {
+                "Component_[10051661924891262428]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10051661924891262428,
+                    "Child Entity Order": [
+                        "Entity_[225163896874563]"
+                    ]
+                },
+                "Component_[10647259375679611498]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10647259375679611498
+                },
+                "Component_[11742738677232295351]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11742738677232295351
+                },
+                "Component_[13141048648467845048]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13141048648467845048,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1496959493364335093]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1496959493364335093
+                },
+                "Component_[2687887694999461332]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2687887694999461332
+                },
+                "Component_[3661155621035090903]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3661155621035090903
+                },
+                "Component_[3968264990956027967]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3968264990956027967
+                },
+                "Component_[6313404084717166832]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6313404084717166832
+                },
+                "Component_[9267525991482813344]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9267525991482813344,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13141048648467845048
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[225172486809155]": {
+            "Id": "Entity_[225172486809155]",
+            "Name": "Stairs",
+            "Components": {
+                "Component_[1249247054770581854]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1249247054770581854
+                },
+                "Component_[12882660755031818257]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12882660755031818257
+                },
+                "Component_[13252327300528130776]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13252327300528130776
+                },
+                "Component_[13430566954608944541]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13430566954608944541,
+                    "Child Entity Order": [
+                        "Instance_[123330222286403]/ContainerEntity",
+                        "Instance_[141304660420163]/ContainerEntity",
+                        "Instance_[149967609456195]/ContainerEntity"
+                    ]
+                },
+                "Component_[17141778515061630550]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17141778515061630550,
+                    "Parent Entity": "Entity_[225176781776451]",
+                    "Transform Data": {
+                        "Translate": [
+                            -31.145999908447266,
+                            4.0,
+                            -6.25
+                        ]
+                    }
+                },
+                "Component_[3130116433480510847]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3130116433480510847
+                },
+                "Component_[318842436732729537]": {
+                    "$type": "SelectionComponent",
+                    "Id": 318842436732729537
+                },
+                "Component_[3703699865950606786]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3703699865950606786
+                },
+                "Component_[395255929200625596]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 395255929200625596
+                },
+                "Component_[9591231587151022952]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9591231587151022952
+                }
+            }
+        },
+        "Entity_[225176781776451]": {
+            "Id": "Entity_[225176781776451]",
+            "Name": "Climb_Road",
+            "Components": {
+                "Component_[10728297644442111476]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10728297644442111476
+                },
+                "Component_[11246091579552010623]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11246091579552010623
+                },
+                "Component_[1203075380649648695]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1203075380649648695
+                },
+                "Component_[1423846018019853490]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1423846018019853490,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9263376368770798018
+                        }
+                    ]
+                },
+                "Component_[14250148632953223659]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14250148632953223659
+                },
+                "Component_[14994474509115560987]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14994474509115560987,
+                    "Child Entity Order": [
+                        "Entity_[225172486809155]",
+                        "Entity_[225181076743747]"
+                    ]
+                },
+                "Component_[16512388594700507217]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16512388594700507217
+                },
+                "Component_[2553805648699039519]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2553805648699039519
+                },
+                "Component_[9263376368770798018]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9263376368770798018,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9314819477418151470]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9314819477418151470
+                }
+            }
+        },
+        "Entity_[225181076743747]": {
+            "Id": "Entity_[225181076743747]",
+            "Name": "Climb",
+            "Components": {
+                "Component_[14038635795076170130]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14038635795076170130
+                },
+                "Component_[15402415900299582918]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15402415900299582918,
+                    "Child Entity Order": [
+                        "Instance_[425643918484228]/ContainerEntity",
+                        "Instance_[430321137869572]/ContainerEntity",
+                        "Instance_[438906777494276]/ContainerEntity"
+                    ]
+                },
+                "Component_[17509258834730249239]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17509258834730249239
+                },
+                "Component_[2146812149294176788]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2146812149294176788
+                },
+                "Component_[2953918281996947373]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2953918281996947373
+                },
+                "Component_[5729038618596750646]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5729038618596750646
+                },
+                "Component_[6380040766986223451]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6380040766986223451
+                },
+                "Component_[688647216442020750]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 688647216442020750
+                },
+                "Component_[7122924736752601375]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7122924736752601375,
+                    "Parent Entity": "Entity_[225176781776451]"
+                },
+                "Component_[7435558230992595223]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7435558230992595223
+                }
+            }
+        },
+        "Entity_[225185371711043]": {
+            "Id": "Entity_[225185371711043]",
+            "Name": "Road Left Turn",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7FDA7617-EC96-5396-8443-F1D96B6EF67E}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/road_main.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2E76031D-B9AD-5AE6-A7C5-87F45C327E0A}",
+                                    "subId": 283321368
+                                },
+                                "assetHint": "village/pavement/road/source/road_angle_link_left.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "Entity_[225155306939971]",
+                    "Transform Data": {
+                        "Translate": [
+                            -12.468000411987305,
+                            -0.3269999921321869,
+                            -4.719022750854492
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[123330222286403]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X10.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Parent Entity",
+                    "value": "../Entity_[225172486809155]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/0",
+                    "value": 20.51253318786621
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/1",
+                    "value": -4.288106918334961
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/2",
+                    "value": 1.6506304740905762
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Rotate/2",
+                    "value": 7.0
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/1",
+                    "value": "Instance_[106206187677251]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/2",
+                    "value": "Instance_[93235386443331]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/3",
+                    "value": "Instance_[97654907790915]/ContainerEntity"
+                }
+            ]
+        },
+        "Instance_[141304660420163]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X10.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Parent Entity",
+                    "value": "../Entity_[225172486809155]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/0",
+                    "value": -1.5904006958007813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/1",
+                    "value": -0.003000020980834961
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/2",
+                    "value": -1.350600242614746
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/1",
+                    "value": "Instance_[106206187677251]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/2",
+                    "value": "Instance_[93235386443331]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/3",
+                    "value": "Instance_[97654907790915]/ContainerEntity"
+                }
+            ]
+        },
+        "Instance_[149967609456195]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X10.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Parent Entity",
+                    "value": "../Entity_[225172486809155]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/0",
+                    "value": 10.829656600952148
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/1",
+                    "value": -0.901604413986206
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Translate/2",
+                    "value": 0.14946794509887695
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10510068564926786528]/Transform Data/Rotate/2",
+                    "value": -25.000015258789063
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/1",
+                    "value": "Instance_[106206187677251]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/2",
+                    "value": "Instance_[93235386443331]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[17561383966933840053]/Child Entity Order/3",
+                    "value": "Instance_[97654907790915]/ContainerEntity"
+                }
+            ]
+        },
+        "Instance_[181715545875204]": {
+            "Source": "Village/Pavement/Road/Road_Straight_Drain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4646491640889863119]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4646491640889863119]/Transform Data/Translate/0",
+                    "value": -29.967300415039063
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4646491640889863119]/Transform Data/Translate/1",
+                    "value": 3.435792922973633
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4646491640889863119]/Transform Data/Translate/2",
+                    "value": -6.2210001945495605
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[212063784788740]": {
+            "Source": "Village/Pavement/Road/Road_Straight_Drain_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/0",
+                    "value": -25.96729850769043
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/1",
+                    "value": 3.435792922973633
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/2",
+                    "value": -6.2210001945495605
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/0",
+                    "value": "Instance_[186306865914628]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/1",
+                    "value": "Instance_[194858145800964]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/2",
+                    "value": "Instance_[203443785425668]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[186306865914628]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[194858145800964]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[203443785425668]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[230660993180420]": {
+            "Source": "Village/Pavement/Road/Road_Straight_Drain_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/0",
+                    "value": -5.863912582397461
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/1",
+                    "value": -0.2683699131011963
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/2",
+                    "value": -2.862658977508545
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Rotate/0",
+                    "value": 0.8434016108512878
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Rotate/1",
+                    "value": -6.887533187866211
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Rotate/2",
+                    "value": 6.998472213745117
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/0",
+                    "value": "Instance_[186306865914628]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/1",
+                    "value": "Instance_[194858145800964]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/2",
+                    "value": "Instance_[203443785425668]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[186306865914628]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[194858145800964]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[203443785425668]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[239427021431556]": {
+            "Source": "Village/Pavement/Road/Road_Straight_Drain_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/0",
+                    "value": -16.231002807617188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/1",
+                    "value": 0.5711398124694824
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Translate/2",
+                    "value": -4.718999862670898
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15295822853101205780]/Transform Data/Rotate/2",
+                    "value": -25.000009536743164
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/0",
+                    "value": "Instance_[186306865914628]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/1",
+                    "value": "Instance_[194858145800964]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[743934830917803681]/Child Entity Order/2",
+                    "value": "Instance_[203443785425668]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[186306865914628]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[194858145800964]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[203443785425668]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[338937118712580]": {
+            "Source": "Village/Pavement/Road/Road_Straight_NoDrain_X3.prefab",
+            "Patches": [
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[10476634783383939492]/Child Entity Order/0",
+                    "value": "Instance_[295815647060740]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[10476634783383939492]/Child Entity Order/1",
+                    "value": "Instance_[300372607361796]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[10476634783383939492]/Child Entity Order/2",
+                    "value": "Instance_[308923887248132]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[10476634783383939492]/Child Entity Order/3",
+                    "value": "Instance_[317509526872836]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Translate/0",
+                    "value": 3.163454055786133
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Translate/1",
+                    "value": 1.0888924598693848
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Translate/2",
+                    "value": -2.0420358180999756
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Rotate/0",
+                    "value": 0.17000000178813934
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Rotate/1",
+                    "value": -3.000002384185791
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4391141704954704121]/Transform Data/Rotate/2",
+                    "value": 3.3999767303466797
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[295815647060740]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[300372607361796]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[308923887248132]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[317509526872836]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[425643918484228]": {
+            "Source": "Village/Pavement/Road/Road_Climb_Drain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Parent Entity",
+                    "value": "../Entity_[225181076743747]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/0",
+                    "value": -32.46735763549805
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/1",
+                    "value": 3.3304858207702637
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/2",
+                    "value": -7.440779209136963
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[430321137869572]": {
+            "Source": "Village/Pavement/Road/Road_Climb_Drain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Parent Entity",
+                    "value": "../Entity_[225181076743747]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/0",
+                    "value": -10.295838356018066
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/1",
+                    "value": -0.9179431796073914
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/2",
+                    "value": -4.439548492431641
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Rotate/2",
+                    "value": 7.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[438906777494276]": {
+            "Source": "Village/Pavement/Road/Road_Climb_Drain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Parent Entity",
+                    "value": "../Entity_[225181076743747]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/0",
+                    "value": -20.354169845581055
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/1",
+                    "value": 2.380626916885376
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Translate/2",
+                    "value": -5.94071102142334
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4759163094604344953]/Transform Data/Rotate/2",
+                    "value": -25.000015258789063
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[85297825047300]": {
+            "Source": "Village/Pavement/Road/Side_Stones_Pair.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/0",
+                    "value": -3.0947189331054688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/1",
+                    "value": 2.6390304565429688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/2",
+                    "value": -2.4404518604278564
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/0",
+                    "value": 1.223852038383484
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/1",
+                    "value": -6.144582748413086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/2",
+                    "value": 95.38284301757813
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[89700166525700]": {
+            "Source": "Village/Pavement/Road/Side_Stones_Pair.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Parent Entity",
+                    "value": "../Entity_[225155306939971]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/0",
+                    "value": -0.8670504093170166
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/1",
+                    "value": 3.0593183040618896
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/2",
+                    "value": -2.2017898559570313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/0",
+                    "value": 1.2238508462905884
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/1",
+                    "value": -6.144550800323486
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/2",
+                    "value": -85.47123718261719
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

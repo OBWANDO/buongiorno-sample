@@ -1,0 +1,32 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Gutter/source/Gutter_round_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.06848248839378357,
+                0.11444266140460968,
+                0.10946822166442871,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/Gutter/source/Gutter_round_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/Gutter/source/Gutter_round_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Gutter/source/Gutter_round_AO.png",
+            "specularTextureMap": "Village/Props/Gutter/source/Gutter_round_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Gutter/source/Gutter_round_Roughness.png"
+        }
+    }
+}

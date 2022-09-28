@@ -1,0 +1,701 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "IceTruck",
+        "Components": {
+            "Component_[11121004148070219554]": {
+                "$type": "EditorLockComponent",
+                "Id": 11121004148070219554
+            },
+            "Component_[1363890586050720016]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1363890586050720016
+            },
+            "Component_[14165928060270553132]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14165928060270553132
+            },
+            "Component_[14808206208660560307]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14808206208660560307,
+                "Parent Entity": ""
+            },
+            "Component_[15423814078966294211]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15423814078966294211
+            },
+            "Component_[15595336536156137177]": {
+                "$type": "SelectionComponent",
+                "Id": 15595336536156137177
+            },
+            "Component_[1600995364588239565]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1600995364588239565
+            },
+            "Component_[1605060945601612684]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1605060945601612684,
+                "Child Entity Order": [
+                    "Entity_[75794169563676]"
+                ]
+            },
+            "Component_[17753692989290324886]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17753692989290324886
+            },
+            "Component_[17898635092794093501]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17898635092794093501
+            },
+            "Component_[7304072172392407768]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7304072172392407768
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1388420143178]": {
+            "Id": "Entity_[1388420143178]",
+            "Name": "Window",
+            "Components": {
+                "Component_[12220985076008455371]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12220985076008455371
+                },
+                "Component_[12224910720262977285]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12224910720262977285
+                },
+                "Component_[14095369867142568407]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14095369867142568407
+                },
+                "Component_[15479575683793558079]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15479575683793558079
+                },
+                "Component_[16145935620091107760]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16145935620091107760
+                },
+                "Component_[18121160818401330923]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18121160818401330923
+                },
+                "Component_[2136125220118911248]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2136125220118911248,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B9924D35-FD32-518E-891F-52960B187474}",
+                                    "subId": 282276430
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "village/vehicles/icetruck/doorwindow_e_x.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2651464036365726459]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2651464036365726459
+                },
+                "Component_[2940165330509551665]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2940165330509551665
+                },
+                "Component_[3516649279041977429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3516649279041977429,
+                    "Parent Entity": "Entity_[75798464530972]"
+                },
+                "Component_[5394312880824873415]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5394312880824873415
+                },
+                "Component_[8013896342185912807]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8013896342185912807,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{26A2D090-6265-5D89-A2E8-5EB4ADB519D1}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruckwindow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[1409894979658]": {
+            "Id": "Entity_[1409894979658]",
+            "Name": "Window",
+            "Components": {
+                "Component_[1204921902332696621]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1204921902332696621
+                },
+                "Component_[13291586468620198843]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13291586468620198843
+                },
+                "Component_[15322809277043149985]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15322809277043149985,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{45C401B2-B9AD-50D1-A42C-52DA0B0744E4}",
+                                    "subId": 283321500
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "village/vehicles/icetruck/doorwindow_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17136645868015954426]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17136645868015954426
+                },
+                "Component_[17276688768762401730]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17276688768762401730,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{26A2D090-6265-5D89-A2E8-5EB4ADB519D1}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruckwindow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17743575893364546370]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17743575893364546370
+                },
+                "Component_[1934932590413106050]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1934932590413106050
+                },
+                "Component_[5292102234788829272]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5292102234788829272
+                },
+                "Component_[662591108342321766]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 662591108342321766
+                },
+                "Component_[7233178998509111405]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7233178998509111405
+                },
+                "Component_[7688061009601729244]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7688061009601729244
+                },
+                "Component_[8065650028764159432]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8065650028764159432,
+                    "Parent Entity": "Entity_[75802759498268]"
+                }
+            }
+        },
+        "Entity_[1431369816138]": {
+            "Id": "Entity_[1431369816138]",
+            "Name": "Windshield",
+            "Components": {
+                "Component_[13443564354058685245]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13443564354058685245
+                },
+                "Component_[14644097664215724799]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14644097664215724799
+                },
+                "Component_[16631329511276930519]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16631329511276930519
+                },
+                "Component_[171872131249113959]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 171872131249113959,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DF3EE7CD-2D1D-5F65-B683-B891706DA945}",
+                                    "subId": 272969623
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "village/vehicles/icetruck/windshield_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1757064389473989389]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1757064389473989389,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{26A2D090-6265-5D89-A2E8-5EB4ADB519D1}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruckwindow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18293222349683871963]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18293222349683871963
+                },
+                "Component_[229833061133572084]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 229833061133572084
+                },
+                "Component_[347117297037805933]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 347117297037805933,
+                    "Parent Entity": "Entity_[75794169563676]"
+                },
+                "Component_[4018163967882108946]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4018163967882108946
+                },
+                "Component_[5966010510557395582]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5966010510557395582
+                },
+                "Component_[6408120577030885577]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6408120577030885577
+                },
+                "Component_[6702964958324954250]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6702964958324954250
+                }
+            }
+        },
+        "Entity_[75794169563676]": {
+            "Id": "Entity_[75794169563676]",
+            "Name": "IceTruck",
+            "Components": {
+                "Component_[10842460164007638291]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10842460164007638291
+                },
+                "Component_[11460001771999006652]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11460001771999006652
+                },
+                "Component_[13362202317410092953]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13362202317410092953,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16688340896019489521
+                        },
+                        {
+                            "ComponentId": 7643596995922620645,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13533337135775794722,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13533337135775794722]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13533337135775794722,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BB49D8F-2CE3-5BF3-B365-29E4174C6F3A}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruck.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13870501606308362831]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13870501606308362831
+                },
+                "Component_[16688340896019489521]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16688340896019489521,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17147798439220155684]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17147798439220155684
+                },
+                "Component_[17704608336054395701]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17704608336054395701,
+                    "Child Entity Order": [
+                        "Entity_[75802759498268]",
+                        "Entity_[75798464530972]",
+                        "Entity_[75807054465564]",
+                        "Entity_[1431369816138]",
+                        "Entity_[1431369816138]"
+                    ]
+                },
+                "Component_[610551470523325745]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 610551470523325745
+                },
+                "Component_[7001504417136551330]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7001504417136551330
+                },
+                "Component_[7643596995922620645]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7643596995922620645,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EC4585BE-A1ED-59FC-8C23-023792C80902}",
+                                    "subId": 280547469
+                                },
+                                "assetHint": "village/vehicles/icetruck/truchchassis_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[959858507246241335]": {
+                    "$type": "SelectionComponent",
+                    "Id": 959858507246241335
+                }
+            }
+        },
+        "Entity_[75798464530972]": {
+            "Id": "Entity_[75798464530972]",
+            "Name": "DoorRight",
+            "Components": {
+                "Component_[10124795957173176918]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10124795957173176918
+                },
+                "Component_[10133486643042173961]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10133486643042173961,
+                    "Child Entity Order": [
+                        "Entity_[1388420143178]"
+                    ]
+                },
+                "Component_[13221734615071116544]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13221734615071116544,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BB49D8F-2CE3-5BF3-B365-29E4174C6F3A}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruck.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17610196540162965863]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17610196540162965863,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{86FA195D-ED5A-5B44-8F9A-8ACEE6397323}",
+                                    "subId": 271694023
+                                },
+                                "assetHint": "village/vehicles/icetruck/cabindoor_e_x.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18162679785284653382]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18162679785284653382
+                },
+                "Component_[3020849937528349679]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3020849937528349679
+                },
+                "Component_[4011647693966719191]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4011647693966719191
+                },
+                "Component_[5458551622390297355]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5458551622390297355
+                },
+                "Component_[6170042820287369659]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6170042820287369659
+                },
+                "Component_[6749645911675550865]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6749645911675550865
+                },
+                "Component_[7242358788206658647]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7242358788206658647
+                },
+                "Component_[9247923024967820393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9247923024967820393,
+                    "Parent Entity": "Entity_[75794169563676]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.45380789041519165,
+                            -0.9748200178146362,
+                            0.939079999923706
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[75802759498268]": {
+            "Id": "Entity_[75802759498268]",
+            "Name": "DoorLeft",
+            "Components": {
+                "Component_[10124795957173176918]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10124795957173176918
+                },
+                "Component_[10133486643042173961]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10133486643042173961,
+                    "Child Entity Order": [
+                        "Entity_[1409894979658]"
+                    ]
+                },
+                "Component_[13221734615071116544]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13221734615071116544,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BB49D8F-2CE3-5BF3-B365-29E4174C6F3A}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruck.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17610196540162965863]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17610196540162965863,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8496FA81-A04D-535E-ABCA-93A943E87D38}",
+                                    "subId": 283126118
+                                },
+                                "assetHint": "village/vehicles/icetruck/cabindoor_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18162679785284653382]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18162679785284653382
+                },
+                "Component_[3020849937528349679]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3020849937528349679
+                },
+                "Component_[4011647693966719191]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4011647693966719191
+                },
+                "Component_[5458551622390297355]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5458551622390297355
+                },
+                "Component_[6170042820287369659]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6170042820287369659
+                },
+                "Component_[6749645911675550865]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6749645911675550865
+                },
+                "Component_[7242358788206658647]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7242358788206658647
+                },
+                "Component_[9247923024967820393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9247923024967820393,
+                    "Parent Entity": "Entity_[75794169563676]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.4538080096244812,
+                            -0.9748200178146362,
+                            0.939079999923706
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -45.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[75807054465564]": {
+            "Id": "Entity_[75807054465564]",
+            "Name": "IceCream",
+            "Components": {
+                "Component_[12297989526827085063]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12297989526827085063
+                },
+                "Component_[12718184061094838792]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12718184061094838792
+                },
+                "Component_[13785719681743334585]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13785719681743334585,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C926BD34-CB38-5994-B1F0-964548AAAB7F}",
+                                    "subId": 278219428
+                                },
+                                "assetHint": "village/vehicles/icetruck/icecream_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16311504981436351679]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16311504981436351679
+                },
+                "Component_[16444551875375708988]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16444551875375708988
+                },
+                "Component_[227867515618022302]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 227867515618022302,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0BB49D8F-2CE3-5BF3-B365-29E4174C6F3A}"
+                                            },
+                                            "assetHint": "village/vehicles/icetruck/icetruck.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3132858142770987208]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3132858142770987208
+                },
+                "Component_[4546309995734664502]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4546309995734664502
+                },
+                "Component_[5637587476172894021]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5637587476172894021
+                },
+                "Component_[6766054394673685170]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6766054394673685170,
+                    "Parent Entity": "Entity_[75794169563676]"
+                },
+                "Component_[7027089335700406772]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7027089335700406772
+                },
+                "Component_[9557575766448447368]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9557575766448447368
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,768 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ShuttersOpened",
+        "Components": {
+            "Component_[10288456085684748045]": {
+                "$type": "EditorLockComponent",
+                "Id": 10288456085684748045
+            },
+            "Component_[11160458273390552581]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11160458273390552581
+            },
+            "Component_[12001969921364381283]": {
+                "$type": "SelectionComponent",
+                "Id": 12001969921364381283
+            },
+            "Component_[14065158231539836877]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14065158231539836877
+            },
+            "Component_[18354222004322580715]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 18354222004322580715
+            },
+            "Component_[4808186281196322753]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4808186281196322753
+            },
+            "Component_[5325728046571154681]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5325728046571154681
+            },
+            "Component_[5420740533493972199]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5420740533493972199,
+                "Child Entity Order": [
+                    "Entity_[6392142096829]",
+                    "Entity_[977701672679913]"
+                ]
+            },
+            "Component_[6204647360458138058]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6204647360458138058
+            },
+            "Component_[7109024419567194330]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7109024419567194330,
+                "Parent Entity": ""
+            },
+            "Component_[8931167457650109653]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8931167457650109653
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6392142096829]": {
+            "Id": "Entity_[6392142096829]",
+            "Name": "ShuttersOpened",
+            "Components": {
+                "Component_[10510797565787756455]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10510797565787756455
+                },
+                "Component_[13495104036928326710]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13495104036928326710
+                },
+                "Component_[14218244597005978738]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14218244597005978738
+                },
+                "Component_[16965365681323062416]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16965365681323062416
+                },
+                "Component_[3092877726749743763]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3092877726749743763
+                },
+                "Component_[3897967106366784325]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3897967106366784325,
+                    "Child Entity Order": [
+                        "Entity_[6396437064125]",
+                        "Entity_[6400732031421]"
+                    ]
+                },
+                "Component_[4467213081506563239]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4467213081506563239
+                },
+                "Component_[4990255279491231948]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4990255279491231948,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5105843856578016399]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5105843856578016399,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4990255279491231948
+                        }
+                    ]
+                },
+                "Component_[7188900131199009001]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7188900131199009001
+                }
+            }
+        },
+        "Entity_[6396437064125]": {
+            "Id": "Entity_[6396437064125]",
+            "Name": "cover1_e",
+            "Components": {
+                "Component_[10242894288168445242]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10242894288168445242
+                },
+                "Component_[1090743562852389943]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1090743562852389943
+                },
+                "Component_[11649776795518292726]": {
+                    "$type": "EditorSequenceAgentComponent",
+                    "Id": 11649776795518292726,
+                    "SequenceComponentEntityIds": [
+                        "Entity_[977701672679913]"
+                    ]
+                },
+                "Component_[11788868651545319044]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11788868651545319044
+                },
+                "Component_[12462048540830738614]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12462048540830738614
+                },
+                "Component_[12551790414669077959]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12551790414669077959,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE1ECB67-C7B6-5109-A719-056C0AF09582}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01_shutters.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13485255222255961679]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13485255222255961679
+                },
+                "Component_[13585481338447200937]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13585481338447200937
+                },
+                "Component_[187114686370289408]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 187114686370289408,
+                    "Parent Entity": "Entity_[6392142096829]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.515999972820282,
+                            0.0,
+                            0.651660680770874
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -61.769100189208984
+                        ]
+                    }
+                },
+                "Component_[3290167952504874347]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3290167952504874347
+                },
+                "Component_[532372472404352663]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 532372472404352663
+                },
+                "Component_[5769491817623227519]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5769491817623227519,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AEFC2321-8AB7-5052-8B00-B1C86E711092}",
+                                    "subId": 284084647
+                                },
+                                "assetHint": "village/props/windows/source/windows01/shutter_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8857369341572553136]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8857369341572553136
+                }
+            }
+        },
+        "Entity_[6400732031421]": {
+            "Id": "Entity_[6400732031421]",
+            "Name": "cover2_e",
+            "Components": {
+                "Component_[1165066291818045994]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1165066291818045994
+                },
+                "Component_[12623854982739867474]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12623854982739867474
+                },
+                "Component_[12712389174229933714]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12712389174229933714
+                },
+                "Component_[1314180049239703141]": {
+                    "$type": "EditorSequenceAgentComponent",
+                    "Id": 1314180049239703141,
+                    "SequenceComponentEntityIds": [
+                        "Entity_[977701672679913]"
+                    ]
+                },
+                "Component_[13891043126710690398]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13891043126710690398
+                },
+                "Component_[14233624809965708634]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14233624809965708634
+                },
+                "Component_[5151826976004719033]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5151826976004719033
+                },
+                "Component_[553824876690306582]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 553824876690306582,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1B6FBBC6-F4EA-5424-B803-182033B15DC8}",
+                                    "subId": 282767294
+                                },
+                                "assetHint": "village/props/windows/source/windows01/shutter_e_x.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7090962970238490604]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7090962970238490604,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE1ECB67-C7B6-5109-A719-056C0AF09582}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01_shutters.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8244871894599385957]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8244871894599385957
+                },
+                "Component_[8597968883476413036]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8597968883476413036,
+                    "Parent Entity": "Entity_[6392142096829]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.7139999866485596,
+                            0.0,
+                            0.6560509204864502
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            57.24271011352539
+                        ]
+                    }
+                },
+                "Component_[9139188276132220769]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9139188276132220769
+                },
+                "Component_[9464422176239884814]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9464422176239884814
+                }
+            }
+        },
+        "Entity_[977701672679913]": {
+            "Id": "Entity_[977701672679913]",
+            "Name": "Shutters Anim Wind",
+            "Components": {
+                "Component_[10551231790649393211]": {
+                    "$type": "EditorSequenceComponent",
+                    "Id": 10551231790649393211,
+                    "Sequence": {
+                        "$type": "CAnimSequence",
+                        "Name": "Shutters Anim Wind",
+                        "SequenceEntityId": "Entity_[977701672679913]",
+                        "Flags": 5,
+                        "TimeRange": {
+                            "End": 30.0
+                        },
+                        "ID": 189,
+                        "Nodes": [
+                            {
+                                "$type": "CAnimAzEntityNode",
+                                "ID": 1,
+                                "Name": "cover1_e",
+                                "Entity": "Entity_[6396437064125]"
+                            },
+                            {
+                                "$type": "CAnimComponentNode",
+                                "ID": 2,
+                                "Name": "Mesh",
+                                "Parent": 1,
+                                "ComponentID": 5769491817623227519,
+                                "ComponentTypeID": "{DCE68F6E-2E16-4CB4-A834-B6C2F900A7E9}"
+                            },
+                            {
+                                "$type": "CAnimComponentNode",
+                                "ID": 3,
+                                "Name": "Transform",
+                                "Tracks": [
+                                    {
+                                        "$type": "CCompoundSplineTrack",
+                                        "Flags": 1179516656,
+                                        "ParamType": {
+                                            "Type": 1,
+                                            "Name": "Position"
+                                        },
+                                        "NumSubTracks": 3,
+                                        "SubTracks": [
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": 0.5161886215209961
+                                                },
+                                                "ParamType": {
+                                                    "Type": 51
+                                                },
+                                                "Id": 2
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 52
+                                                },
+                                                "Id": 3
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": 0.6516607403755188
+                                                },
+                                                "ParamType": {
+                                                    "Type": 53
+                                                },
+                                                "Id": 4
+                                            },
+                                            null
+                                        ],
+                                        "SubTrackNames": [
+                                            "X",
+                                            "Y",
+                                            "Z",
+                                            "W"
+                                        ],
+                                        "ValueType": 1,
+                                        "Id": 1
+                                    },
+                                    {
+                                        "$type": "CCompoundSplineTrack",
+                                        "Flags": 1179516656,
+                                        "ParamType": {
+                                            "Type": 2,
+                                            "Name": "Rotation"
+                                        },
+                                        "NumSubTracks": 3,
+                                        "SubTracks": [
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 54
+                                                },
+                                                "Id": 6
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 55
+                                                },
+                                                "Id": 7
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": -42.91021728515625
+                                                },
+                                                "ParamType": {
+                                                    "Type": 56
+                                                },
+                                                "Spline": {
+                                                    "Keys": [
+                                                        {
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "y": -56.43597412109375
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 0.875
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 6.55463981628418,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 6.55463981628418,
+                                                                "y": -32.34291458129883
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 15.5265531539917,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 15.5265531539917,
+                                                                "y": -70.2122573852539
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 22.54416847229004,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 22.54416847229004,
+                                                                "y": -42.88056182861328
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 30.0,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 30.0,
+                                                                "y": -56.43597412109375
+                                                            },
+                                                            "ds": {
+                                                                "x": 0.875
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "Id": 8
+                                            },
+                                            null
+                                        ],
+                                        "SubTrackNames": [
+                                            "X",
+                                            "Y",
+                                            "Z",
+                                            "W"
+                                        ],
+                                        "ValueType": 2,
+                                        "Id": 5
+                                    }
+                                ],
+                                "Parent": 1,
+                                "ComponentID": 187114686370289408,
+                                "ComponentTypeID": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0}"
+                            },
+                            {
+                                "$type": "CAnimAzEntityNode",
+                                "ID": 4,
+                                "Name": "cover2_e",
+                                "Flags": 6,
+                                "Entity": "Entity_[6400732031421]"
+                            },
+                            {
+                                "$type": "CAnimComponentNode",
+                                "ID": 5,
+                                "Name": "Mesh",
+                                "Parent": 4,
+                                "ComponentID": 553824876690306582,
+                                "ComponentTypeID": "{DCE68F6E-2E16-4CB4-A834-B6C2F900A7E9}"
+                            },
+                            {
+                                "$type": "CAnimComponentNode",
+                                "ID": 6,
+                                "Name": "Transform",
+                                "Tracks": [
+                                    {
+                                        "$type": "CCompoundSplineTrack",
+                                        "Flags": 1065353216,
+                                        "ParamType": {
+                                            "Type": 1,
+                                            "Name": "Position"
+                                        },
+                                        "NumSubTracks": 3,
+                                        "SubTracks": [
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": -0.7133922576904297
+                                                },
+                                                "ParamType": {
+                                                    "Type": 51
+                                                },
+                                                "Id": 10
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 52
+                                                },
+                                                "Id": 11
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": 0.6560510396957397
+                                                },
+                                                "ParamType": {
+                                                    "Type": 53
+                                                },
+                                                "Id": 12
+                                            },
+                                            null
+                                        ],
+                                        "SubTrackNames": [
+                                            "X",
+                                            "Y",
+                                            "Z",
+                                            "W"
+                                        ],
+                                        "ValueType": 1,
+                                        "Id": 9
+                                    },
+                                    {
+                                        "$type": "CCompoundSplineTrack",
+                                        "Flags": 1179516656,
+                                        "ParamType": {
+                                            "Type": 2,
+                                            "Name": "Rotation"
+                                        },
+                                        "NumSubTracks": 3,
+                                        "SubTracks": [
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 54
+                                                },
+                                                "Id": 14
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "ParamType": {
+                                                    "Type": 55
+                                                },
+                                                "Id": 15
+                                            },
+                                            {
+                                                "$type": "TAnimSplineTrack<Vec2 >",
+                                                "DefaultValue": {
+                                                    "y": 69.53118896484375
+                                                },
+                                                "ParamType": {
+                                                    "Type": 56
+                                                },
+                                                "Spline": {
+                                                    "Keys": [
+                                                        {
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "y": 63.89389419555664
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 0.875
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 7.5593061447143555,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 7.5593061447143555,
+                                                                "y": 73.04058074951172
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 14.526480674743652,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 14.526480674743652,
+                                                                "y": 54.713035583496094
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 23.533475875854492,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 23.533475875854492,
+                                                                "y": 73.53133392333984
+                                                            },
+                                                            "ds": {
+                                                                "x": 1.0
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        },
+                                                        {
+                                                            "time": 30.0,
+                                                            "flags": 9,
+                                                            "value": {
+                                                                "x": 30.0,
+                                                                "y": 63.89389419555664
+                                                            },
+                                                            "ds": {
+                                                                "x": 0.875
+                                                            },
+                                                            "dd": {
+                                                                "x": 1.0
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "Id": 16
+                                            },
+                                            null
+                                        ],
+                                        "SubTrackNames": [
+                                            "X",
+                                            "Y",
+                                            "Z",
+                                            "W"
+                                        ],
+                                        "ValueType": 2,
+                                        "Id": 13
+                                    }
+                                ],
+                                "Parent": 4,
+                                "ComponentID": 8597968883476413036,
+                                "ComponentTypeID": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0}"
+                            }
+                        ]
+                    }
+                },
+                "Component_[12269059880957689957]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12269059880957689957
+                },
+                "Component_[16929858034740050447]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16929858034740050447
+                },
+                "Component_[17509629059393221938]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17509629059393221938
+                },
+                "Component_[2320494290389343766]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2320494290389343766
+                },
+                "Component_[2452004670565199381]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2452004670565199381
+                },
+                "Component_[3521062232676864389]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3521062232676864389,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -25.336280822753906,
+                            14.64067554473877,
+                            -6.98664665222168
+                        ]
+                    }
+                },
+                "Component_[4663773515803373401]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4663773515803373401
+                },
+                "Component_[5157158027347053357]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5157158027347053357
+                },
+                "Component_[7791035521429672116]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7791035521429672116
+                },
+                "Component_[8574057447112283216]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8574057447112283216
+                }
+            }
+        }
+    }
+}

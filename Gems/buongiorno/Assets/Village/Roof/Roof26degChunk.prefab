@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Roof26degChunk",
+        "Components": {
+            "Component_[10787762426275654981]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10787762426275654981,
+                "Parent Entity": ""
+            },
+            "Component_[12000334946763461662]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12000334946763461662
+            },
+            "Component_[12144701441287860416]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12144701441287860416
+            },
+            "Component_[13796835043531362081]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13796835043531362081
+            },
+            "Component_[15832695047729229870]": {
+                "$type": "SelectionComponent",
+                "Id": 15832695047729229870
+            },
+            "Component_[17644417874681457534]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17644417874681457534
+            },
+            "Component_[330296929646442060]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 330296929646442060
+            },
+            "Component_[4649929783439213749]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4649929783439213749,
+                "Child Entity Order": [
+                    "Entity_[148221521142678]"
+                ]
+            },
+            "Component_[4655249600644721316]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4655249600644721316
+            },
+            "Component_[5287895244693432075]": {
+                "$type": "EditorLockComponent",
+                "Id": 5287895244693432075
+            },
+            "Component_[9577081277184751922]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9577081277184751922
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[148221521142678]": {
+            "Id": "Entity_[148221521142678]",
+            "Name": "Roof26degChunk",
+            "Components": {
+                "Component_[10254389338178106848]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10254389338178106848
+                },
+                "Component_[11000137477466903572]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11000137477466903572
+                },
+                "Component_[11824332328419803139]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11824332328419803139
+                },
+                "Component_[15765268973593273642]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15765268973593273642
+                },
+                "Component_[16087149444949128702]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16087149444949128702,
+                    "Child Entity Order": [
+                        "Instance_[119810312479638]/ContainerEntity",
+                        "Instance_[117499620074390]/ContainerEntity",
+                        "Instance_[122138184754070]/ContainerEntity"
+                    ]
+                },
+                "Component_[4643609302902232534]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4643609302902232534,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5748950190357652420]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5748950190357652420
+                },
+                "Component_[8220124604562999502]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8220124604562999502
+                },
+                "Component_[9012802275740973016]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9012802275740973016,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4643609302902232534
+                        }
+                    ]
+                },
+                "Component_[9115218485470428322]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9115218485470428322
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[117499620074390]": {
+            "Source": "Village/Roof/RoofEdge.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5229286512292395723]/Parent Entity",
+                    "value": "../Entity_[148221521142678]"
+                }
+            ]
+        },
+        "Instance_[119810312479638]": {
+            "Source": "Village/Roof/RoofTiles_2m_26deg.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[17543342535605106925]/Parent Entity",
+                    "value": "../Entity_[148221521142678]"
+                }
+            ]
+        },
+        "Instance_[122138184754070]": {
+            "Source": "Village/Roof/TopSeam.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14797646192224949063]/Parent Entity",
+                    "value": "../Entity_[148221521142678]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14797646192224949063]/Transform Data/Translate/1",
+                    "value": 3.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14797646192224949063]/Transform Data/Translate/2",
+                    "value": 1.5
+                }
+            ]
+        }
+    }
+}

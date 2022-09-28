@@ -1,0 +1,25 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/EntranceKit/Source/EntranceKit_BaseColor.png"
+        },
+        "irradiance": {
+            "factor": 0.25
+        },
+        "metallic": {
+            "textureMap": "Village/Props/EntranceKit/Source/EntranceKit_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/EntranceKit/Source/EntranceKit_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/EntranceKit/Source/EntranceKit_AO.png",
+            "specularTextureMap": "Village/Props/EntranceKit/Source/EntranceKit_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/EntranceKit/Source/EntranceKit_Roughness.png"
+        }
+    }
+}

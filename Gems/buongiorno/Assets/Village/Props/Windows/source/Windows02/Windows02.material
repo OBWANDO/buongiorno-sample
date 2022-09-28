@@ -1,0 +1,32 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Windows02_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.08706797659397125,
+                0.08474861085414886,
+                0.08474861085414886,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Windows02_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Windows02_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Windows02_AO.png",
+            "specularTextureMap": "Windows02_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Windows02_Roughness.png"
+        }
+    }
+}

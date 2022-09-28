@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Vegetation/source/Trees_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.574013888835907,
+                0.7142900824546814,
+                0.0793621763586998,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Village/Vegetation/source/Trees_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Vegetation/source/Trees_AO.png",
+            "specularTextureMap": "Village/Vegetation/source/Trees_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Vegetation/source/Trees_Roughness.png"
+        }
+    }
+}

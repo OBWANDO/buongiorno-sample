@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder buongiorno/Assets": {
+                    "watch": "@GEMROOT:buongiorno@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder buongiorno/Registry": {
+                    "watch": "@GEMROOT:buongiorno@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Tomatoe",
+        "Components": {
+            "Component_[10045781615654635667]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10045781615654635667
+            },
+            "Component_[11488135766070390613]": {
+                "$type": "SelectionComponent",
+                "Id": 11488135766070390613
+            },
+            "Component_[12166187810625112733]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12166187810625112733
+            },
+            "Component_[13339697689523484659]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13339697689523484659
+            },
+            "Component_[13406185762434667681]": {
+                "$type": "EditorLockComponent",
+                "Id": 13406185762434667681
+            },
+            "Component_[13740217993570021801]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13740217993570021801
+            },
+            "Component_[2273363772638567432]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2273363772638567432,
+                "Parent Entity": ""
+            },
+            "Component_[4587586124008638842]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4587586124008638842
+            },
+            "Component_[5863758325053486676]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5863758325053486676
+            },
+            "Component_[7615990286142557853]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7615990286142557853
+            },
+            "Component_[8154405104043372251]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8154405104043372251,
+                "Child Entity Order": [
+                    "Entity_[698842608850105]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[698842608850105]": {
+            "Id": "Entity_[698842608850105]",
+            "Name": "tomato_e",
+            "Components": {
+                "Component_[10268608550165512631]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10268608550165512631
+                },
+                "Component_[13139851622691433176]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13139851622691433176
+                },
+                "Component_[13479270843019909162]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13479270843019909162
+                },
+                "Component_[1386148002885082814]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1386148002885082814,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17455182388776087211
+                        },
+                        {
+                            "ComponentId": 3976949884451101203,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7389125447863580244,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15938910879719894173]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15938910879719894173
+                },
+                "Component_[17193482116026340926]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17193482116026340926
+                },
+                "Component_[17455182388776087211]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17455182388776087211,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3976949884451101203]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3976949884451101203,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5C2070EB-7FEB-594C-9FC7-5ACB55F23E73}",
+                                    "subId": 282284524
+                                },
+                                "assetHint": "village/props/produce/source/tomato_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[4389723155029232737]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4389723155029232737
+                },
+                "Component_[5657030061859160466]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5657030061859160466
+                },
+                "Component_[6627731794451984100]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6627731794451984100
+                },
+                "Component_[7389125447863580244]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7389125447863580244,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7C999C9C-13A1-5EA0-AF1F-05158E0822B2}"
+                                            },
+                                            "assetHint": "village/props/produce/source/produce.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

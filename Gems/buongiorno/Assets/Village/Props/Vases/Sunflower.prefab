@@ -1,0 +1,268 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Sunflower",
+        "Components": {
+            "Component_[12248168063475666933]": {
+                "$type": "EditorLockComponent",
+                "Id": 12248168063475666933
+            },
+            "Component_[13273258762635576037]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13273258762635576037
+            },
+            "Component_[15846576288691735692]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15846576288691735692,
+                "Parent Entity": ""
+            },
+            "Component_[2727684101449489059]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2727684101449489059
+            },
+            "Component_[4713368518232060078]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4713368518232060078,
+                "Child Entity Order": [
+                    "Entity_[40827846897528]",
+                    "Entity_[40832141864824]"
+                ]
+            },
+            "Component_[4999659508141286722]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4999659508141286722
+            },
+            "Component_[5202734970376233193]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5202734970376233193
+            },
+            "Component_[5587959062702855308]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5587959062702855308
+            },
+            "Component_[661448808259627336]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 661448808259627336
+            },
+            "Component_[7511510356324998990]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7511510356324998990
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[40827846897528]": {
+            "Id": "Entity_[40827846897528]",
+            "Name": "cloves_e",
+            "Components": {
+                "Component_[1431561570585228984]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1431561570585228984,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2B3FB467-06ED-53E6-AA4C-5C388DB8C400}"
+                                            },
+                                            "assetHint": "village/props/vases/source/vasestransparent.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2B3FB467-06ED-53E6-AA4C-5C388DB8C400}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1655941427395142287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1655941427395142287
+                },
+                "Component_[17353868138917005819]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17353868138917005819
+                },
+                "Component_[1946472634286902379]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1946472634286902379
+                },
+                "Component_[3325204384716625750]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3325204384716625750
+                },
+                "Component_[5219608917378579832]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5219608917378579832
+                },
+                "Component_[6614494961664852340]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6614494961664852340
+                },
+                "Component_[7450800980087344581]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7450800980087344581
+                },
+                "Component_[8028659998546224517]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8028659998546224517,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8102028505170869591
+                        },
+                        {
+                            "ComponentId": 9220620220807375479,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1431561570585228984,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8102028505170869591]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8102028505170869591,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.05650363862514496,
+                            -0.026239633560180664,
+                            1.0249429941177368
+                        ]
+                    }
+                },
+                "Component_[9220620220807375479]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9220620220807375479,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1D164E8C-5603-555E-8E3C-271498969D0B}",
+                                    "subId": 282391348
+                                },
+                                "assetHint": "village/props/vases/source/cloves_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[40832141864824]": {
+            "Id": "Entity_[40832141864824]",
+            "Name": "vase_e",
+            "Components": {
+                "Component_[1101464777377872153]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1101464777377872153
+                },
+                "Component_[11482768787087162490]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11482768787087162490,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4283941384756247926
+                        },
+                        {
+                            "ComponentId": 11595337791584903114,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5399212908701459564,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11595337791584903114]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11595337791584903114,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C0EEF6F5-04CA-5BA8-A5A8-5E28F538B5C0}",
+                                    "subId": 277267319
+                                },
+                                "assetHint": "village/props/vases/source/vase_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13542912702589444525]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13542912702589444525
+                },
+                "Component_[15327559957565772087]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15327559957565772087
+                },
+                "Component_[2613519243103853121]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2613519243103853121
+                },
+                "Component_[3517000237698246859]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3517000237698246859
+                },
+                "Component_[4270170799095771527]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4270170799095771527
+                },
+                "Component_[4283941384756247926]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4283941384756247926,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.05650363862514496,
+                            0.02653801441192627,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5399212908701459564]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5399212908701459564,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{28172191-A53E-5C46-8A0D-1BC1EAAAFDEF}"
+                                            },
+                                            "assetHint": "village/props/vases/source/vases.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8760884827811768014]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8760884827811768014
+                }
+            }
+        }
+    }
+}

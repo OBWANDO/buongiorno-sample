@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "YellowRoof",
+        "Components": {
+            "Component_[10591903487771627252]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10591903487771627252
+            },
+            "Component_[16965059049498577215]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16965059049498577215
+            },
+            "Component_[3461807440469497127]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3461807440469497127
+            },
+            "Component_[4461607837412578743]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4461607837412578743,
+                "Parent Entity": ""
+            },
+            "Component_[4799424279800424641]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4799424279800424641
+            },
+            "Component_[6464525456971623773]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6464525456971623773
+            },
+            "Component_[7787223985269832245]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7787223985269832245
+            },
+            "Component_[8461764224078843484]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8461764224078843484,
+                "Child Entity Order": [
+                    "Entity_[66291611568291]"
+                ]
+            },
+            "Component_[9272219336522805425]": {
+                "$type": "EditorLockComponent",
+                "Id": 9272219336522805425
+            },
+            "Component_[9321097573682260988]": {
+                "$type": "SelectionComponent",
+                "Id": 9321097573682260988
+            },
+            "Component_[9928554679463984790]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9928554679463984790
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[66291611568291]": {
+            "Id": "Entity_[66291611568291]",
+            "Name": "roof_long_e",
+            "Components": {
+                "Component_[10724722236230506024]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10724722236230506024,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C5B1371C-8E96-55E7-B78D-B8A203C29500}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops_yellow.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12387993536754376626]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12387993536754376626,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14694023722942672752]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14694023722942672752
+                },
+                "Component_[16904535553657417312]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16904535553657417312,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{44574333-EE5B-5C7C-B91D-6272D3C74B08}",
+                                    "subId": 271113552
+                                },
+                                "assetHint": "village/props/motelprops/source/roof_long_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17202771175031535706]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17202771175031535706
+                },
+                "Component_[18433827349217990080]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18433827349217990080
+                },
+                "Component_[2706260773987967725]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2706260773987967725
+                },
+                "Component_[5436569373060173461]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5436569373060173461
+                },
+                "Component_[6871522505251822372]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6871522505251822372
+                },
+                "Component_[8743003348370263843]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8743003348370263843,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12387993536754376626
+                        },
+                        {
+                            "ComponentId": 16904535553657417312,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10724722236230506024,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8970186751162635671]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8970186751162635671
+                },
+                "Component_[9312542088000476379]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9312542088000476379
+                }
+            }
+        }
+    }
+}

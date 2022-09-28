@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "parentMaterial": "Village/Buildings/Materials/PlasterWall/PlasterWall.material",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Buildings/Materials/PlasterWall/Plaster_Grey_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.19461356103420258,
+                0.13842985033988953,
+                0.15292592346668243,
+                1.0
+            ]
+        }
+    }
+}

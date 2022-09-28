@@ -1,0 +1,25 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Fountain/source/Fountains_BaseColor.png"
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "metallic": {
+            "textureMap": "Village/Props/Fountain/source/Fountains_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/Fountain/source/Fountains_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Fountain/source/Fountains_AO.png",
+            "specularTextureMap": "Village/Props/Fountain/source/Fountains_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Fountain/source/Fountains_Roughness.png"
+        }
+    }
+}

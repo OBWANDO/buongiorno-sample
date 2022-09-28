@@ -1,0 +1,169 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Roof26_Corner",
+        "Components": {
+            "Component_[12912126710080676806]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12912126710080676806
+            },
+            "Component_[1670935221276841055]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1670935221276841055
+            },
+            "Component_[18036487994434969818]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 18036487994434969818
+            },
+            "Component_[1836858280488748079]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1836858280488748079
+            },
+            "Component_[1896991331870397564]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1896991331870397564
+            },
+            "Component_[2191148647026013651]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2191148647026013651
+            },
+            "Component_[2341926588583617285]": {
+                "$type": "EditorLockComponent",
+                "Id": 2341926588583617285
+            },
+            "Component_[4775630322543478443]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4775630322543478443,
+                "Child Entity Order": [
+                    "Entity_[319141110937203]"
+                ]
+            },
+            "Component_[9133593663147769200]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9133593663147769200,
+                "Parent Entity": ""
+            },
+            "Component_[9405540219740992055]": {
+                "$type": "SelectionComponent",
+                "Id": 9405540219740992055
+            },
+            "Component_[9701138855629017330]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9701138855629017330
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[319141110937203]": {
+            "Id": "Entity_[319141110937203]",
+            "Name": "Roof26_Corner",
+            "Components": {
+                "Component_[11397959692307607660]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11397959692307607660
+                },
+                "Component_[11682676653955947856]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11682676653955947856
+                },
+                "Component_[14527324199042086018]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14527324199042086018
+                },
+                "Component_[17506535446944033902]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17506535446944033902
+                },
+                "Component_[1974642398469304443]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1974642398469304443
+                },
+                "Component_[2491190831324940405]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2491190831324940405,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3778998583662836611
+                        },
+                        {
+                            "ComponentId": 460104998246597608,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4732156110391361309,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3778998583662836611]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3778998583662836611,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[460104998246597608]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 460104998246597608,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C48E6AAB-D541-584D-98EE-6C437EAFBDD6}",
+                                    "subId": 281796010
+                                },
+                                "assetHint": "village/roof/source/roof26_corner.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4732156110391361309]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4732156110391361309,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2750426069
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4524FA17-5CC9-56B2-BE31-2C1B0BCF46A0}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[569900381373943245]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 569900381373943245
+                },
+                "Component_[7390448349869880894]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7390448349869880894
+                },
+                "Component_[8867793878956711678]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8867793878956711678
+                }
+            }
+        }
+    }
+}

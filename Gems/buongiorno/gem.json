@@ -1,0 +1,22 @@
+{
+    "gem_name": "BuonGIorno",
+    "display_name": "Samples: Buon(G.I)orno Assets",
+    "license": "CC-BY-NC-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "origin": "Imagination Technologies - https://www.imaginationtechnologies.com",
+    "origin_url": "https://github.com/powervr-graphics/buongiorno-sample/tree/main/Gems/buongiorno",
+    "type": "Asset",
+    "summary": "An O3DE Asset Gem for the Buongiorno Sample project with sample assets for an small Italian town scene.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Content",
+        "BuonGIorno",
+        "Raytracing",
+        "Assets",
+        "Global Illumination",
+        "Get Started"
+    ],
+    "icon_path": "preview.png"
+}

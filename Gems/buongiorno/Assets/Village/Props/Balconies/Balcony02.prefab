@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Balcony02",
+        "Components": {
+            "Component_[17174856850535617727]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17174856850535617727
+            },
+            "Component_[2268725750516699376]": {
+                "$type": "EditorLockComponent",
+                "Id": 2268725750516699376
+            },
+            "Component_[2304315854152277308]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2304315854152277308,
+                "Child Entity Order": [
+                    "Entity_[22308876431921]"
+                ]
+            },
+            "Component_[3610052196045837347]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3610052196045837347,
+                "Parent Entity": ""
+            },
+            "Component_[3888227857546080829]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3888227857546080829
+            },
+            "Component_[4136659985439461578]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4136659985439461578
+            },
+            "Component_[6684645508144642475]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6684645508144642475
+            },
+            "Component_[672802666158172417]": {
+                "$type": "SelectionComponent",
+                "Id": 672802666158172417
+            },
+            "Component_[6821856575492263229]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6821856575492263229
+            },
+            "Component_[816097833814942467]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 816097833814942467
+            },
+            "Component_[8263344087549133678]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8263344087549133678
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[22308876431921]": {
+            "Id": "Entity_[22308876431921]",
+            "Name": "straightbalcony_e",
+            "Components": {
+                "Component_[10985005354211062087]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10985005354211062087
+                },
+                "Component_[11809288295984179613]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11809288295984179613,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12344025563292400467]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12344025563292400467
+                },
+                "Component_[12775226316767968134]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12775226316767968134,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{060EC337-8E25-587F-A8A5-E7219D06C435}",
+                                    "subId": 275065925
+                                },
+                                "assetHint": "village/props/balconies/source/straightbalcony_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13292019124299927340]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13292019124299927340,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11809288295984179613
+                        },
+                        {
+                            "ComponentId": 12775226316767968134,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7474025703138364419,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13351946301162630390]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13351946301162630390
+                },
+                "Component_[13411043171528556199]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13411043171528556199
+                },
+                "Component_[18062022043472492769]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18062022043472492769
+                },
+                "Component_[3347385462736553629]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3347385462736553629
+                },
+                "Component_[472785932388246802]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 472785932388246802
+                },
+                "Component_[6737596518059692878]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6737596518059692878
+                },
+                "Component_[7474025703138364419]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7474025703138364419,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7DE70043-9080-5C84-9A35-3E73F9BF8755}"
+                                            },
+                                            "assetHint": "village/props/balconies/source/balconies.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "doorbell",
+        "Components": {
+            "Component_[11468929088524856901]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11468929088524856901,
+                "Child Entity Order": [
+                    "Entity_[1085364020293875]"
+                ]
+            },
+            "Component_[17205627532899097349]": {
+                "$type": "SelectionComponent",
+                "Id": 17205627532899097349
+            },
+            "Component_[2201059505904342206]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2201059505904342206
+            },
+            "Component_[2502860103644028941]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2502860103644028941
+            },
+            "Component_[2552576046322199340]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2552576046322199340
+            },
+            "Component_[262407318561750532]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 262407318561750532
+            },
+            "Component_[3010676447083527761]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3010676447083527761
+            },
+            "Component_[7401815583147622038]": {
+                "$type": "EditorLockComponent",
+                "Id": 7401815583147622038
+            },
+            "Component_[9003369159391405104]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9003369159391405104
+            },
+            "Component_[9373555675852632458]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9373555675852632458,
+                "Parent Entity": ""
+            },
+            "Component_[979629990902603165]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 979629990902603165
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1085364020293875]": {
+            "Id": "Entity_[1085364020293875]",
+            "Name": "doorbell",
+            "Components": {
+                "Component_[12505736355003737372]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12505736355003737372
+                },
+                "Component_[15268869606776020169]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15268869606776020169
+                },
+                "Component_[15710067228173563511]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15710067228173563511,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{636E5AB9-7932-5EDA-A4D6-FFD03C6E8B0D}",
+                                    "subId": 273156547
+                                },
+                                "assetHint": "village/props/entrancekit/source/doorbell_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15940771402324581637]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15940771402324581637
+                },
+                "Component_[16163776684412796150]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16163776684412796150,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1793355619
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17126630100441098769]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17126630100441098769
+                },
+                "Component_[17681323381564393868]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17681323381564393868
+                },
+                "Component_[2034475433135360040]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2034475433135360040,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 1.2000000476837158
+                    }
+                },
+                "Component_[2044226326110305444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2044226326110305444
+                },
+                "Component_[222643390868987731]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 222643390868987731
+                },
+                "Component_[636088716247292675]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 636088716247292675,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2034475433135360040
+                        },
+                        {
+                            "ComponentId": 15710067228173563511,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16163776684412796150,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7024790223473922106]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7024790223473922106
+                }
+            }
+        }
+    }
+}

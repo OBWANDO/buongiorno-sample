@@ -1,0 +1,176 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "letterboxwall",
+        "Components": {
+            "Component_[13075837748437719629]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13075837748437719629
+            },
+            "Component_[14284673825567325751]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14284673825567325751
+            },
+            "Component_[1576268958169737267]": {
+                "$type": "SelectionComponent",
+                "Id": 1576268958169737267
+            },
+            "Component_[2101539560591339675]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2101539560591339675,
+                "Child Entity Order": [
+                    "Entity_[935839028850931]"
+                ]
+            },
+            "Component_[2350339120725411619]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2350339120725411619
+            },
+            "Component_[3883556327494202857]": {
+                "$type": "EditorLockComponent",
+                "Id": 3883556327494202857
+            },
+            "Component_[596203816991732561]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 596203816991732561
+            },
+            "Component_[6624097157246085239]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6624097157246085239
+            },
+            "Component_[7552338450429345952]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7552338450429345952,
+                "Parent Entity": ""
+            },
+            "Component_[7679135228081703190]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7679135228081703190
+            },
+            "Component_[8309809917620527359]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8309809917620527359
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[935839028850931]": {
+            "Id": "Entity_[935839028850931]",
+            "Name": "letterboxwall",
+            "Components": {
+                "Component_[11283249900670013224]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11283249900670013224,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A7497CCD-8F14-5D6B-95ED-5415E0E12288}",
+                                    "subId": 271746476
+                                },
+                                "assetHint": "village/props/entrancekit/source/letterboxwall_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14600205030734508623]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14600205030734508623
+                },
+                "Component_[147784228769979103]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 147784228769979103
+                },
+                "Component_[1478466803397786061]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1478466803397786061
+                },
+                "Component_[17103810744789986814]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17103810744789986814,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[5607662885844543165]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5607662885844543165
+                },
+                "Component_[573043026196066446]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 573043026196066446
+                },
+                "Component_[6404947861301347301]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6404947861301347301
+                },
+                "Component_[700830259726597113]": {
+                    "$type": "SelectionComponent",
+                    "Id": 700830259726597113
+                },
+                "Component_[7086016693887687107]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7086016693887687107,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17103810744789986814
+                        },
+                        {
+                            "ComponentId": 11283249900670013224,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7795328887332873695,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7795328887332873695]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7795328887332873695,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1793355619
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[785951236288665013]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 785951236288665013
+                }
+            }
+        }
+    }
+}

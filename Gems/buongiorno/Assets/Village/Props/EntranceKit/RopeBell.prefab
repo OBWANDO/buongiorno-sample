@@ -1,0 +1,181 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "RopeBell",
+        "Components": {
+            "Component_[10920497642574260112]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10920497642574260112
+            },
+            "Component_[12338111684884504363]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12338111684884504363
+            },
+            "Component_[15283544907816171482]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15283544907816171482
+            },
+            "Component_[15503915794160152324]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15503915794160152324
+            },
+            "Component_[16399211530147672888]": {
+                "$type": "EditorLockComponent",
+                "Id": 16399211530147672888
+            },
+            "Component_[18103857497269128955]": {
+                "$type": "SelectionComponent",
+                "Id": 18103857497269128955
+            },
+            "Component_[1853325990794807925]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1853325990794807925,
+                "Child Entity Order": [
+                    "Entity_[1141619501936883]"
+                ]
+            },
+            "Component_[262948186394114493]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 262948186394114493,
+                "Parent Entity": ""
+            },
+            "Component_[4096542479787168839]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4096542479787168839
+            },
+            "Component_[5433266994945310288]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5433266994945310288
+            },
+            "Component_[5942056468596603729]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5942056468596603729
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1141619501936883]": {
+            "Id": "Entity_[1141619501936883]",
+            "Name": "bell",
+            "Components": {
+                "Component_[10841570666186909563]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10841570666186909563
+                },
+                "Component_[12183101793043217156]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12183101793043217156
+                },
+                "Component_[14454226742756743382]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14454226742756743382,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3428263555555144831
+                        },
+                        {
+                            "ComponentId": 4236432349091467397,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2231247375003885847,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16284604948668423946]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16284604948668423946
+                },
+                "Component_[16673831520374839850]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16673831520374839850
+                },
+                "Component_[2231247375003885847]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2231247375003885847,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1793355619
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3428263555555144831]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3428263555555144831,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.20648765563964844,
+                            0.2482614517211914
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[4236432349091467397]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4236432349091467397,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F463B830-40AE-5115-A3FB-7AC03EEDB03F}",
+                                    "subId": 280063521
+                                },
+                                "assetHint": "village/props/entrancekit/source/bellholder_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4701123147917971214]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4701123147917971214
+                },
+                "Component_[5623865814686497978]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5623865814686497978
+                },
+                "Component_[868596589208850464]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 868596589208850464
+                },
+                "Component_[9073525286992892476]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9073525286992892476
+                }
+            }
+        }
+    }
+}

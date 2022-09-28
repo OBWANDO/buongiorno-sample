@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "RoofEdge",
+        "Components": {
+            "Component_[10721635387223404398]": {
+                "$type": "EditorLockComponent",
+                "Id": 10721635387223404398
+            },
+            "Component_[11237736129400510035]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11237736129400510035
+            },
+            "Component_[11517760613747285294]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11517760613747285294
+            },
+            "Component_[13968855261379619031]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13968855261379619031,
+                "Child Entity Order": [
+                    "Entity_[48890651576851]"
+                ]
+            },
+            "Component_[14080015592988658370]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14080015592988658370
+            },
+            "Component_[14739877253301658795]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14739877253301658795
+            },
+            "Component_[17754768236003264597]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17754768236003264597
+            },
+            "Component_[18419964824464319334]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18419964824464319334
+            },
+            "Component_[5229286512292395723]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5229286512292395723,
+                "Parent Entity": ""
+            },
+            "Component_[5233202092351574237]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5233202092351574237
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[48890651576851]": {
+            "Id": "Entity_[48890651576851]",
+            "Name": "RoofEdge",
+            "Components": {
+                "Component_[11362896300507749477]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11362896300507749477,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3FBBB1E8-28D4-588C-9480-7AD6E25C8C68}",
+                                    "subId": 272320144
+                                },
+                                "assetHint": "village/roof/source/roofedge.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12531524017612416028]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12531524017612416028,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13429265151459431950]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13429265151459431950
+                },
+                "Component_[15828112974315986834]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15828112974315986834
+                },
+                "Component_[17613552308246777645]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17613552308246777645
+                },
+                "Component_[17667509002196862716]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17667509002196862716
+                },
+                "Component_[18168014639529487167]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18168014639529487167,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2750426069
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4524FA17-5CC9-56B2-BE31-2C1B0BCF46A0}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5171954820204187679]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171954820204187679,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12531524017612416028
+                        },
+                        {
+                            "ComponentId": 11362896300507749477,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 18168014639529487167,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6835685188856846735]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6835685188856846735
+                },
+                "Component_[831152488934209723]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 831152488934209723
+                },
+                "Component_[887902313086852543]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 887902313086852543
+                }
+            }
+        }
+    }
+}

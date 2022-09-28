@@ -1,0 +1,20 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_BaseColor.png",
+        "general.applySpecularAA": true,
+        "irradiance.color": [
+            0.3686274588108063,
+            0.3686274588108063,
+            0.3686274588108063,
+            1.0
+        ],
+        "irradiance.factor": 0.20000000298023224,
+        "metallic.textureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_Metallic.png",
+        "normal.textureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_Normal.png",
+        "occlusion.diffuseTextureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_AO.png",
+        "occlusion.specularTextureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_AO.png",
+        "roughness.textureMap": "Village/Props/SignsKit/Source/SignsAndNumbers_Roughness.png"
+    }
+}

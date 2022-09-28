@@ -1,0 +1,155 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Paris_Square_4x4",
+        "Components": {
+            "Component_[10037998656226837478]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10037998656226837478
+            },
+            "Component_[10402736822811582516]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10402736822811582516
+            },
+            "Component_[10620841999275083678]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10620841999275083678
+            },
+            "Component_[116323472172070082]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 116323472172070082,
+                "Parent Entity": ""
+            },
+            "Component_[13059937103889012665]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13059937103889012665
+            },
+            "Component_[13171607683203277521]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13171607683203277521
+            },
+            "Component_[3304837998728126346]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3304837998728126346
+            },
+            "Component_[5236841904172381591]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5236841904172381591
+            },
+            "Component_[6570374641285969317]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6570374641285969317
+            },
+            "Component_[7648494231182184528]": {
+                "$type": "SelectionComponent",
+                "Id": 7648494231182184528
+            },
+            "Component_[9383657723774307466]": {
+                "$type": "EditorLockComponent",
+                "Id": 9383657723774307466
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[159249818953563]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Rotate/2",
+                    "value": -90.00000762939453
+                }
+            ]
+        },
+        "Instance_[170317949675355]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Rotate/2",
+                    "value": -90.00000762939453
+                }
+            ]
+        },
+        "Instance_[247477037147995]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Rotate/2",
+                    "value": -90.00000762939453
+                }
+            ]
+        },
+        "Instance_[247489922049883]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Rotate/2",
+                    "value": -90.00000762939453
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LampTop",
+        "Components": {
+            "Component_[1064130906364176001]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1064130906364176001
+            },
+            "Component_[11463845338573797783]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11463845338573797783,
+                "Child Entity Order": [
+                    "Entity_[86825815516110]"
+                ]
+            },
+            "Component_[12883325577112085481]": {
+                "$type": "EditorLockComponent",
+                "Id": 12883325577112085481
+            },
+            "Component_[14918053263336275483]": {
+                "$type": "SelectionComponent",
+                "Id": 14918053263336275483
+            },
+            "Component_[14954470284275086335]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14954470284275086335
+            },
+            "Component_[15192743645587002747]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15192743645587002747
+            },
+            "Component_[15958321338778090666]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15958321338778090666,
+                "Parent Entity": ""
+            },
+            "Component_[17337031323131866374]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17337031323131866374
+            },
+            "Component_[17410478131645147903]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17410478131645147903
+            },
+            "Component_[6505777840803848525]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6505777840803848525
+            },
+            "Component_[9697341168424881405]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9697341168424881405
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[86825815516110]": {
+            "Id": "Entity_[86825815516110]",
+            "Name": "lamptop_e",
+            "Components": {
+                "Component_[10688531926845684395]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10688531926845684395
+                },
+                "Component_[10688672361493089806]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10688672361493089806
+                },
+                "Component_[12000583311027001516]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12000583311027001516
+                },
+                "Component_[1448834039621917549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1448834039621917549
+                },
+                "Component_[15260596305126205194]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15260596305126205194
+                },
+                "Component_[2947957893448258146]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2947957893448258146,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4CD5A45A-26B2-5B52-AFB9-08A9046A8A11}"
+                                            },
+                                            "assetHint": "village/props/roadprops01/source/roadprops01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4147668910237397992]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4147668910237397992,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4807352710472456117
+                        },
+                        {
+                            "ComponentId": 9267539867637176483,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2947957893448258146,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4807352710472456117]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4807352710472456117,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5377049324211327124]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5377049324211327124
+                },
+                "Component_[6777872791684733022]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6777872791684733022
+                },
+                "Component_[9264595195992413506]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9264595195992413506
+                },
+                "Component_[9267539867637176483]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9267539867637176483,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{62020747-B3F0-588D-BDD5-AFC5EBAABF35}",
+                                    "subId": 272759705
+                                },
+                                "assetHint": "village/props/roadprops01/source/lamptop_e.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

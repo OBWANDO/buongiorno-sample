@@ -1,0 +1,21 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Vehicles/IceTruck/IceTruck_Blue_BaseColor.png",
+        "clearCoat.factor": 0.0,
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.03529411926865578,
+            0.16862745583057404,
+            0.6392157077789307,
+            1.0
+        ],
+        "metallic.textureMap": "Village/Vehicles/IceTruck/IceTruck_Metallic.png",
+        "normal.textureMap": "Village/Vehicles/IceTruck/IceTruck_Normal.png",
+        "occlusion.diffuseTextureMap": "Village/Vehicles/IceTruck/IceTruck_AO.png",
+        "occlusion.specularTextureMap": "Village/Vehicles/IceTruck/IceTruck_AO.png",
+        "roughness.textureMap": "Village/Vehicles/IceTruck/IceTruck_Roughness.png",
+        "specularF0.factor": 0.5099999904632568
+    }
+}

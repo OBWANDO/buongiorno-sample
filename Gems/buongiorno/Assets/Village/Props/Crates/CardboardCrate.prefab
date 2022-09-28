@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "CardboardCrate",
+        "Components": {
+            "Component_[10786447562656387239]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10786447562656387239
+            },
+            "Component_[12810486351884642059]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12810486351884642059
+            },
+            "Component_[12814684252445371072]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12814684252445371072,
+                "Parent Entity": ""
+            },
+            "Component_[15587794596725386418]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15587794596725386418
+            },
+            "Component_[16065616661320663182]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16065616661320663182
+            },
+            "Component_[16183918281053676557]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16183918281053676557
+            },
+            "Component_[16218503711883505896]": {
+                "$type": "SelectionComponent",
+                "Id": 16218503711883505896
+            },
+            "Component_[2773934995460157739]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2773934995460157739,
+                "Child Entity Order": [
+                    "Entity_[1479799322907]"
+                ]
+            },
+            "Component_[3601407568598284984]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3601407568598284984
+            },
+            "Component_[4246803482221709389]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4246803482221709389
+            },
+            "Component_[6598379889465997479]": {
+                "$type": "EditorLockComponent",
+                "Id": 6598379889465997479
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1479799322907]": {
+            "Id": "Entity_[1479799322907]",
+            "Name": "CardboardCrate",
+            "Components": {
+                "Component_[10806605614904595908]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10806605614904595908
+                },
+                "Component_[14348500575154261916]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14348500575154261916
+                },
+                "Component_[1442153718775976866]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1442153718775976866
+                },
+                "Component_[1461926805494565473]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1461926805494565473
+                },
+                "Component_[15757963185040540138]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15757963185040540138,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2120305973899299150]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2120305973899299150
+                },
+                "Component_[2131462311255704425]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2131462311255704425,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4F90DB91-21E7-5DDB-B451-0DD374A10BFB}",
+                                    "subId": 276094781
+                                },
+                                "assetHint": "village/props/crates/source/cardboardcrate_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4250673035731536726]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4250673035731536726
+                },
+                "Component_[7516568878672284336]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7516568878672284336
+                },
+                "Component_[8539074106452724889]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8539074106452724889,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15757963185040540138
+                        },
+                        {
+                            "ComponentId": 2131462311255704425,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9759323032857095245,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9695321168156136003]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9695321168156136003
+                },
+                "Component_[9759323032857095245]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9759323032857095245,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{869C0FF8-5128-559D-90DE-E07FAD5D6E35}"
+                                            },
+                                            "assetHint": "village/props/crates/source/crates.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

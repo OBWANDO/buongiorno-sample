@@ -1,0 +1,21 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "parentMaterial": "Village/Buildings/Materials/PlasterWall/PlasterWall.material",
+    "propertyValues": {
+        "baseColor.factor": 0.7300000190734863,
+        "baseColor.textureMap": "Village/Buildings/Materials/PlasterWall/Plaster_Beige_BaseColor.png",
+        "irradiance.color": [
+            0.5374075174331665,
+            0.5025864243507385,
+            0.45381855964660645,
+            1.0
+        ],
+        "normal.factor": 0.5,
+        "normal.textureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_Normal.png",
+        "occlusion.diffuseFactor": 0.20000000298023224,
+        "occlusion.diffuseTextureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_AO.png",
+        "occlusion.specularFactor": 0.20000000298023224,
+        "occlusion.specularTextureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_AO.png"
+    }
+}

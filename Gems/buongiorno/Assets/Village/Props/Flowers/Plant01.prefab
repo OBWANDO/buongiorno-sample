@@ -1,0 +1,164 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Plant01",
+        "Components": {
+            "Component_[14175442848052031082]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14175442848052031082,
+                "Parent Entity": ""
+            },
+            "Component_[15071529103710157004]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15071529103710157004
+            },
+            "Component_[15360463407144250836]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15360463407144250836
+            },
+            "Component_[2176376276155900590]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2176376276155900590
+            },
+            "Component_[2447469772712641450]": {
+                "$type": "SelectionComponent",
+                "Id": 2447469772712641450
+            },
+            "Component_[5228011245772370217]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5228011245772370217
+            },
+            "Component_[5303010709195252747]": {
+                "$type": "EditorLockComponent",
+                "Id": 5303010709195252747
+            },
+            "Component_[7246959481848379967]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7246959481848379967
+            },
+            "Component_[7347897953622619351]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7347897953622619351,
+                "Child Entity Order": [
+                    "Entity_[33863940487394]"
+                ]
+            },
+            "Component_[8333927010641408767]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8333927010641408767
+            },
+            "Component_[9147128419980223228]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9147128419980223228
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[33863940487394]": {
+            "Id": "Entity_[33863940487394]",
+            "Name": "plant",
+            "Components": {
+                "Component_[10664575141624741107]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10664575141624741107
+                },
+                "Component_[14724224385006656855]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14724224385006656855
+                },
+                "Component_[14790231791963433554]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14790231791963433554
+                },
+                "Component_[15139237845724825826]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15139237845724825826
+                },
+                "Component_[1660160237547836932]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1660160237547836932,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -0.09692040085792542
+                        ]
+                    }
+                },
+                "Component_[18026774341816985639]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18026774341816985639,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{97C37378-9AF5-53E7-8D7F-427541D2991E}",
+                                    "subId": 268635506
+                                },
+                                "assetHint": "village/props/flowers/source/plant.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[336175701953949783]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 336175701953949783,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1660160237547836932
+                        },
+                        {
+                            "ComponentId": 18026774341816985639,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5803929265876799189,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3837619454234598688]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3837619454234598688
+                },
+                "Component_[5424840201107034526]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5424840201107034526
+                },
+                "Component_[5803929265876799189]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5803929265876799189,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 704887399
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1AFCD579-DA78-5743-B47D-E01EDCDF6464}"
+                                            },
+                                            "assetHint": "village/props/flowers/source/flowermat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7604611778693840311]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7604611778693840311
+                },
+                "Component_[805517611575788514]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 805517611575788514
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Table",
+        "Components": {
+            "Component_[11399718934862858656]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11399718934862858656
+            },
+            "Component_[12077706010962728715]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12077706010962728715
+            },
+            "Component_[12270386337858504862]": {
+                "$type": "EditorLockComponent",
+                "Id": 12270386337858504862
+            },
+            "Component_[13064271446065072130]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13064271446065072130
+            },
+            "Component_[14474922238596083954]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14474922238596083954,
+                "Parent Entity": ""
+            },
+            "Component_[14801866628226646131]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14801866628226646131
+            },
+            "Component_[16545457647795867053]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16545457647795867053,
+                "Child Entity Order": [
+                    "Entity_[87242462038179]"
+                ]
+            },
+            "Component_[4531796424870162250]": {
+                "$type": "SelectionComponent",
+                "Id": 4531796424870162250
+            },
+            "Component_[585961612141482276]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 585961612141482276
+            },
+            "Component_[7631507852208540911]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7631507852208540911
+            },
+            "Component_[7661938034810971037]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7661938034810971037
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[87242462038179]": {
+            "Id": "Entity_[87242462038179]",
+            "Name": "table_outside_e",
+            "Components": {
+                "Component_[10201138159359863031]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10201138159359863031
+                },
+                "Component_[10527125410876936467]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10527125410876936467,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13522707955855988071]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13522707955855988071
+                },
+                "Component_[14227396751503133655]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14227396751503133655
+                },
+                "Component_[14502662628299472429]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14502662628299472429
+                },
+                "Component_[15965433510340890626]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15965433510340890626,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16135794142629882827]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16135794142629882827
+                },
+                "Component_[16364953542120450988]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16364953542120450988
+                },
+                "Component_[17170020500607541195]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17170020500607541195
+                },
+                "Component_[4079040687952089946]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4079040687952089946,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10527125410876936467
+                        },
+                        {
+                            "ComponentId": 9017026999807955273,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15965433510340890626,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6870476607911405883]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6870476607911405883
+                },
+                "Component_[9017026999807955273]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9017026999807955273,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8B62B996-2C64-51ED-8E85-F6788905887B}",
+                                    "subId": 271616365
+                                },
+                                "assetHint": "village/props/motelprops/source/table_outside_e.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

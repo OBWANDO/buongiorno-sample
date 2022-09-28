@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FenceConnectionBar",
+        "Components": {
+            "Component_[13664233609733123333]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13664233609733123333
+            },
+            "Component_[17397190320411326170]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17397190320411326170
+            },
+            "Component_[2081646289274204923]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2081646289274204923,
+                "Parent Entity": ""
+            },
+            "Component_[2965838472782309759]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2965838472782309759
+            },
+            "Component_[3099833146477667503]": {
+                "$type": "SelectionComponent",
+                "Id": 3099833146477667503
+            },
+            "Component_[3474672976821521562]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3474672976821521562
+            },
+            "Component_[5791036627057130793]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5791036627057130793
+            },
+            "Component_[7644795293379615378]": {
+                "$type": "EditorLockComponent",
+                "Id": 7644795293379615378
+            },
+            "Component_[8225511239714439059]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8225511239714439059
+            },
+            "Component_[9043435934867132959]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9043435934867132959,
+                "Child Entity Order": [
+                    "Entity_[119382801142969]"
+                ]
+            },
+            "Component_[9348909581502679847]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9348909581502679847
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[119382801142969]": {
+            "Id": "Entity_[119382801142969]",
+            "Name": "connectionbeam_e",
+            "Components": {
+                "Component_[10115321626552068768]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10115321626552068768
+                },
+                "Component_[10315985359773027783]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10315985359773027783
+                },
+                "Component_[1405449214440187017]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1405449214440187017
+                },
+                "Component_[14249494673769647779]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14249494673769647779
+                },
+                "Component_[14365401828761466316]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14365401828761466316
+                },
+                "Component_[15353102062817607226]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15353102062817607226,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{00C7B5BD-EE70-59D5-AA6F-4311EC0D43D1}",
+                                    "subId": 280022719
+                                },
+                                "assetHint": "village/props/motelprops/source/connectionbeam_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15592616602889782686]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15592616602889782686
+                },
+                "Component_[15809486423589202950]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15809486423589202950,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9420194140649597152
+                        },
+                        {
+                            "ComponentId": 15353102062817607226,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7862902225830769173,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5540282791952211499]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5540282791952211499
+                },
+                "Component_[6583251125372004466]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6583251125372004466
+                },
+                "Component_[7862902225830769173]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7862902225830769173,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9420194140649597152]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9420194140649597152,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

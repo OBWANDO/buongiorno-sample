@@ -1,0 +1,1434 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Market",
+        "Components": {
+            "Component_[12065515426989458983]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12065515426989458983
+            },
+            "Component_[13144967163704197442]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13144967163704197442
+            },
+            "Component_[13691083845527826026]": {
+                "$type": "EditorLockComponent",
+                "Id": 13691083845527826026
+            },
+            "Component_[14075412692465455691]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14075412692465455691
+            },
+            "Component_[1505817764640645142]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1505817764640645142,
+                "Parent Entity": ""
+            },
+            "Component_[17928998535804016138]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17928998535804016138
+            },
+            "Component_[18388782420620338652]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18388782420620338652,
+                "Child Entity Order": [
+                    "Entity_[310862873081210]"
+                ]
+            },
+            "Component_[2861500850303008339]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2861500850303008339
+            },
+            "Component_[4314618157961426985]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4314618157961426985
+            },
+            "Component_[537583714341678246]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 537583714341678246
+            },
+            "Component_[9159436033908655606]": {
+                "$type": "SelectionComponent",
+                "Id": 9159436033908655606
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1474268285236282]": {
+            "Id": "Entity_[1474268285236282]",
+            "Name": "roof_long_e",
+            "Components": {
+                "Component_[10271887056810572072]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10271887056810572072,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12914573686186958419]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12914573686186958419
+                },
+                "Component_[14008709896834416684]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14008709896834416684,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{44574333-EE5B-5C7C-B91D-6272D3C74B08}",
+                                    "subId": 271113552
+                                },
+                                "assetHint": "village/props/motelprops/source/roof_long_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14160651399099509055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14160651399099509055
+                },
+                "Component_[1421922553848832035]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1421922553848832035
+                },
+                "Component_[15090552746339701834]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 15090552746339701834,
+                    "NonUniformScale": [
+                        1.5415408611297607,
+                        1.5904443264007568,
+                        1.0
+                    ]
+                },
+                "Component_[16589788464080938010]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16589788464080938010
+                },
+                "Component_[2206825779351784638]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2206825779351784638
+                },
+                "Component_[2508938626707394358]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2508938626707394358,
+                    "Parent Entity": "Entity_[310862873081210]",
+                    "Transform Data": {
+                        "Translate": [
+                            -3.029813766479492,
+                            0.42275238037109375,
+                            5.842172622680664
+                        ],
+                        "Rotate": [
+                            11.190781593322754,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.699999988079071
+                    }
+                },
+                "Component_[5050179582173149863]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5050179582173149863
+                },
+                "Component_[609389202941048187]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 609389202941048187
+                },
+                "Component_[7296947554812075555]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7296947554812075555
+                },
+                "Component_[8508553776240468385]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8508553776240468385
+                }
+            }
+        },
+        "Entity_[2215910353007674]": {
+            "Id": "Entity_[2215910353007674]",
+            "Name": "roof_long_e",
+            "Components": {
+                "Component_[10271887056810572072]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10271887056810572072,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12914573686186958419]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12914573686186958419
+                },
+                "Component_[14008709896834416684]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14008709896834416684,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{44574333-EE5B-5C7C-B91D-6272D3C74B08}",
+                                    "subId": 271113552
+                                },
+                                "assetHint": "village/props/motelprops/source/roof_long_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14160651399099509055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14160651399099509055
+                },
+                "Component_[1421922553848832035]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1421922553848832035
+                },
+                "Component_[15090552746339701834]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 15090552746339701834,
+                    "NonUniformScale": [
+                        1.5415408611297607,
+                        1.5904443264007568,
+                        1.0
+                    ]
+                },
+                "Component_[16589788464080938010]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16589788464080938010
+                },
+                "Component_[2206825779351784638]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2206825779351784638
+                },
+                "Component_[2508938626707394358]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2508938626707394358,
+                    "Parent Entity": "Entity_[310862873081210]",
+                    "Transform Data": {
+                        "Translate": [
+                            -4.893564224243164,
+                            0.3754234313964844,
+                            9.251795768737793
+                        ],
+                        "Rotate": [
+                            11.190781593322754,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 0.699999988079071
+                    }
+                },
+                "Component_[5050179582173149863]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5050179582173149863
+                },
+                "Component_[609389202941048187]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 609389202941048187
+                },
+                "Component_[7296947554812075555]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7296947554812075555
+                },
+                "Component_[8508553776240468385]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8508553776240468385
+                }
+            }
+        },
+        "Entity_[310862873081210]": {
+            "Id": "Entity_[310862873081210]",
+            "Name": "Market",
+            "Components": {
+                "Component_[10630957758478366242]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10630957758478366242
+                },
+                "Component_[12274782747876963556]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12274782747876963556
+                },
+                "Component_[12660875352756629026]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12660875352756629026
+                },
+                "Component_[14360907319654392187]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14360907319654392187,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9249778699169416070
+                        },
+                        {
+                            "ComponentId": 6460945226974161862,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[16843007002411221154]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16843007002411221154,
+                    "Child Entity Order": [
+                        "Entity_[310867168048506]",
+                        "Entity_[310875757983098]",
+                        "Entity_[310871463015802]",
+                        "Entity_[1474268285236282]",
+                        "Entity_[2215910353007674]",
+                        "Instance_[2309657341926775]/ContainerEntity",
+                        "Instance_[2329062004170103]/ContainerEntity",
+                        "Instance_[2348518206020983]/ContainerEntity",
+                        "Instance_[2387460674493815]/ContainerEntity",
+                        "Instance_[2426506222181751]/ContainerEntity",
+                        "Instance_[2465659144052087]/ContainerEntity",
+                        "Instance_[2504910850170231]/ContainerEntity",
+                        "Instance_[2544265635503479]/ContainerEntity",
+                        "Instance_[2583723500051831]/ContainerEntity",
+                        "Instance_[2623284443815287]/ContainerEntity",
+                        "Instance_[2643101422919031]/ContainerEntity",
+                        "Instance_[2682748266028407]/ContainerEntity",
+                        "Instance_[2742267922816375]/ContainerEntity",
+                        "Instance_[2762102081789303]/ContainerEntity",
+                        "Instance_[2801783284637047]/ContainerEntity",
+                        "Instance_[2821651803348343]/ContainerEntity"
+                    ]
+                },
+                "Component_[18090174431711781231]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18090174431711781231
+                },
+                "Component_[2240042907468155276]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2240042907468155276
+                },
+                "Component_[3014923223168209448]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3014923223168209448
+                },
+                "Component_[4615225969038277240]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4615225969038277240
+                },
+                "Component_[6460945226974161862]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6460945226974161862
+                },
+                "Component_[9249778699169416070]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9249778699169416070,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[310867168048506]": {
+            "Id": "Entity_[310867168048506]",
+            "Name": "beveledcube",
+            "Components": {
+                "Component_[11426284196456680359]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11426284196456680359,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8F19FB6D-DF18-5CC0-B921-6755089004D7}",
+                                    "subId": 275006192
+                                },
+                                "assetHint": "materialeditor/viewportmodels/beveledcube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12069203897071302647]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12069203897071302647
+                },
+                "Component_[1229114532664412268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1229114532664412268,
+                    "Parent Entity": "Entity_[310862873081210]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0156269073486328,
+                            -0.15932083129882813,
+                            -0.043940067291259766
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            89.99994659423828
+                        ]
+                    }
+                },
+                "Component_[12411849217641012182]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12411849217641012182
+                },
+                "Component_[13322902897409134014]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13322902897409134014
+                },
+                "Component_[13438515772248214927]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13438515772248214927
+                },
+                "Component_[2062712553465957001]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 2062712553465957001,
+                    "NonUniformScale": [
+                        0.8999999761581421,
+                        2.5144693851470947,
+                        0.6000000238418579
+                    ]
+                },
+                "Component_[2277196370300419109]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2277196370300419109,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{55A39393-E506-5D0D-B7B8-BB2DBAABF56D}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_orange.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4010011208744877754]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4010011208744877754
+                },
+                "Component_[5010851283934483848]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5010851283934483848
+                },
+                "Component_[6374423880885229185]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6374423880885229185
+                },
+                "Component_[6901101839470741960]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6901101839470741960
+                },
+                "Component_[9499888779955630372]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9499888779955630372
+                }
+            }
+        },
+        "Entity_[310871463015802]": {
+            "Id": "Entity_[310871463015802]",
+            "Name": "roof_long_e",
+            "Components": {
+                "Component_[10271887056810572072]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10271887056810572072,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12914573686186958419]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12914573686186958419
+                },
+                "Component_[14008709896834416684]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14008709896834416684,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{44574333-EE5B-5C7C-B91D-6272D3C74B08}",
+                                    "subId": 271113552
+                                },
+                                "assetHint": "village/props/motelprops/source/roof_long_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14160651399099509055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14160651399099509055
+                },
+                "Component_[1421922553848832035]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1421922553848832035
+                },
+                "Component_[15090552746339701834]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 15090552746339701834,
+                    "NonUniformScale": [
+                        1.5415408611297607,
+                        1.5904443264007568,
+                        1.0
+                    ]
+                },
+                "Component_[16589788464080938010]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16589788464080938010
+                },
+                "Component_[2206825779351784638]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2206825779351784638
+                },
+                "Component_[2508938626707394358]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2508938626707394358,
+                    "Parent Entity": "Entity_[310862873081210]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0563020706176758,
+                            0.37335968017578125,
+                            2.8585290908813477
+                        ],
+                        "Rotate": [
+                            11.190781593322754,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5050179582173149863]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5050179582173149863
+                },
+                "Component_[609389202941048187]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 609389202941048187
+                },
+                "Component_[7296947554812075555]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7296947554812075555
+                },
+                "Component_[8508553776240468385]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8508553776240468385
+                }
+            }
+        },
+        "Entity_[310875757983098]": {
+            "Id": "Entity_[310875757983098]",
+            "Name": "beveledcube",
+            "Components": {
+                "Component_[11426284196456680359]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11426284196456680359,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8F19FB6D-DF18-5CC0-B921-6755089004D7}",
+                                    "subId": 275006192
+                                },
+                                "assetHint": "materialeditor/viewportmodels/beveledcube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12069203897071302647]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12069203897071302647
+                },
+                "Component_[1229114532664412268]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1229114532664412268,
+                    "Parent Entity": "Entity_[310862873081210]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0156269073486328,
+                            0.24172210693359375,
+                            0.3244814872741699
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            89.99994659423828
+                        ]
+                    }
+                },
+                "Component_[12411849217641012182]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12411849217641012182
+                },
+                "Component_[13322902897409134014]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13322902897409134014
+                },
+                "Component_[13438515772248214927]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13438515772248214927
+                },
+                "Component_[2062712553465957001]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 2062712553465957001,
+                    "NonUniformScale": [
+                        0.8999999761581421,
+                        1.9564450979232788,
+                        0.6000000238418579
+                    ]
+                },
+                "Component_[2277196370300419109]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2277196370300419109,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{55A39393-E506-5D0D-B7B8-BB2DBAABF56D}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_orange.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4010011208744877754]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4010011208744877754
+                },
+                "Component_[5010851283934483848]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5010851283934483848
+                },
+                "Component_[6374423880885229185]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6374423880885229185
+                },
+                "Component_[6901101839470741960]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6901101839470741960
+                },
+                "Component_[9499888779955630372]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9499888779955630372
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[2309657341926775]": {
+            "Source": "Village/Props/Produce/TomatoesintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/0",
+                    "value": -1.8910274505615232
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/1",
+                    "value": -0.3318147659301758
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/2",
+                    "value": 0.7484555244445801
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/0",
+                    "value": 41.21588134765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/2",
+                    "value": 90.0000228881836
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/0",
+                    "value": "Instance_[120615590370679]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/1",
+                    "value": "Instance_[198019490979191]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2329062004170103]": {
+            "Source": "Village/Props/Produce/PeppersintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/0",
+                    "value": "Instance_[295330565004663]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/1",
+                    "value": "Instance_[314700867509623]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/0",
+                    "value": -1.4844970703125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/1",
+                    "value": -0.3318157196044922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/2",
+                    "value": 0.7484555244445801
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/0",
+                    "value": 41.21588897705078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/1",
+                    "value": -0.000001707547198748216
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/2",
+                    "value": -89.78170776367188
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2348518206020983]": {
+            "Source": "Village/Props/Produce/TomatoesintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/0",
+                    "value": -1.067033767700195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/1",
+                    "value": -0.3318147659301758
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/2",
+                    "value": 0.7484555244445801
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/0",
+                    "value": 41.21589279174805
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/2",
+                    "value": -89.57566833496094
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/0",
+                    "value": "Instance_[120615590370679]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/1",
+                    "value": "Instance_[198019490979191]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2387460674493815]": {
+            "Source": "Village/Props/Produce/TomatoesintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/0",
+                    "value": -0.6667404174804688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/1",
+                    "value": -0.3318147659301758
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/2",
+                    "value": 0.7484555244445801
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/0",
+                    "value": 41.21588134765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/2",
+                    "value": 90.0000228881836
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/0",
+                    "value": "Instance_[120615590370679]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/1",
+                    "value": "Instance_[198019490979191]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2426506222181751]": {
+            "Source": "Village/Props/Produce/TomatoesintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/0",
+                    "value": -1.6882505416870115
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/1",
+                    "value": 0.21298694610595703
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/2",
+                    "value": 1.1561198234558103
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/0",
+                    "value": 48.05614471435547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/1",
+                    "value": 0.00002561320798122324
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/2",
+                    "value": 89.9998779296875
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/0",
+                    "value": "Instance_[120615590370679]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/1",
+                    "value": "Instance_[198019490979191]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2465659144052087]": {
+            "Source": "Village/Props/Produce/PeppersintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/0",
+                    "value": "Instance_[295330565004663]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/1",
+                    "value": "Instance_[314700867509623]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/0",
+                    "value": -0.2579679489135742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/1",
+                    "value": -0.3318166732788086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/2",
+                    "value": 0.7484545707702637
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/0",
+                    "value": 41.21588134765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2504910850170231]": {
+            "Source": "Village/Props/Produce/PeppersintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/0",
+                    "value": "Instance_[295330565004663]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/1",
+                    "value": "Instance_[314700867509623]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/0",
+                    "value": -1.2790555953979492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/1",
+                    "value": 0.2176227569580078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/2",
+                    "value": 1.1443800926208496
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/0",
+                    "value": 45.81796646118164
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/1",
+                    "value": -0.000005122641596244648
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/2",
+                    "value": 89.99996185302734
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2544265635503479]": {
+            "Source": "Village/Props/Produce/PeppersintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/0",
+                    "value": "Instance_[295330565004663]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1020199266627438478]/Child Entity Order/1",
+                    "value": "Instance_[314700867509623]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/0",
+                    "value": -0.8712472915649414
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/1",
+                    "value": 0.2176227569580078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Translate/2",
+                    "value": 1.1443798542022705
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/0",
+                    "value": 45.81796646118164
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/1",
+                    "value": -0.000005122641596244648
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7000739671626055986]/Transform Data/Rotate/2",
+                    "value": 89.99996185302734
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2583723500051831]": {
+            "Source": "Village/Props/Produce/TomatoesintheBox.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/0",
+                    "value": -0.4534711837768554
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/1",
+                    "value": 0.2129855155944824
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Translate/2",
+                    "value": 1.1561176776885986
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/0",
+                    "value": 48.05614471435547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/1",
+                    "value": 0.00002561320798122324
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14294005805787426381]/Transform Data/Rotate/2",
+                    "value": 89.9998779296875
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/0",
+                    "value": "Instance_[120615590370679]/ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[1723355256939412091]/Child Entity Order/1",
+                    "value": "Instance_[198019490979191]/ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2623284443815287]": {
+            "Source": "Village/Props/Crates/Crate01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Translate/0",
+                    "value": -2.588155746459961
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Translate/1",
+                    "value": -0.15855884552001953
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Rotate/2",
+                    "value": -79.04399108886719
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2643101422919031]": {
+            "Source": "Village/Props/Crates/Crate01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Translate/0",
+                    "value": -2.3937435150146484
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Translate/1",
+                    "value": -0.05307340621948242
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Translate/2",
+                    "value": 0.4238781929016114
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Rotate/0",
+                    "value": 2.619248151779175
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Rotate/1",
+                    "value": -3.2018916606903076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14458871185306426747]/Transform Data/Rotate/2",
+                    "value": -128.8456573486328
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2682748266028407]": {
+            "Source": "Village/Props/Crates/Crate02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5767568671811285236]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5767568671811285236]/Transform Data/Translate/0",
+                    "value": 0.046161651611328125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5767568671811285236]/Transform Data/Translate/1",
+                    "value": -1.2214322090148926
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5767568671811285236]/Transform Data/Rotate/2",
+                    "value": -25.45069694519043
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2742267922816375]": {
+            "Source": "Village/Props/Produce/Tomatoe.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Translate/0",
+                    "value": -1.7867202758789065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Translate/1",
+                    "value": -0.6792380809783936
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/0",
+                    "value": 36.832740783691406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/1",
+                    "value": -27.94938850402832
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/2",
+                    "value": 3.726301670074463
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/UniformScale",
+                    "value": 2.3150506019592285
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2762102081789303]": {
+            "Source": "Village/Props/Produce/Tomatoe.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Translate/0",
+                    "value": -1.3049297332763672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Translate/1",
+                    "value": -0.9105510711669922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Translate/2",
+                    "value": 0.023591995239257813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/0",
+                    "value": 31.734630584716797
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/1",
+                    "value": 45.45722198486328
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/Rotate/2",
+                    "value": 4.694674491882324
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2273363772638567432]/Transform Data/UniformScale",
+                    "value": 1.5732792615890503
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2801783284637047]": {
+            "Source": "Village/Props/Produce/Pepper.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/0",
+                    "value": -0.577880859375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/1",
+                    "value": -0.7974693775177002
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/2",
+                    "value": 0.06602191925048828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/0",
+                    "value": 74.71627807617188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/1",
+                    "value": -15.34089469909668
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/2",
+                    "value": 12.950995445251465
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/UniformScale",
+                    "value": 1.104334831237793
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2821651803348343]": {
+            "Source": "Village/Props/Produce/Pepper.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Parent Entity",
+                    "value": "../Entity_[310862873081210]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/0",
+                    "value": -0.32950496673583984
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/1",
+                    "value": -0.7791862487792969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Translate/2",
+                    "value": 0.0451970100402832
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/0",
+                    "value": 7.128023147583008
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/1",
+                    "value": 22.13834571838379
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/Rotate/2",
+                    "value": 18.259653091430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14808213584722408809]/Transform Data/UniformScale",
+                    "value": 1.3849186897277832
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

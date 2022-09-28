@@ -1,0 +1,251 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FlowerBox01",
+        "Components": {
+            "Component_[11741412543089143673]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11741412543089143673
+            },
+            "Component_[11887715386095522964]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11887715386095522964
+            },
+            "Component_[12476411760789702563]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12476411760789702563,
+                "Child Entity Order": [
+                    "Entity_[31822228992561]",
+                    "Instance_[253401193822434]/ContainerEntity",
+                    "Instance_[271216718166242]/ContainerEntity",
+                    "Instance_[300495510223074]/ContainerEntity"
+                ]
+            },
+            "Component_[14838278418899630811]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14838278418899630811,
+                "Parent Entity": ""
+            },
+            "Component_[15418805401002221189]": {
+                "$type": "SelectionComponent",
+                "Id": 15418805401002221189
+            },
+            "Component_[15676266408767566336]": {
+                "$type": "EditorLockComponent",
+                "Id": 15676266408767566336
+            },
+            "Component_[15812158611389788836]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15812158611389788836
+            },
+            "Component_[6913809912881948798]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6913809912881948798
+            },
+            "Component_[7234372762155662027]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7234372762155662027
+            },
+            "Component_[9681426929641326725]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9681426929641326725
+            },
+            "Component_[9906811576431745980]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9906811576431745980
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[31822228992561]": {
+            "Id": "Entity_[31822228992561]",
+            "Name": "flowerbox01_e",
+            "Components": {
+                "Component_[11180866300876805124]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11180866300876805124
+                },
+                "Component_[11441382910248085679]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11441382910248085679,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2859E046-CF65-5B90-BFFA-5651C4F47743}",
+                                    "subId": 273818774
+                                },
+                                "assetHint": "village/props/balconies/source/flowerbox01_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14428972799209816004]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14428972799209816004
+                },
+                "Component_[15461488606401299649]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15461488606401299649,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7DE70043-9080-5C84-9A35-3E73F9BF8755}"
+                                            },
+                                            "assetHint": "village/props/balconies/source/balconies.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16555366000442282970]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16555366000442282970
+                },
+                "Component_[2098488789579097830]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2098488789579097830
+                },
+                "Component_[3242331058500505991]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3242331058500505991
+                },
+                "Component_[6024036313815763673]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6024036313815763673
+                },
+                "Component_[6948425429835329796]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6948425429835329796,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[719248590319983124]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 719248590319983124
+                },
+                "Component_[7498504293235319039]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7498504293235319039
+                },
+                "Component_[8005389811311329213]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8005389811311329213,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6948425429835329796
+                        },
+                        {
+                            "ComponentId": 11441382910248085679,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15461488606401299649,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[253401193822434]": {
+            "Source": "Village/Props/Flowers/Plant01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/0",
+                    "value": -0.3471050262451172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/1",
+                    "value": -0.04320269823074341
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/2",
+                    "value": 0.009204864501953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Rotate/2",
+                    "value": -19.9562931060791
+                }
+            ]
+        },
+        "Instance_[271216718166242]": {
+            "Source": "Village/Props/Flowers/Plant01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/0",
+                    "value": -0.02349853515625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/1",
+                    "value": -0.014957964420318604
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/2",
+                    "value": 0.009204864501953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Rotate/2",
+                    "value": -95.6490249633789
+                }
+            ]
+        },
+        "Instance_[300495510223074]": {
+            "Source": "Village/Props/Flowers/Plant01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/0",
+                    "value": 0.4141273498535156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/1",
+                    "value": 0.010659456253051758
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Translate/2",
+                    "value": 0.010923385620117188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14175442848052031082]/Transform Data/Rotate/2",
+                    "value": 169.10690307617188
+                }
+            ]
+        }
+    }
+}

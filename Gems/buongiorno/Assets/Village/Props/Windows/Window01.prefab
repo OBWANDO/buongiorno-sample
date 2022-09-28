@@ -1,0 +1,163 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Window01",
+        "Components": {
+            "Component_[10331272354011784867]": {
+                "$type": "EditorLockComponent",
+                "Id": 10331272354011784867
+            },
+            "Component_[11820519542427422892]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11820519542427422892
+            },
+            "Component_[11905301555887069247]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11905301555887069247
+            },
+            "Component_[12713396608554681871]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12713396608554681871,
+                "Child Entity Order": [
+                    "Entity_[843044350397]"
+                ]
+            },
+            "Component_[16016314523339009054]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16016314523339009054
+            },
+            "Component_[16208682889705294643]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16208682889705294643
+            },
+            "Component_[16812053945553437538]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16812053945553437538
+            },
+            "Component_[2275537343248017502]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2275537343248017502
+            },
+            "Component_[3329346658243068741]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3329346658243068741,
+                "Parent Entity": ""
+            },
+            "Component_[6831610910657743296]": {
+                "$type": "SelectionComponent",
+                "Id": 6831610910657743296
+            },
+            "Component_[8102027314989982415]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8102027314989982415
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[843044350397]": {
+            "Id": "Entity_[843044350397]",
+            "Name": "window1",
+            "Components": {
+                "Component_[11748009396223713570]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11748009396223713570
+                },
+                "Component_[11827036514489347959]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11827036514489347959,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B4416630-6F69-5A20-92C8-0C2BC819EC7A}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14116587579758930633]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14116587579758930633
+                },
+                "Component_[1513947646813210340]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1513947646813210340
+                },
+                "Component_[15362281017581507415]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15362281017581507415,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3052404436442317048
+                        },
+                        {
+                            "ComponentId": 7324844091528863882,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11827036514489347959,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15640655666629383990]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15640655666629383990
+                },
+                "Component_[1968143361213788517]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1968143361213788517
+                },
+                "Component_[3052404436442317048]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3052404436442317048,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[4580798377662713868]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4580798377662713868
+                },
+                "Component_[7182687372095494918]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7182687372095494918
+                },
+                "Component_[7324844091528863882]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7324844091528863882,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{FF389222-A85B-5782-9DC2-CB593E0D2A6D}",
+                                    "subId": 274421892
+                                },
+                                "assetHint": "village/props/windows/source/windows01/window1_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9516828162121740061]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9516828162121740061
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Peppers",
+        "Components": {
+            "Component_[10240611343857348421]": {
+                "$type": "SelectionComponent",
+                "Id": 10240611343857348421
+            },
+            "Component_[11445738468276321626]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11445738468276321626
+            },
+            "Component_[17491598077197496753]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17491598077197496753
+            },
+            "Component_[2928813087748326972]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2928813087748326972,
+                "Parent Entity": ""
+            },
+            "Component_[3487198106274935490]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3487198106274935490,
+                "Child Entity Order": [
+                    "Entity_[660059054167225]"
+                ]
+            },
+            "Component_[4514230140538111628]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4514230140538111628
+            },
+            "Component_[6174670337508483353]": {
+                "$type": "EditorLockComponent",
+                "Id": 6174670337508483353
+            },
+            "Component_[7805123557765450495]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7805123557765450495
+            },
+            "Component_[8962696490828778883]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8962696490828778883
+            },
+            "Component_[9230157786008220621]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9230157786008220621
+            },
+            "Component_[9580067417269853504]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9580067417269853504
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[660059054167225]": {
+            "Id": "Entity_[660059054167225]",
+            "Name": "peppers_e",
+            "Components": {
+                "Component_[11092642077952844710]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11092642077952844710
+                },
+                "Component_[11150982300070697307]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11150982300070697307
+                },
+                "Component_[11747893987920387168]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11747893987920387168,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15938222738213716843]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15938222738213716843
+                },
+                "Component_[17535864919798198479]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17535864919798198479
+                },
+                "Component_[264199580386863309]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 264199580386863309
+                },
+                "Component_[3994452974863412834]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3994452974863412834,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11747893987920387168
+                        },
+                        {
+                            "ComponentId": 563182511019197295,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4368299635766606704,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4012223515206518796]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4012223515206518796
+                },
+                "Component_[4368299635766606704]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4368299635766606704,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7C999C9C-13A1-5EA0-AF1F-05158E0822B2}"
+                                            },
+                                            "assetHint": "village/props/produce/source/produce.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[563182511019197295]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 563182511019197295,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A7218E92-222F-5326-9B58-DD5A86FA0FEA}",
+                                    "subId": 272840225
+                                },
+                                "assetHint": "village/props/produce/source/peppers_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[8486034768164997728]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8486034768164997728
+                },
+                "Component_[9542910850542069704]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9542910850542069704
+                }
+            }
+        }
+    }
+}

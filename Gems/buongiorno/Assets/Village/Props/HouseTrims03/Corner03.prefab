@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Corner03",
+        "Components": {
+            "Component_[12313779956332369193]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12313779956332369193
+            },
+            "Component_[12720161798914610815]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12720161798914610815
+            },
+            "Component_[12800242333094621474]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12800242333094621474
+            },
+            "Component_[14927578242646964416]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14927578242646964416
+            },
+            "Component_[17324995650748372215]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17324995650748372215,
+                "Parent Entity": ""
+            },
+            "Component_[1738969352479944622]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1738969352479944622
+            },
+            "Component_[18224733058056243173]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18224733058056243173,
+                "Child Entity Order": [
+                    "Entity_[93543297085483]"
+                ]
+            },
+            "Component_[2508668333794698919]": {
+                "$type": "EditorLockComponent",
+                "Id": 2508668333794698919
+            },
+            "Component_[2634753534090003490]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2634753534090003490
+            },
+            "Component_[5030697720587345000]": {
+                "$type": "SelectionComponent",
+                "Id": 5030697720587345000
+            },
+            "Component_[682596108472696223]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 682596108472696223
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[93543297085483]": {
+            "Id": "Entity_[93543297085483]",
+            "Name": "corner03_e",
+            "Components": {
+                "Component_[12779311410214631657]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12779311410214631657,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8E8C15C0-4D74-5D5D-916F-ED8E60354DAC}",
+                                    "subId": 279601735
+                                },
+                                "assetHint": "village/props/housetrims03/source/corner03_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14660690754847545505]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14660690754847545505
+                },
+                "Component_[15215779824142001060]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15215779824142001060,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3204535026090272181
+                        },
+                        {
+                            "ComponentId": 12779311410214631657,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 812241578390038256,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17895733331496938043]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17895733331496938043
+                },
+                "Component_[2542703727240508460]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2542703727240508460
+                },
+                "Component_[3204535026090272181]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3204535026090272181,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[4318032535989693194]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4318032535989693194
+                },
+                "Component_[5960360341177626894]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5960360341177626894
+                },
+                "Component_[6344774398212847177]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6344774398212847177
+                },
+                "Component_[8038880463812382881]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8038880463812382881
+                },
+                "Component_[812241578390038256]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 812241578390038256,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{01DCBED7-5824-5F80-9354-0ABCF9DF0A29}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_grey.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8837797814283583178]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8837797814283583178
+                }
+            }
+        }
+    }
+}

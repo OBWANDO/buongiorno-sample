@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "woodenarchdoortrim",
+        "Components": {
+            "Component_[11094152866640110247]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11094152866640110247
+            },
+            "Component_[12471859444403913373]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12471859444403913373
+            },
+            "Component_[15450971744748512918]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15450971744748512918
+            },
+            "Component_[15601727914096766107]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15601727914096766107,
+                "Parent Entity": ""
+            },
+            "Component_[2388632342563970095]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2388632342563970095
+            },
+            "Component_[3175326590072909944]": {
+                "$type": "SelectionComponent",
+                "Id": 3175326590072909944
+            },
+            "Component_[4941841290977638259]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4941841290977638259
+            },
+            "Component_[4969075458318907138]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4969075458318907138
+            },
+            "Component_[7443854339658446476]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7443854339658446476
+            },
+            "Component_[8572290809976646262]": {
+                "$type": "EditorLockComponent",
+                "Id": 8572290809976646262
+            },
+            "Component_[9568351969983291838]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9568351969983291838,
+                "Child Entity Order": [
+                    "Entity_[11014706009816]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11014706009816]": {
+            "Id": "Entity_[11014706009816]",
+            "Name": "woodenarchdoortrim_e",
+            "Components": {
+                "Component_[10083054092632125315]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10083054092632125315,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11154761161596734214]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11154761161596734214
+                },
+                "Component_[12045007280916193154]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12045007280916193154,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DE538669-64A5-5DBE-98F0-EAF4764FEE87}",
+                                    "subId": 276579483
+                                },
+                                "assetHint": "village/props/trimkit/source/woodenarchdoortrim_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13703827428781472472]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13703827428781472472
+                },
+                "Component_[16378619033728921019]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16378619033728921019,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17779989486731323997]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17779989486731323997,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16378619033728921019
+                        },
+                        {
+                            "ComponentId": 12045007280916193154,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10083054092632125315,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17823481325700260836]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17823481325700260836
+                },
+                "Component_[18327055506218833504]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18327055506218833504
+                },
+                "Component_[320242027588620395]": {
+                    "$type": "SelectionComponent",
+                    "Id": 320242027588620395
+                },
+                "Component_[5171846952132565907]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5171846952132565907
+                },
+                "Component_[6740555503304669609]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6740555503304669609
+                },
+                "Component_[8764465025847996228]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8764465025847996228
+                }
+            }
+        }
+    }
+}

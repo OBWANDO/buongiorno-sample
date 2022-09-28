@@ -1,0 +1,30 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Doors/source/DoorKit_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.6745098233222961,
+                0.3921568691730499,
+                0.1882352977991104,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/Doors/source/DoorKit_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/Doors/source/DoorKit_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Doors/source/DoorKit_AO.png",
+            "specularTextureMap": "Village/Props/Doors/source/DoorKit_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Doors/source/DoorKit_Roughness.png"
+        }
+    }
+}

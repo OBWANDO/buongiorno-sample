@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Shingles_Chimney",
+        "Components": {
+            "Component_[1065788861974074358]": {
+                "$type": "SelectionComponent",
+                "Id": 1065788861974074358
+            },
+            "Component_[12372037659360321005]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12372037659360321005
+            },
+            "Component_[12545569193041011337]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12545569193041011337
+            },
+            "Component_[13293351500239878004]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13293351500239878004
+            },
+            "Component_[13659582889672095208]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13659582889672095208
+            },
+            "Component_[1399761425725728340]": {
+                "$type": "EditorLockComponent",
+                "Id": 1399761425725728340
+            },
+            "Component_[17114669379335413414]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17114669379335413414
+            },
+            "Component_[3919001315889477394]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3919001315889477394,
+                "Parent Entity": ""
+            },
+            "Component_[4391266082673678541]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4391266082673678541
+            },
+            "Component_[6214266283583956807]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6214266283583956807,
+                "Child Entity Order": [
+                    "Entity_[20504179025388]"
+                ]
+            },
+            "Component_[65999213860114500]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 65999213860114500
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[20504179025388]": {
+            "Id": "Entity_[20504179025388]",
+            "Name": "shingles_chimney_e",
+            "Components": {
+                "Component_[1016330649965037370]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1016330649965037370
+                },
+                "Component_[10452566569475379493]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10452566569475379493
+                },
+                "Component_[10577201139729325218]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10577201139729325218
+                },
+                "Component_[10619482801725795895]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10619482801725795895,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{522FFA68-DB36-5259-8CC5-C5F5AE227C61}"
+                                            },
+                                            "assetHint": "village/props/roofprops/source/roofprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11031158833792168269]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11031158833792168269,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12850621381605712441]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12850621381605712441
+                },
+                "Component_[17266165271997602972]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17266165271997602972
+                },
+                "Component_[3742206513683061968]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3742206513683061968,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11031158833792168269
+                        },
+                        {
+                            "ComponentId": 6140142118215189269,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10619482801725795895,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3988013965288853770]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3988013965288853770
+                },
+                "Component_[4756241989416525454]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4756241989416525454
+                },
+                "Component_[6140142118215189269]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6140142118215189269,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D5A53618-8B5A-5614-9186-370D2DEBAD42}",
+                                    "subId": 277196296
+                                },
+                                "assetHint": "village/props/roofprops/source/shingles_chimney_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6540128020250761453]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6540128020250761453
+                }
+            }
+        }
+    }
+}

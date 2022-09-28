@@ -1,0 +1,19 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Roof/RoofTiles_BaseColor.png",
+        "general.doubleSided": true,
+        "irradiance.manualColor": [
+            0.5394827127456665,
+            0.21223773062229156,
+            0.1412680298089981,
+            1.0
+        ],
+        "normal.textureMap": "Village/Roof/RoofTiles_Normal.png",
+        "occlusion.diffuseFactor": 0.25,
+        "occlusion.diffuseTextureMap": "Village/Roof/RoofTiles_AO.png",
+        "occlusion.specularTextureMap": "Village/Roof/RoofTiles_AO.png",
+        "roughness.textureMap": "Village/Roof/RoofTiles_Roughness.png"
+    }
+}

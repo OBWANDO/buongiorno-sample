@@ -1,0 +1,3396 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "House4",
+        "Components": {
+            "Component_[1201407973812777295]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1201407973812777295
+            },
+            "Component_[13464696083597246967]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13464696083597246967,
+                "Parent Entity": ""
+            },
+            "Component_[13673693830737839467]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13673693830737839467
+            },
+            "Component_[15699413974366183972]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15699413974366183972
+            },
+            "Component_[16504061930164619654]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16504061930164619654
+            },
+            "Component_[1655775357953964848]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1655775357953964848
+            },
+            "Component_[17458418749998285820]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17458418749998285820
+            },
+            "Component_[18034527937767003421]": {
+                "$type": "EditorLockComponent",
+                "Id": 18034527937767003421
+            },
+            "Component_[6462541403080242457]": {
+                "$type": "SelectionComponent",
+                "Id": 6462541403080242457
+            },
+            "Component_[6578716343405780493]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6578716343405780493,
+                "Child Entity Order": [
+                    "Entity_[19283016228910]",
+                    "Instance_[59368454549965]/ContainerEntity",
+                    "Entity_[453852760176243]",
+                    "Entity_[19291606163502]",
+                    "Instance_[60605405131213]/ContainerEntity",
+                    "Entity_[254688467929990]",
+                    "Entity_[358981877066247]",
+                    "Entity_[790022395762458]",
+                    "Instance_[60605405131213]/ContainerEntity"
+                ]
+            },
+            "Component_[9165609945153061244]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9165609945153061244
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[19283016228910]": {
+            "Id": "Entity_[19283016228910]",
+            "Name": "house4_walls",
+            "Components": {
+                "Component_[10996851755622395673]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10996851755622395673
+                },
+                "Component_[13883506192617841771]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13883506192617841771
+                },
+                "Component_[15172180242517482388]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15172180242517482388
+                },
+                "Component_[16722374885271270626]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16722374885271270626
+                },
+                "Component_[17889814996531614891]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17889814996531614891
+                },
+                "Component_[17949204902957699923]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17949204902957699923
+                },
+                "Component_[2977698983489457189]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2977698983489457189,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 58222014
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B332C087-333D-5F91-A5D1-22BFFD87CB59}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5413345992939056748]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5413345992939056748,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C66AD84A-6108-579D-B3CF-801D3710974F}",
+                                    "subId": 284623047
+                                },
+                                "assetHint": "village/buildings/house4/shells/house4_walls.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6305770123020775502]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6305770123020775502
+                },
+                "Component_[6569265363634072586]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6569265363634072586,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9040170752934929380
+                        },
+                        {
+                            "ComponentId": 5413345992939056748,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[6794883583839741258]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6794883583839741258,
+                    "Child Entity Order": [
+                        "Entity_[321499697474055]",
+                        "Entity_[332782576560647]"
+                    ]
+                },
+                "Component_[9040170752934929380]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9040170752934929380,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            4.16290283203125,
+                            -0.43351173400878906,
+                            6.524147987365723
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[19291606163502]": {
+            "Id": "Entity_[19291606163502]",
+            "Name": "house4_addition_walls",
+            "Components": {
+                "Component_[11875596574777513530]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11875596574777513530,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 58222014
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B332C087-333D-5F91-A5D1-22BFFD87CB59}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13948276229961545341]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13948276229961545341
+                },
+                "Component_[14542285911724450172]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14542285911724450172
+                },
+                "Component_[14550673875556400321]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14550673875556400321
+                },
+                "Component_[15426493378406928538]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15426493378406928538,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            3.7690000534057617,
+                            2.5747063159942627,
+                            2.287212610244751
+                        ],
+                        "UniformScale": 1.0099999904632568
+                    }
+                },
+                "Component_[17119406958307715282]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17119406958307715282,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{FFC80C46-CEFD-5C54-87EE-5169567E0BEA}",
+                                    "subId": 282149402
+                                },
+                                "assetHint": "village/buildings/house4/shells/house4_addition_walls.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4709299881582216441]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4709299881582216441
+                },
+                "Component_[5964555828662730287]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5964555828662730287
+                },
+                "Component_[6325449178177551858]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6325449178177551858
+                },
+                "Component_[833596325849514534]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 833596325849514534,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15426493378406928538
+                        },
+                        {
+                            "ComponentId": 17119406958307715282,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[8940717219002554963]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8940717219002554963
+                },
+                "Component_[9232485653264619272]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9232485653264619272
+                }
+            }
+        },
+        "Entity_[254688467929990]": {
+            "Id": "Entity_[254688467929990]",
+            "Name": "Gutter",
+            "Components": {
+                "Component_[1089715108528067828]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1089715108528067828,
+                    "Child Entity Order": [
+                        "Instance_[254692762897286]/ContainerEntity",
+                        "Instance_[255285468384134]/ContainerEntity",
+                        "Instance_[256483764259718]/ContainerEntity",
+                        "Instance_[257716419873670]/ContainerEntity",
+                        "Instance_[258983435225990]/ContainerEntity",
+                        "Instance_[260284810316678]/ContainerEntity",
+                        "Instance_[260963415149446]/ContainerEntity",
+                        "Instance_[261659199851398]/ContainerEntity",
+                        "Instance_[263063654157190]/ContainerEntity",
+                        "Instance_[264502468201350]/ContainerEntity",
+                        "Instance_[265975641983878]/ContainerEntity",
+                        "Instance_[269789572942726]/ContainerEntity",
+                        "Instance_[271331466201990]/ContainerEntity",
+                        "Instance_[290615869361030]/ContainerEntity",
+                        "Instance_[274518331935622]/ContainerEntity",
+                        "Instance_[284156238547846]/ContainerEntity",
+                        "Instance_[276163304409990]/ContainerEntity",
+                        "Instance_[276167599377286]/ContainerEntity",
+                        "Instance_[276171894344582]/ContainerEntity",
+                        "Instance_[279655112821638]/ContainerEntity",
+                        "Instance_[281437524249478]/ContainerEntity",
+                        "Instance_[414478431210374]/ContainerEntity",
+                        "Instance_[415431913950086]/ContainerEntity",
+                        "Instance_[417351764331398]/ContainerEntity",
+                        "Instance_[419305974451078]/ContainerEntity",
+                        "Instance_[421294544309126]/ContainerEntity",
+                        "Instance_[423317473905542]/ContainerEntity",
+                        "Instance_[183828815768071]/ContainerEntity",
+                        "Instance_[410311031220743]/ContainerEntity"
+                    ]
+                },
+                "Component_[11475285311737674148]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11475285311737674148
+                },
+                "Component_[12885989516484060594]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12885989516484060594
+                },
+                "Component_[14612280035528401722]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14612280035528401722
+                },
+                "Component_[15214733541348884567]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15214733541348884567,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.18631935119628906,
+                            2.1187896728515625,
+                            11.10870361328125
+                        ]
+                    }
+                },
+                "Component_[1541269421294476768]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1541269421294476768
+                },
+                "Component_[2557001438395468997]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2557001438395468997
+                },
+                "Component_[6316037906906237053]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6316037906906237053
+                },
+                "Component_[7492668460662425397]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7492668460662425397
+                },
+                "Component_[9770553144000856661]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9770553144000856661
+                }
+            }
+        },
+        "Entity_[321499697474055]": {
+            "Id": "Entity_[321499697474055]",
+            "Name": "Windows",
+            "Components": {
+                "Component_[15193762152986943528]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15193762152986943528
+                },
+                "Component_[17409039020428739875]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17409039020428739875
+                },
+                "Component_[3634662568059302604]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3634662568059302604
+                },
+                "Component_[5460722141965575636]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5460722141965575636
+                },
+                "Component_[7579104190287463208]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7579104190287463208
+                },
+                "Component_[8318911139000672230]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8318911139000672230
+                },
+                "Component_[8473908117050806925]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8473908117050806925,
+                    "Parent Entity": "Entity_[19283016228910]"
+                },
+                "Component_[8511899956579849018]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8511899956579849018
+                },
+                "Component_[8872667439185931859]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8872667439185931859,
+                    "Child Entity Order": [
+                        "Instance_[321503992441351]/ContainerEntity",
+                        "Instance_[322491834919431]/ContainerEntity",
+                        "Instance_[324480404777479]/ContainerEntity",
+                        "Instance_[326503334373895]/ContainerEntity",
+                        "Instance_[328560623708679]/ContainerEntity",
+                        "Instance_[330652272781831]/ContainerEntity"
+                    ]
+                },
+                "Component_[945413171000926792]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 945413171000926792
+                }
+            }
+        },
+        "Entity_[323410308429427]": {
+            "Id": "Entity_[323410308429427]",
+            "Name": "Roof",
+            "Components": {
+                "Component_[10677770275568960660]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10677770275568960660
+                },
+                "Component_[1105160941202217503]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1105160941202217503
+                },
+                "Component_[13739692748270813090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13739692748270813090
+                },
+                "Component_[14479606598359589905]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14479606598359589905
+                },
+                "Component_[17608558688333118724]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17608558688333118724,
+                    "Child Entity Order": [
+                        "Instance_[323414603396723]/ContainerEntity",
+                        "Instance_[323560632284787]/ContainerEntity",
+                        "Instance_[324213467313779]/ContainerEntity",
+                        "Instance_[382174050973299]/ContainerEntity"
+                    ]
+                },
+                "Component_[2123397334030705747]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2123397334030705747
+                },
+                "Component_[3574984878336351081]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3574984878336351081
+                },
+                "Component_[3690927581511031651]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3690927581511031651,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.10225868225097656,
+                            2.0107970237731934,
+                            11.197563171386719
+                        ]
+                    }
+                },
+                "Component_[6340225113209953468]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6340225113209953468
+                },
+                "Component_[7354109126299757600]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7354109126299757600
+                }
+            }
+        },
+        "Entity_[332782576560647]": {
+            "Id": "Entity_[332782576560647]",
+            "Name": "WindowTrims",
+            "Components": {
+                "Component_[10920260200873796846]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10920260200873796846,
+                    "Parent Entity": "Entity_[19283016228910]"
+                },
+                "Component_[12078163724954581435]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12078163724954581435
+                },
+                "Component_[13562422169102498400]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13562422169102498400
+                },
+                "Component_[16518298948078776245]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16518298948078776245
+                },
+                "Component_[16992502129920934468]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16992502129920934468
+                },
+                "Component_[3066288959407774411]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3066288959407774411
+                },
+                "Component_[3087060767484915930]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3087060767484915930,
+                    "Child Entity Order": [
+                        "Instance_[332786871527943]/ContainerEntity",
+                        "Instance_[333877793221127]/ContainerEntity",
+                        "Instance_[336072521509383]/ContainerEntity",
+                        "Instance_[338301609536007]/ContainerEntity",
+                        "Instance_[340565057300999]/ContainerEntity",
+                        "Instance_[342862864804359]/ContainerEntity"
+                    ]
+                },
+                "Component_[680821736478525299]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 680821736478525299
+                },
+                "Component_[7452193762827539783]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7452193762827539783
+                },
+                "Component_[8363336442244303975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8363336442244303975
+                }
+            }
+        },
+        "Entity_[358981877066247]": {
+            "Id": "Entity_[358981877066247]",
+            "Name": "HouseTrims",
+            "Components": {
+                "Component_[10185822562921729428]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10185822562921729428
+                },
+                "Component_[10345314165700098836]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10345314165700098836,
+                    "Child Entity Order": [
+                        "Instance_[358986172033543]/ContainerEntity",
+                        "Instance_[371145224448519]/ContainerEntity",
+                        "Instance_[360180172941831]/ContainerEntity",
+                        "Instance_[361391353719303]/ContainerEntity",
+                        "Instance_[378781676300807]/ContainerEntity",
+                        "Instance_[386521207368199]/ContainerEntity",
+                        "Instance_[386508322466311]/ContainerEntity",
+                        "Instance_[386516912400903]/ContainerEntity",
+                        "Instance_[386512617433607]/ContainerEntity",
+                        "Instance_[386504027499015]/ContainerEntity",
+                        "Instance_[164043797272346]/ContainerEntity",
+                        "Instance_[220385178261274]/ContainerEntity",
+                        "Instance_[248195091502874]/ContainerEntity",
+                        "Instance_[291844844132122]/ContainerEntity",
+                        "Instance_[371675401262874]/ContainerEntity",
+                        "Instance_[429378286884634]/ContainerEntity"
+                    ]
+                },
+                "Component_[17047081931706862078]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17047081931706862078
+                },
+                "Component_[17620920785255716486]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17620920785255716486,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2551693067719536024]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2551693067719536024
+                },
+                "Component_[2993218119451002033]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2993218119451002033
+                },
+                "Component_[3942456061256563298]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3942456061256563298
+                },
+                "Component_[4128583111117910307]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4128583111117910307
+                },
+                "Component_[554584864872882704]": {
+                    "$type": "SelectionComponent",
+                    "Id": 554584864872882704
+                },
+                "Component_[6705753189003909114]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6705753189003909114
+                }
+            }
+        },
+        "Entity_[453852760176243]": {
+            "Id": "Entity_[453852760176243]",
+            "Name": "Roof",
+            "Components": {
+                "Component_[11738076277958456751]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11738076277958456751,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            1.1685676574707031,
+                            3.048243999481201,
+                            3.5248987674713135
+                        ]
+                    }
+                },
+                "Component_[12572701902318335196]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12572701902318335196
+                },
+                "Component_[13384723661760914903]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13384723661760914903
+                },
+                "Component_[18030273895990111559]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18030273895990111559
+                },
+                "Component_[1899931823180737379]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1899931823180737379
+                },
+                "Component_[4082195200978103385]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4082195200978103385
+                },
+                "Component_[4182072266672670627]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4182072266672670627
+                },
+                "Component_[4840601938736677029]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4840601938736677029,
+                    "Child Entity Order": [
+                        "Entity_[484467287062131]",
+                        "Entity_[484471582029427]",
+                        "Entity_[481551004268147]",
+                        "Instance_[453453328217715]/ContainerEntity",
+                        "Instance_[481563889170035]/ContainerEntity",
+                        "Instance_[482392817858163]/ContainerEntity",
+                        "Instance_[483359185499763]/ContainerEntity"
+                    ]
+                },
+                "Component_[4862031091944302111]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4862031091944302111
+                },
+                "Component_[7832092772175700641]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7832092772175700641
+                }
+            }
+        },
+        "Entity_[481551004268147]": {
+            "Id": "Entity_[481551004268147]",
+            "Name": "roof26_sideedge",
+            "Components": {
+                "Component_[11322144176025452961]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11322144176025452961,
+                    "Parent Entity": "Entity_[453852760176243]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.9549999833106995,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 1.2000000476837158
+                    }
+                },
+                "Component_[11444526972643595438]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11444526972643595438,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2750426069
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B332C087-333D-5F91-A5D1-22BFFD87CB59}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12164659135431092188]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12164659135431092188
+                },
+                "Component_[14393303631950228142]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14393303631950228142
+                },
+                "Component_[15806924042153123362]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15806924042153123362
+                },
+                "Component_[16186710703912243637]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16186710703912243637
+                },
+                "Component_[16420541373949309780]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16420541373949309780,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EB74A3C5-3064-537B-A994-70290AAF6184}",
+                                    "subId": 279461325
+                                },
+                                "assetHint": "village/roof/source/roof26_sideedge.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[326944532256648003]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 326944532256648003
+                },
+                "Component_[4117910549533842000]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4117910549533842000
+                },
+                "Component_[8313232620516685542]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8313232620516685542
+                },
+                "Component_[856031321576934468]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 856031321576934468
+                },
+                "Component_[9114828598695691503]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9114828598695691503
+                }
+            }
+        },
+        "Entity_[484467287062131]": {
+            "Id": "Entity_[484467287062131]",
+            "Name": "sideseam",
+            "Components": {
+                "Component_[10919821805930513553]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10919821805930513553
+                },
+                "Component_[11026266652376065320]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11026266652376065320
+                },
+                "Component_[12312784414312366630]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12312784414312366630
+                },
+                "Component_[12653885518029322900]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12653885518029322900
+                },
+                "Component_[13946669451164070453]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13946669451164070453
+                },
+                "Component_[15056917999568478144]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15056917999568478144,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15500259555245288723]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15500259555245288723
+                },
+                "Component_[15755918557493376376]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15755918557493376376
+                },
+                "Component_[1851882435497405236]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1851882435497405236,
+                    "Parent Entity": "Entity_[453852760176243]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.9243335723876953,
+                            -2.8849639892578125,
+                            1.4371957778930664
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -178.1903839111328
+                        ]
+                    }
+                },
+                "Component_[3108557509332730676]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3108557509332730676,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6A58D166-A796-5D90-B551-47685D58FEFE}",
+                                    "subId": 269989095
+                                },
+                                "assetHint": "village/roof/source/sideseam.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5505047650543138574]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5505047650543138574
+                },
+                "Component_[691321750128502737]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 691321750128502737
+                }
+            }
+        },
+        "Entity_[484471582029427]": {
+            "Id": "Entity_[484471582029427]",
+            "Name": "sideseam",
+            "Components": {
+                "Component_[10919821805930513553]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10919821805930513553
+                },
+                "Component_[11026266652376065320]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11026266652376065320
+                },
+                "Component_[12312784414312366630]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12312784414312366630
+                },
+                "Component_[12653885518029322900]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12653885518029322900
+                },
+                "Component_[13946669451164070453]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13946669451164070453
+                },
+                "Component_[15500259555245288723]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15500259555245288723
+                },
+                "Component_[15755918557493376376]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15755918557493376376
+                },
+                "Component_[1851882435497405236]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1851882435497405236,
+                    "Parent Entity": "Entity_[453852760176243]",
+                    "Transform Data": {
+                        "Translate": [
+                            6.947646141052246,
+                            -2.888312816619873,
+                            1.4371957778930664
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[3108557509332730676]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3108557509332730676,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6A58D166-A796-5D90-B551-47685D58FEFE}",
+                                    "subId": 269989095
+                                },
+                                "assetHint": "village/roof/source/sideseam.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5505047650543138574]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5505047650543138574
+                },
+                "Component_[691321750128502737]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 691321750128502737
+                },
+                "Component_[9216379874174456286]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9216379874174456286,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[790022395762458]": {
+            "Id": "Entity_[790022395762458]",
+            "Name": "Entrance",
+            "Components": {
+                "Component_[12044105838038024909]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12044105838038024909
+                },
+                "Component_[12864004088343537158]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12864004088343537158
+                },
+                "Component_[13059645205193943395]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13059645205193943395,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14488096821822683191]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14488096821822683191
+                },
+                "Component_[14607232751525359114]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14607232751525359114
+                },
+                "Component_[16403482970555970005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16403482970555970005
+                },
+                "Component_[2966208375751897960]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2966208375751897960
+                },
+                "Component_[3180686544206160414]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3180686544206160414,
+                    "Child Entity Order": [
+                        "Instance_[807563042199322]/ContainerEntity",
+                        "Instance_[930244488042266]/ContainerEntity"
+                    ]
+                },
+                "Component_[9663942968129292453]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9663942968129292453
+                },
+                "Component_[9789063901578294418]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9789063901578294418
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[164043797272346]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": 5.142721652984619
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 2.8426342010498047
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": -0.7517106533050537
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.800000011920929
+                }
+            ]
+        },
+        "Instance_[183828815768071]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.5678691864013672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": 0.824357271194458
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -9.45980167388916
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[220385178261274]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": 8.264699935913086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 2.8426342010498047
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": -0.7517106533050537
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.800000011920929
+                }
+            ]
+        },
+        "Instance_[248195091502874]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": 0.9229999780654908
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 2.842635154724121
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": 0.4079999923706054
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.2199999988079071
+                }
+            ]
+        },
+        "Instance_[254692762897286]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": -0.07571792602539063
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": -0.05460929870605469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": 0.012128353118896484
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[255285468384134]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 0.014272689819335938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": -0.0629425048828125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/0",
+                    "value": -1.2138136625289917
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/1",
+                    "value": 5.3360849960881764e-8
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": -90.00001525878906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0999999046325684
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[256483764259718]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 1.891892433166504
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": -0.05460929870605469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": 0.012395381927490234
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/1",
+                    "value": 0.04999997839331627
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[257716419873670]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 3.86270523071289
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": -0.05460929870605469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": 0.012128353118896484
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": 1.3858942985534668
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[258983435225990]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 5.851655960083008
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": -0.006490230560302734
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": 0.012128353118896484
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": -1.28214430809021
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[260284810316678]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Diagonal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/0",
+                    "value": 0.07814788818359375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/1",
+                    "value": -0.018105506896972656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/2",
+                    "value": -0.04165792465209961
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Rotate/2",
+                    "value": -125.35942840576172
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[260963415149446]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4774017333984375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.30236244201660156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -1.0226035118103027
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": 2.9747302532196045
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[261659199851398]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4911003112792969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.2803359031677246
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -1.722240924835205
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": 5.868870258331299
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": 2.767068386077881
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": -0.13983534276485443
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[263063654157190]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4267559051513672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.13198232650756836
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -3.2490155696868896
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": -6.554393768310547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": 0.476569801568985
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": 0.16378584504127502
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[264502468201350]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4207267761230469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.2207326889038086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -3.970548391342163
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": -2.1025187969207764
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": 0.487844854593277
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": 0.12630002200603485
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[265975641983878]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4146785736083984
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.2555356025695801
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -4.997617721557617
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": 0.49567556381225586
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": -1.930384397506714
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": 0.2138973772525787
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/UniformScale",
+                    "value": 1.100000023841858
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[269789572942726]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4521675109863281
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.25006914138793945
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -6.109439849853516
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": -2.569999933242798
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": 2.810471773147583
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": 0.1107538491487503
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/UniformScale",
+                    "value": 1.100000023841858
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[271331466201990]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.42111778259277344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.25842809677124023
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -6.908562660217285
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": 64.49298858642578
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": -7.823207855224609
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": 1.1884503364562988
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/UniformScale",
+                    "value": 1.0049077272415161
+                }
+            ]
+        },
+        "Instance_[274518331935622]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.5698337554931641
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": 0.824357271194458
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -8.76411247253418
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[276163304409990]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 2.3449935913085938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": 1.0643868446350098
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": -7.666627407073975
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": 0.3858756124973297
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[276167599377286]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 4.333745956420898
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": 1.0770273208618164
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": -7.666627407073975
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": -1.2820974588394165
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[276171894344582]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 0.3604316711425781
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": 1.063561201095581
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": -7.701707363128662
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/0",
+                    "value": 4.960488908523075e-8
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/1",
+                    "value": -0.9999996423721313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": 0.000003416168055991875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[279655112821638]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Horizontal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/0",
+                    "value": 6.330636024475098
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/1",
+                    "value": 1.0323362350463867
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Translate/2",
+                    "value": -7.666627407073975
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/Rotate/2",
+                    "value": -1.2820974588394165
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9359318476254061474]/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[281437524249478]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Diagonal.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/0",
+                    "value": 1.0013418197631836
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/1",
+                    "value": 1.0797338485717771
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Translate/2",
+                    "value": -7.755779266357422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6493411090557300867]/Transform Data/Rotate/2",
+                    "value": 120.35025024414064
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[284156238547846]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Spout.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3268643653321466505]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3268643653321466505]/Transform Data/Translate/0",
+                    "value": 0.5667610168457031
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3268643653321466505]/Transform Data/Translate/1",
+                    "value": 0.8314259052276611
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3268643653321466505]/Transform Data/Translate/2",
+                    "value": -10.390583992004396
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3268643653321466505]/Transform Data/Rotate/2",
+                    "value": -80.92462921142578
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[290615869361030]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical_Open.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Translate/0",
+                    "value": 0.5547084808349609
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Translate/1",
+                    "value": 0.6007390022277832
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Translate/2",
+                    "value": -7.315969467163086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Rotate/0",
+                    "value": 59.22943878173828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Rotate/1",
+                    "value": -1.2901569604873657
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/Rotate/2",
+                    "value": -0.768071711063385
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4337814431368397100]/Transform Data/UniformScale",
+                    "value": 1.0049077272415161
+                }
+            ]
+        },
+        "Instance_[291844844132122]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": 0.043567657470703125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 2.8426342010498047
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": -0.7517108917236328
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Rotate/2",
+                    "value": 90.00000762939453
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.800000011920929
+                }
+            ]
+        },
+        "Instance_[321503992441351]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": -0.4429464340209961
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 3.0337655544281006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": -5.03110933303833
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[322491834919431]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": -2.210078239440918
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 1.9308481216430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": -1.0266141891479492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[323414603396723]": {
+            "Source": "Village/Roof/Roof26_Corner.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9133593663147769200]/Parent Entity",
+                    "value": "../Entity_[323410308429427]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9133593663147769200]/Transform Data/Rotate/2",
+                    "value": -90.00000762939453
+                }
+            ]
+        },
+        "Instance_[323560632284787]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[323410308429427]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Translate/0",
+                    "value": 5.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[324213467313779]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[323410308429427]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Translate/0",
+                    "value": 7.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[324480404777479]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": 0.8669853210449219
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 1.9308481216430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": -1.0266141891479492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[326503334373895]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": 2.4961938858032227
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 1.9308481216430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": -1.0266141891479492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[328560623708679]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": 0.8669853210449219
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 1.9308481216430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": 2.5258030891418457
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[330652272781831]": {
+            "Source": "Village/Props/Windows/Window01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Parent Entity",
+                    "value": "../Entity_[321499697474055]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/0",
+                    "value": -2.201213836669922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/1",
+                    "value": 1.9308481216430664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Translate/2",
+                    "value": 2.5258030891418457
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3329346658243068741]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[332786871527943]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": -0.4531135559082031
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 3.2200636863708496
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": -5.159979820251465
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[333877793221127]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": -2.2162961959838867
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 2.1719865798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": -1.12091064453125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[336072521509383]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": 0.8645162582397461
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 2.1719865798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": -1.12091064453125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[338301609536007]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": 2.4880924224853516
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 2.1719865798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": -1.12091064453125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[340565057300999]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": 0.8645162582397461
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 2.1719865798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": 2.395345687866211
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[342862864804359]": {
+            "Source": "Village/Props/TrimKit/windowtrim_02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Parent Entity",
+                    "value": "../Entity_[332782576560647]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/0",
+                    "value": -2.1890869140625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/1",
+                    "value": 2.1719865798950195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Translate/2",
+                    "value": 2.395345687866211
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3476059870747897786]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[358986172033543]": {
+            "Source": "Village/Props/HouseTrims/CornerTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/0",
+                    "value": 0.13767242431640625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/2",
+                    "value": 10.659128189086914
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[360180172941831]": {
+            "Source": "Village/Props/HouseTrims/4MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/0",
+                    "value": 0.13767242431640625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/2",
+                    "value": 10.659128189086914
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[361391353719303]": {
+            "Source": "Village/Props/HouseTrims/4MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/0",
+                    "value": 0.13766860961914065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/1",
+                    "value": -2.3051681518554688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/2",
+                    "value": 10.659128189086914
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[371145224448519]": {
+            "Source": "Village/Props/HouseTrims/2MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/0",
+                    "value": 6.137672424316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/2",
+                    "value": 10.659128189086914
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[371675401262874]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": 2.400729179382324
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 3.0962026119232178
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": -0.7932233810424805
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.6200000047683716
+                }
+            ]
+        },
+        "Instance_[378781676300807]": {
+            "Source": "Village/Props/HouseTrims/2MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/0",
+                    "value": 4.137672424316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/2",
+                    "value": 10.659128189086914
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[382174050973299]": {
+            "Source": "Village/Roof/SideSeam.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4424785646652858521]/Parent Entity",
+                    "value": "../Entity_[323410308429427]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4424785646652858521]/Transform Data/Translate/0",
+                    "value": 7.946372032165527
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4424785646652858521]/Transform Data/Translate/1",
+                    "value": -2.9484200477600098
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4424785646652858521]/Transform Data/Translate/2",
+                    "value": 1.5399603843688965
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4424785646652858521]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[386504027499015]": {
+            "Source": "Village/Props/HouseTrims/CornerTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/0",
+                    "value": 0.13767242431640625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Translate/2",
+                    "value": 7.5591278076171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[3955074137562040204]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[386508322466311]": {
+            "Source": "Village/Props/HouseTrims/2MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/0",
+                    "value": 6.137672424316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/2",
+                    "value": 7.5591278076171875
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[386512617433607]": {
+            "Source": "Village/Props/HouseTrims/4MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/0",
+                    "value": 0.13767242431640625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/2",
+                    "value": 7.5591278076171875
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[386516912400903]": {
+            "Source": "Village/Props/HouseTrims/4MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/0",
+                    "value": 0.13766860961914065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/1",
+                    "value": -2.3051681518554688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Translate/2",
+                    "value": 7.5591278076171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9746268610727887914]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[386521207368199]": {
+            "Source": "Village/Props/HouseTrims/2MTrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/0",
+                    "value": 4.137672424316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/1",
+                    "value": 1.6948323249816897
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6279890303450763208]/Transform Data/Translate/2",
+                    "value": 7.5591278076171875
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[410311031220743]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Vertical.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/0",
+                    "value": 0.4638824462890625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/1",
+                    "value": -0.22275161743164065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Translate/2",
+                    "value": -2.2824511528015137
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/0",
+                    "value": 5.868870258331299
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/1",
+                    "value": 2.767068386077881
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7464881061860379877]/Transform Data/Rotate/2",
+                    "value": -0.13983534276485443
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[414478431210374]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.4813671112060547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": -0.3023109436035156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -1.0013532638549805
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.48345947265625
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[415431913950086]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.4212989807128906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": -0.12566852569580078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -3.29297399520874
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.48345947265625
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[417351764331398]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.41156959533691406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": -0.25214576721191406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -4.9781951904296875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.48345947265625
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[419305974451078]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.4109325408935547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": -0.2666640281677246
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -6.468477725982666
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/0",
+                    "value": -0.16285276412963867
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/1",
+                    "value": -3.699796199798584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.47811889648438
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[421294544309126]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.5690402984619141
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": 0.8294706344604492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -8.645745277404785
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/0",
+                    "value": 0.5115789771080017
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/1",
+                    "value": 11.48353099822998
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.43194580078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[423317473905542]": {
+            "Source": "Village/Props/Gutter/RoundGutter_Pin.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Parent Entity",
+                    "value": "../Entity_[254688467929990]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/0",
+                    "value": 0.5680770874023438
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/1",
+                    "value": 0.82643723487854
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Translate/2",
+                    "value": -10.432912826538086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/0",
+                    "value": 0.00742005230858922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/1",
+                    "value": 0.16915099322795868
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6992297727031514102]/Transform Data/Rotate/2",
+                    "value": 177.48333740234375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[429378286884634]": {
+            "Source": "Village/Props/HouseTrims03/4MTrim03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Parent Entity",
+                    "value": "../Entity_[358981877066247]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/0",
+                    "value": -0.07900000363588333
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/1",
+                    "value": 3.0962047576904297
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Translate/2",
+                    "value": -0.7929999828338623
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/Rotate/2",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9893340168561551241]/Transform Data/UniformScale",
+                    "value": 0.6200000047683716
+                }
+            ]
+        },
+        "Instance_[453453328217715]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[453852760176243]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[117499620074390]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[119810312479638]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[122138184754070]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[481563889170035]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[453852760176243]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Translate/0",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[117499620074390]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[119810312479638]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[122138184754070]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[482392817858163]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[453852760176243]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Translate/0",
+                    "value": 4.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[117499620074390]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[119810312479638]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[122138184754070]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[483359185499763]": {
+            "Source": "Village/Roof/Roof26degChunk.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Parent Entity",
+                    "value": "../Entity_[453852760176243]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Translate/0",
+                    "value": 6.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10787762426275654981]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[117499620074390]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[119810312479638]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Instances/Instance_[122138184754070]/LinkId"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[59368454549965]": {
+            "Source": "Village/Props/Doors/Door01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7405976234273416098]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7405976234273416098]/Transform Data/Translate/0",
+                    "value": 1.526778221130371
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7405976234273416098]/Transform Data/Translate/1",
+                    "value": 2.766680955886841
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7405976234273416098]/Transform Data/Translate/2",
+                    "value": 0.33478736877441406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7405976234273416098]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[60605405131213]": {
+            "Source": "Village/Props/TrimKit/stonedoortrim.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Transform Data/Translate/0",
+                    "value": 1.4407958984375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Transform Data/Translate/1",
+                    "value": 2.8514223098754883
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Transform Data/Translate/2",
+                    "value": 0.3772372007369995
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[800703477629454814]/Transform Data/UniformScale",
+                    "value": 0.8999999761581421
+                }
+            ]
+        },
+        "Instance_[807563042199322]": {
+            "Source": "Village/Props/EntranceKit/letterboxwall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7552338450429345952]/Parent Entity",
+                    "value": "../Entity_[790022395762458]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7552338450429345952]/Transform Data/Translate/0",
+                    "value": 2.4481372833251953
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7552338450429345952]/Transform Data/Translate/1",
+                    "value": 2.801637887954712
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7552338450429345952]/Transform Data/Translate/2",
+                    "value": 1.430847406387329
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7552338450429345952]/Transform Data/UniformScale",
+                    "value": 0.8999999761581421
+                }
+            ]
+        },
+        "Instance_[930244488042266]": {
+            "Source": "Village/Props/SignsKit/HouseNumber02.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Parent Entity",
+                    "value": "../Entity_[790022395762458]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Transform Data/Translate/0",
+                    "value": 2.453810691833496
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Transform Data/Translate/1",
+                    "value": 2.81129789352417
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Transform Data/Translate/2",
+                    "value": 2.2328741550445557
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Transform Data/Rotate/0",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10257812879031342632]/Transform Data/UniformScale",
+                    "value": 1.5
+                }
+            ]
+        }
+    }
+}

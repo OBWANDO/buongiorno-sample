@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "motelstonetrim",
+        "Components": {
+            "Component_[11081052524641884726]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11081052524641884726
+            },
+            "Component_[13348575598945199144]": {
+                "$type": "SelectionComponent",
+                "Id": 13348575598945199144
+            },
+            "Component_[13789351894360805250]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13789351894360805250,
+                "Child Entity Order": [
+                    "Entity_[5719011333848]"
+                ]
+            },
+            "Component_[14225362435593760243]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14225362435593760243
+            },
+            "Component_[14801831942985752028]": {
+                "$type": "EditorLockComponent",
+                "Id": 14801831942985752028
+            },
+            "Component_[15055889757324474556]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15055889757324474556
+            },
+            "Component_[3723593399383275208]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3723593399383275208
+            },
+            "Component_[6196541423805813892]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6196541423805813892,
+                "Parent Entity": ""
+            },
+            "Component_[7450465263476590323]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7450465263476590323
+            },
+            "Component_[9736848724940754064]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9736848724940754064
+            },
+            "Component_[9952652533862935465]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9952652533862935465
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5719011333848]": {
+            "Id": "Entity_[5719011333848]",
+            "Name": "motelstonetrim_e",
+            "Components": {
+                "Component_[12184937666717140622]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12184937666717140622
+                },
+                "Component_[12331456895591796624]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12331456895591796624
+                },
+                "Component_[15053645607872605483]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15053645607872605483,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2FA5C920-692B-5FCA-923D-F54A9F8C8EA3}",
+                                    "subId": 275591183
+                                },
+                                "assetHint": "village/props/trimkit/source/motelstonetrim_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15652463995271259480]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15652463995271259480
+                },
+                "Component_[16127217843852791175]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16127217843852791175,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7639939429706404071
+                        },
+                        {
+                            "ComponentId": 15053645607872605483,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4627166864677026017,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16535292982531848781]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16535292982531848781
+                },
+                "Component_[4114152338772599565]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4114152338772599565
+                },
+                "Component_[4627166864677026017]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4627166864677026017,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5246679672446405817]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5246679672446405817
+                },
+                "Component_[7639939429706404071]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7639939429706404071,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8082286930119045678]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8082286930119045678
+                },
+                "Component_[9447383810755749369]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9447383810755749369
+                }
+            }
+        }
+    }
+}

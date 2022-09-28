@@ -1,0 +1,247 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Stairs_X10",
+        "Components": {
+            "Component_[10510068564926786528]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10510068564926786528,
+                "Parent Entity": ""
+            },
+            "Component_[10814293381449755225]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10814293381449755225
+            },
+            "Component_[11790552603101280300]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11790552603101280300
+            },
+            "Component_[15910134519889973823]": {
+                "$type": "EditorLockComponent",
+                "Id": 15910134519889973823
+            },
+            "Component_[16479912750050339985]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16479912750050339985
+            },
+            "Component_[17037420861414246868]": {
+                "$type": "SelectionComponent",
+                "Id": 17037420861414246868
+            },
+            "Component_[17561383966933840053]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17561383966933840053,
+                "Child Entity Order": [
+                    "Entity_[123338812220995]"
+                ]
+            },
+            "Component_[5555480779258918642]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5555480779258918642
+            },
+            "Component_[5947532629369248184]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5947532629369248184
+            },
+            "Component_[6236168489860614864]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6236168489860614864
+            },
+            "Component_[8501415737392641031]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8501415737392641031
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[123338812220995]": {
+            "Id": "Entity_[123338812220995]",
+            "Name": "Stair T1",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{70C3B654-C0BE-52B2-B41C-4F4241156499}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige_darker.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3E2F67BC-EADE-516F-8140-420E28EA0A9C}",
+                                    "subId": 280406842
+                                },
+                                "assetHint": "village/pavement/stairs/source/stair_type1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.125,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[106206187677251]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/0",
+                    "value": -0.5249996185302734
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/1",
+                    "value": 1.1920928955078125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/2",
+                    "value": 0.15000009536743164
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[93235386443331]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/0",
+                    "value": 1.2749996185302734
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/1",
+                    "value": -1.1920928955078125e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/2",
+                    "value": 1.0500001907348633
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[97654907790915]": {
+            "Source": "Village/Pavement/Stairs/Stairs_X3.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/0",
+                    "value": 0.3749980926513672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10843902409490917156]/Transform Data/Translate/2",
+                    "value": 0.5999999046325684
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "WindWane_Rooster",
+        "Components": {
+            "Component_[10739223381983573667]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10739223381983573667
+            },
+            "Component_[13595208120164926804]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13595208120164926804,
+                "Child Entity Order": [
+                    "Entity_[19889998702060]"
+                ]
+            },
+            "Component_[1681743367631350110]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1681743367631350110
+            },
+            "Component_[3097265771216519247]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3097265771216519247,
+                "Parent Entity": ""
+            },
+            "Component_[425492765911670394]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 425492765911670394
+            },
+            "Component_[4384652748166677882]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4384652748166677882
+            },
+            "Component_[6332502182461791320]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6332502182461791320
+            },
+            "Component_[6348216526175041471]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6348216526175041471
+            },
+            "Component_[673959205544588481]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 673959205544588481
+            },
+            "Component_[7765380978803863796]": {
+                "$type": "SelectionComponent",
+                "Id": 7765380978803863796
+            },
+            "Component_[875117908487001901]": {
+                "$type": "EditorLockComponent",
+                "Id": 875117908487001901
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[19889998702060]": {
+            "Id": "Entity_[19889998702060]",
+            "Name": "rooster base_e",
+            "Components": {
+                "Component_[13157325177019885295]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13157325177019885295,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C68CD92F-7180-5A5C-9B10-897150DB5857}",
+                                    "subId": 279096046
+                                },
+                                "assetHint": "village/props/roofprops/source/rooster base_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[14657348271655557226]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14657348271655557226,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17150271495452509092
+                        },
+                        {
+                            "ComponentId": 13157325177019885295,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6150770860423147348,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17150271495452509092]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17150271495452509092,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.41880398988723755
+                    }
+                },
+                "Component_[17177707396828542679]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17177707396828542679
+                },
+                "Component_[17396144010162571282]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17396144010162571282
+                },
+                "Component_[2151345340115076954]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2151345340115076954
+                },
+                "Component_[6150770860423147348]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6150770860423147348,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{522FFA68-DB36-5259-8CC5-C5F5AE227C61}"
+                                            },
+                                            "assetHint": "village/props/roofprops/source/roofprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7231937075103371497]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7231937075103371497
+                },
+                "Component_[7689943479971022577]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689943479971022577
+                },
+                "Component_[7963013175922237772]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7963013175922237772
+                },
+                "Component_[8018741233359048652]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8018741233359048652
+                },
+                "Component_[9119040307224351850]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9119040307224351850
+                }
+            }
+        }
+    }
+}

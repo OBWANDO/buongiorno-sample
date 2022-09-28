@@ -1,0 +1,181 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "outdoormat",
+        "Components": {
+            "Component_[11534838885560688852]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11534838885560688852
+            },
+            "Component_[11999930013259437070]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11999930013259437070
+            },
+            "Component_[14084937978183057744]": {
+                "$type": "SelectionComponent",
+                "Id": 14084937978183057744
+            },
+            "Component_[15384825194980890204]": {
+                "$type": "EditorLockComponent",
+                "Id": 15384825194980890204
+            },
+            "Component_[16116590383159095047]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16116590383159095047
+            },
+            "Component_[17510309339017461038]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17510309339017461038
+            },
+            "Component_[2485495471011361432]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2485495471011361432,
+                "Parent Entity": ""
+            },
+            "Component_[4736101426424236653]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4736101426424236653
+            },
+            "Component_[5103040962579587410]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5103040962579587410
+            },
+            "Component_[8747974940552906095]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8747974940552906095
+            },
+            "Component_[9425838990685043069]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9425838990685043069,
+                "Child Entity Order": [
+                    "Entity_[991853992325363]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[991853992325363]": {
+            "Id": "Entity_[991853992325363]",
+            "Name": "outdoormat",
+            "Components": {
+                "Component_[10233213885585090241]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10233213885585090241
+                },
+                "Component_[11397286110178361495]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11397286110178361495,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1793355619
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{640A8E2D-AF75-5C90-8D21-9856666B0CEE}"
+                                            },
+                                            "assetHint": "village/props/entrancekit/source/entrancekit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12294353428767702730]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12294353428767702730
+                },
+                "Component_[13903969182873133097]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13903969182873133097
+                },
+                "Component_[1924750006027552063]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1924750006027552063
+                },
+                "Component_[2302211669916126558]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2302211669916126558
+                },
+                "Component_[39073140125507621]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 39073140125507621,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{39BA1E43-851C-5198-9A97-018312AB1CA6}",
+                                    "subId": 279915366
+                                },
+                                "assetHint": "village/props/entrancekit/source/outdoormat_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5585801105282158320]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5585801105282158320
+                },
+                "Component_[7965748440417040943]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7965748440417040943,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8603071379515482712
+                        },
+                        {
+                            "ComponentId": 39073140125507621,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11397286110178361495,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8158613192203154879]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8158613192203154879
+                },
+                "Component_[8603071379515482712]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8603071379515482712,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.4035835266113281,
+                            4.76837158203125e-7
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[9214318889178540289]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9214318889178540289
+                }
+            }
+        }
+    }
+}

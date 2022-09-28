@@ -1,0 +1,15 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "parentMaterial": "Village/Vehicles/IceTruck/IceTruck.material",
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Vehicles/IceTruck/IceTruck_Green_BaseColor.png",
+        "irradiance.color": [
+            0.7366903424263,
+            0.8911573886871338,
+            0.8705577254295349,
+            1.0
+        ],
+        "irradiance.factor": 0.20000000298023224
+    }
+}

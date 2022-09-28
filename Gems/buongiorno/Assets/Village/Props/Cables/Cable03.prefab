@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Cable03",
+        "Components": {
+            "Component_[14126652577546223709]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14126652577546223709,
+                "Child Entity Order": [
+                    "Entity_[78289199270578]"
+                ]
+            },
+            "Component_[16614001481079663020]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16614001481079663020
+            },
+            "Component_[1698401223286141649]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1698401223286141649
+            },
+            "Component_[2812655345659800712]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2812655345659800712
+            },
+            "Component_[3060022403920299775]": {
+                "$type": "EditorLockComponent",
+                "Id": 3060022403920299775
+            },
+            "Component_[6433169505642599132]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6433169505642599132,
+                "Parent Entity": ""
+            },
+            "Component_[6491976597107864249]": {
+                "$type": "SelectionComponent",
+                "Id": 6491976597107864249
+            },
+            "Component_[6497857207510190682]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6497857207510190682
+            },
+            "Component_[7755252401979672607]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7755252401979672607
+            },
+            "Component_[7991914930468987779]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7991914930468987779
+            },
+            "Component_[8128955237087567620]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8128955237087567620
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[78289199270578]": {
+            "Id": "Entity_[78289199270578]",
+            "Name": "cable03_e",
+            "Components": {
+                "Component_[1013937412093942352]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1013937412093942352
+                },
+                "Component_[14240475812073608509]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14240475812073608509
+                },
+                "Component_[15475685562321378718]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15475685562321378718
+                },
+                "Component_[15544462686302780363]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15544462686302780363
+                },
+                "Component_[15893443318416766636]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15893443318416766636
+                },
+                "Component_[16151956365964946511]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16151956365964946511
+                },
+                "Component_[2008276325932717636]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2008276325932717636
+                },
+                "Component_[3661923806378928892]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3661923806378928892
+                },
+                "Component_[417559814395239302]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 417559814395239302,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6063766465079026728]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6063766465079026728,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4F8D33CC-E65D-5606-9616-D4D138597420}",
+                                    "subId": 278271006
+                                },
+                                "assetHint": "village/props/cables/source/cable03_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[678775158278621669]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 678775158278621669,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 417559814395239302
+                        },
+                        {
+                            "ComponentId": 6063766465079026728,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8726022386618565968,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8726022386618565968]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8726022386618565968,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{612DCD43-1A99-5BB6-90DB-E77D37BC8C09}"
+                                            },
+                                            "assetHint": "village/props/cables/source/cables.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "RoofTiles_2m_26deg",
+        "Components": {
+            "Component_[10122561817324282933]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10122561817324282933
+            },
+            "Component_[1319116738374900352]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1319116738374900352
+            },
+            "Component_[15727749941288091754]": {
+                "$type": "SelectionComponent",
+                "Id": 15727749941288091754
+            },
+            "Component_[17543342535605106925]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17543342535605106925,
+                "Parent Entity": ""
+            },
+            "Component_[3269398415426904074]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3269398415426904074,
+                "Child Entity Order": [
+                    "Entity_[79394670224278]"
+                ]
+            },
+            "Component_[6438720774347805208]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6438720774347805208
+            },
+            "Component_[7679811692750853565]": {
+                "$type": "EditorLockComponent",
+                "Id": 7679811692750853565
+            },
+            "Component_[7716571322299864440]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7716571322299864440
+            },
+            "Component_[8480536660564899603]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8480536660564899603
+            },
+            "Component_[9632348103150902552]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9632348103150902552
+            },
+            "Component_[9649337487970293414]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9649337487970293414
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[79394670224278]": {
+            "Id": "Entity_[79394670224278]",
+            "Name": "RoofTiles_2m_26deg",
+            "Components": {
+                "Component_[10319505889660826647]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10319505889660826647
+                },
+                "Component_[10823330832001102514]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10823330832001102514
+                },
+                "Component_[10976278084908596389]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10976278084908596389
+                },
+                "Component_[11573348758481615243]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11573348758481615243,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15700942426595703361
+                        },
+                        {
+                            "ComponentId": 18057295585677326052,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12259210219984219254,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12259210219984219254]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12259210219984219254,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14984240798475039281]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14984240798475039281
+                },
+                "Component_[15649021477145126936]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15649021477145126936
+                },
+                "Component_[15700942426595703361]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15700942426595703361,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16957614513305661865]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16957614513305661865
+                },
+                "Component_[18057295585677326052]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18057295585677326052,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E4FDC1C9-BCA1-5BF4-9B45-B620D2AD0B1B}",
+                                    "subId": 276984776
+                                },
+                                "assetHint": "village/roof/source/rooftiles_26deg.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1949207972525084420]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1949207972525084420
+                },
+                "Component_[6021074956135137895]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6021074956135137895
+                }
+            }
+        }
+    }
+}

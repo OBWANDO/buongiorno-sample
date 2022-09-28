@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TopSeam",
+        "Components": {
+            "Component_[10630174992321467290]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10630174992321467290
+            },
+            "Component_[11616509404381119727]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11616509404381119727
+            },
+            "Component_[12177998579144025068]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12177998579144025068,
+                "Child Entity Order": [
+                    "Entity_[115128798126998]"
+                ]
+            },
+            "Component_[1388910406954418196]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1388910406954418196
+            },
+            "Component_[13957595549831870504]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13957595549831870504
+            },
+            "Component_[14598302849447717233]": {
+                "$type": "SelectionComponent",
+                "Id": 14598302849447717233
+            },
+            "Component_[14797646192224949063]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14797646192224949063,
+                "Parent Entity": ""
+            },
+            "Component_[17643564534726400218]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17643564534726400218
+            },
+            "Component_[18420237430272251642]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 18420237430272251642
+            },
+            "Component_[6788086005284541906]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6788086005284541906
+            },
+            "Component_[7824836741258933395]": {
+                "$type": "EditorLockComponent",
+                "Id": 7824836741258933395
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[115128798126998]": {
+            "Id": "Entity_[115128798126998]",
+            "Name": "TopSeam",
+            "Components": {
+                "Component_[11067165140484474874]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11067165140484474874
+                },
+                "Component_[13372738594329040091]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13372738594329040091
+                },
+                "Component_[14446548563736823700]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14446548563736823700
+                },
+                "Component_[15330466727994415739]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15330466727994415739,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17690101337730619975]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17690101337730619975
+                },
+                "Component_[2804362613319804479]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2804362613319804479
+                },
+                "Component_[3972721051269961439]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3972721051269961439,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7769742836282915093
+                        },
+                        {
+                            "ComponentId": 9650830443948458710,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15330466727994415739,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4908841814793412706]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4908841814793412706
+                },
+                "Component_[6276376453478903640]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6276376453478903640
+                },
+                "Component_[6628373995300847443]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6628373995300847443
+                },
+                "Component_[7769742836282915093]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7769742836282915093,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9650830443948458710]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9650830443948458710,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{01D05F7E-6515-5A76-BF37-D30B1EFC6E60}",
+                                    "subId": 273168316
+                                },
+                                "assetHint": "village/roof/source/topseam.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

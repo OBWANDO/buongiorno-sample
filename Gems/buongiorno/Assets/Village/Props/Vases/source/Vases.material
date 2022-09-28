@@ -1,0 +1,30 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Vases/source/SunFlower_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.8274509906768799,
+                0.6000000238418579,
+                0.4156862795352936,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/Vases/source/SunFlower_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/Vases/source/SunFlower_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Vases/source/SunFlower_AO.png",
+            "specularTextureMap": "Village/Props/Vases/source/SunFlower_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Vases/source/SunFlower_Roughness.png"
+        }
+    }
+}

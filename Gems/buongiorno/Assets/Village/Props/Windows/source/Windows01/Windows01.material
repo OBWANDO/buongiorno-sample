@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/Windows/source/Windows01/Windows01_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.7960784435272217,
+                0.5686274766921997,
+                0.3843137323856354,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Village/Props/Windows/source/Windows01/Windows01_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/Windows/source/Windows01/Windows01_AO.png",
+            "specularTextureMap": "Village/Props/Windows/source/Windows01/Windows01_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/Windows/source/Windows01/Windows01_Roughness.png"
+        }
+    }
+}

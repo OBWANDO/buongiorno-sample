@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "2x2_FlatTexture",
+        "Components": {
+            "Component_[10242362951104578627]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10242362951104578627,
+                "Parent Entity": ""
+            },
+            "Component_[10293111144953766684]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10293111144953766684,
+                "Child Entity Order": [
+                    "Entity_[80194459238823]"
+                ]
+            },
+            "Component_[10442106326345076258]": {
+                "$type": "SelectionComponent",
+                "Id": 10442106326345076258
+            },
+            "Component_[11807126887123649776]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11807126887123649776
+            },
+            "Component_[17808599379931485052]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17808599379931485052
+            },
+            "Component_[3387343803655029185]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3387343803655029185
+            },
+            "Component_[4345340504525458591]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4345340504525458591
+            },
+            "Component_[5017609032850801117]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5017609032850801117
+            },
+            "Component_[7724393880642477101]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7724393880642477101
+            },
+            "Component_[8084664902994662456]": {
+                "$type": "EditorLockComponent",
+                "Id": 8084664902994662456
+            },
+            "Component_[8388224107122912298]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8388224107122912298
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[80194459238823]": {
+            "Id": "Entity_[80194459238823]",
+            "Name": "2x2_FlatTexture",
+            "Components": {
+                "Component_[10004598103458239347]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10004598103458239347
+                },
+                "Component_[11857080888050019432]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11857080888050019432,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1191767626095318305]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1191767626095318305,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{764EDD08-745F-5547-A25C-761095743468}",
+                                    "subId": 282427741
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/square_2x2.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13238943815514233424]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13238943815514233424
+                },
+                "Component_[16280197223981343677]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16280197223981343677
+                },
+                "Component_[16869255283265108318]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16869255283265108318
+                },
+                "Component_[2243778704992848416]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2243778704992848416
+                },
+                "Component_[5107708228397615687]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5107708228397615687
+                },
+                "Component_[7483461874656215896]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7483461874656215896,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11857080888050019432
+                        },
+                        {
+                            "ComponentId": 1191767626095318305,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 857211429950247819,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[857211429950247819]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 857211429950247819,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4524FA17-5CC9-56B2-BE31-2C1B0BCF46A0}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8574043906798023495]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8574043906798023495
+                },
+                "Component_[9749134651131814276]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9749134651131814276
+                }
+            }
+        }
+    }
+}

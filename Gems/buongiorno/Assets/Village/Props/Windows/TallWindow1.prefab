@@ -1,0 +1,163 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TallWindow1",
+        "Components": {
+            "Component_[13718554706855544808]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13718554706855544808
+            },
+            "Component_[14022086137177184642]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14022086137177184642
+            },
+            "Component_[14862401500497699591]": {
+                "$type": "EditorLockComponent",
+                "Id": 14862401500497699591
+            },
+            "Component_[16691176009110597501]": {
+                "$type": "SelectionComponent",
+                "Id": 16691176009110597501
+            },
+            "Component_[17322949399023381691]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17322949399023381691
+            },
+            "Component_[18418746774985802802]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18418746774985802802
+            },
+            "Component_[2921099747245156107]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2921099747245156107
+            },
+            "Component_[4662477542080514513]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4662477542080514513
+            },
+            "Component_[7586071935626591288]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7586071935626591288,
+                "Parent Entity": ""
+            },
+            "Component_[9139039548080659949]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9139039548080659949
+            },
+            "Component_[9789884595407958973]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9789884595407958973,
+                "Child Entity Order": [
+                    "Entity_[10118021558525]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[10118021558525]": {
+            "Id": "Entity_[10118021558525]",
+            "Name": "TallWindow1",
+            "Components": {
+                "Component_[10425620789603949142]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10425620789603949142,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16115375259027255601
+                        },
+                        {
+                            "ComponentId": 12685772418095122374,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5083724517648877158,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12685772418095122374]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12685772418095122374,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F2A0C7B5-345A-532D-AA1E-AE64E7BF2F3F}",
+                                    "subId": 277470428
+                                },
+                                "assetHint": "village/props/windows/source/windows01/tallwindow1_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1524278274248894538]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1524278274248894538
+                },
+                "Component_[16115375259027255601]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16115375259027255601,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[1796881934915252907]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1796881934915252907
+                },
+                "Component_[2114231229041885583]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2114231229041885583
+                },
+                "Component_[22195448356307953]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 22195448356307953
+                },
+                "Component_[2296487250847958229]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2296487250847958229
+                },
+                "Component_[5083724517648877158]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5083724517648877158,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B4416630-6F69-5A20-92C8-0C2BC819EC7A}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5107438786519566099]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5107438786519566099
+                },
+                "Component_[9436627296831919227]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9436627296831919227
+                },
+                "Component_[9884782607286685]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9884782607286685
+                }
+            }
+        }
+    }
+}

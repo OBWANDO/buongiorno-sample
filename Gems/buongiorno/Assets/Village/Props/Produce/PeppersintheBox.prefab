@@ -1,0 +1,83 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PeppersintheBox",
+        "Components": {
+            "Component_[1020199266627438478]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1020199266627438478
+            },
+            "Component_[11010042543631919273]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11010042543631919273
+            },
+            "Component_[11657064421656706129]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11657064421656706129
+            },
+            "Component_[1194506936086257757]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1194506936086257757
+            },
+            "Component_[17796584995328246997]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17796584995328246997
+            },
+            "Component_[2102368922650216919]": {
+                "$type": "SelectionComponent",
+                "Id": 2102368922650216919
+            },
+            "Component_[2208644392994455742]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2208644392994455742
+            },
+            "Component_[2619302790404244006]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2619302790404244006
+            },
+            "Component_[7000739671626055986]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7000739671626055986,
+                "Parent Entity": ""
+            },
+            "Component_[7702367204289976709]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7702367204289976709
+            },
+            "Component_[8508279112723578865]": {
+                "$type": "EditorLockComponent",
+                "Id": 8508279112723578865
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[295330565004663]": {
+            "Source": "Village/Props/Crates/CardboardCrate.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12814684252445371072]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[314700867509623]": {
+            "Source": "Village/Props/Produce/Peppers.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2928813087748326972]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

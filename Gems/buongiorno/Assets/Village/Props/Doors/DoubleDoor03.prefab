@@ -1,0 +1,326 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "DoubleDoor03",
+        "Components": {
+            "Component_[11811101951014426601]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11811101951014426601
+            },
+            "Component_[15490159497244486082]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15490159497244486082,
+                "Child Entity Order": [
+                    "Entity_[209979327477405]"
+                ]
+            },
+            "Component_[17687291423411981615]": {
+                "$type": "SelectionComponent",
+                "Id": 17687291423411981615
+            },
+            "Component_[17999364505169409738]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17999364505169409738
+            },
+            "Component_[1934527717564328655]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1934527717564328655
+            },
+            "Component_[276133720218610160]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 276133720218610160
+            },
+            "Component_[4204144731671748783]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4204144731671748783
+            },
+            "Component_[5234785874617923817]": {
+                "$type": "EditorLockComponent",
+                "Id": 5234785874617923817
+            },
+            "Component_[6155877761843167113]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6155877761843167113,
+                "Parent Entity": ""
+            },
+            "Component_[6591434640049837502]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6591434640049837502
+            },
+            "Component_[9664551757333826192]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9664551757333826192
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[209979327477405]": {
+            "Id": "Entity_[209979327477405]",
+            "Name": "DoubleDoor03",
+            "Components": {
+                "Component_[10028555663750508408]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10028555663750508408,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10919571699755079387]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10919571699755079387
+                },
+                "Component_[12297672475716493771]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12297672475716493771
+                },
+                "Component_[12445072048508053167]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12445072048508053167
+                },
+                "Component_[17649749640387021817]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17649749640387021817,
+                    "Child Entity Order": [
+                        "Entity_[209983622444701]",
+                        "Entity_[209987917411997]"
+                    ]
+                },
+                "Component_[3283901990103107276]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3283901990103107276,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10028555663750508408
+                        }
+                    ]
+                },
+                "Component_[7554364127720975979]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7554364127720975979
+                },
+                "Component_[7596974368570370751]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7596974368570370751
+                },
+                "Component_[8128763849647362360]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8128763849647362360
+                },
+                "Component_[9661141856570780170]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9661141856570780170
+                }
+            }
+        },
+        "Entity_[209983622444701]": {
+            "Id": "Entity_[209983622444701]",
+            "Name": "Entity2",
+            "Components": {
+                "Component_[10072270023661786609]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10072270023661786609,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{957D1C6F-7D09-5495-82E5-09CE247973C3}"
+                                            },
+                                            "assetHint": "village/props/doors/source/doors.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11336648941160051356]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11336648941160051356,
+                    "Parent Entity": "Entity_[209979327477405]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.4040476083755493,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[12203738131120384306]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12203738131120384306,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.2999999523162842
+                    ]
+                },
+                "Component_[13853970629466568227]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13853970629466568227,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4CD8B57D-C9F3-5F58-AEF9-45E3D4EDD5C3}",
+                                    "subId": 280300809
+                                },
+                                "assetHint": "village/props/doors/source/door3_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14178017213627833505]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14178017213627833505
+                },
+                "Component_[16372649104576141547]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16372649104576141547
+                },
+                "Component_[16663691287092226028]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16663691287092226028
+                },
+                "Component_[3719235805978840246]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3719235805978840246
+                },
+                "Component_[545553164826733064]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 545553164826733064
+                },
+                "Component_[6107753499625750416]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6107753499625750416
+                },
+                "Component_[7783667941544229436]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7783667941544229436
+                },
+                "Component_[8173479605348786931]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8173479605348786931
+                },
+                "Component_[9552682540640534838]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9552682540640534838
+                }
+            }
+        },
+        "Entity_[209987917411997]": {
+            "Id": "Entity_[209987917411997]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[1044403994581595172]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1044403994581595172
+                },
+                "Component_[11412816520709449711]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11412816520709449711
+                },
+                "Component_[11644200742842338250]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11644200742842338250
+                },
+                "Component_[1219389854067806136]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1219389854067806136,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A8799F9B-37BB-50C7-95C9-CC4E364A8857}",
+                                    "subId": 274172459
+                                },
+                                "assetHint": "village/props/doors/source/door3_e_x.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12911638776858014913]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12911638776858014913,
+                    "Parent Entity": "Entity_[209979327477405]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.42990756034851074,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[13273643373772107129]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 13273643373772107129,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.2999999523162842
+                    ]
+                },
+                "Component_[1335274363442276628]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1335274363442276628
+                },
+                "Component_[15574434605846966770]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15574434605846966770,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{957D1C6F-7D09-5495-82E5-09CE247973C3}"
+                                            },
+                                            "assetHint": "village/props/doors/source/doors.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16389288648829103236]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16389288648829103236
+                },
+                "Component_[1654883307320588505]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1654883307320588505
+                },
+                "Component_[5946144074237109320]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5946144074237109320
+                },
+                "Component_[760539061397430010]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 760539061397430010
+                },
+                "Component_[8921750656291603189]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8921750656291603189
+                }
+            }
+        }
+    }
+}

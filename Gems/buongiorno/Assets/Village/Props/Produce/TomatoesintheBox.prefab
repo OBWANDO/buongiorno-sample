@@ -1,0 +1,83 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TomatoesintheBox",
+        "Components": {
+            "Component_[1081711130810877817]": {
+                "$type": "EditorLockComponent",
+                "Id": 1081711130810877817
+            },
+            "Component_[11143329572570814538]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11143329572570814538
+            },
+            "Component_[14294005805787426381]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14294005805787426381,
+                "Parent Entity": ""
+            },
+            "Component_[1723355256939412091]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1723355256939412091
+            },
+            "Component_[190948365745294191]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 190948365745294191
+            },
+            "Component_[3276455283280408617]": {
+                "$type": "SelectionComponent",
+                "Id": 3276455283280408617
+            },
+            "Component_[4092937260671374922]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4092937260671374922
+            },
+            "Component_[5831837987469758235]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5831837987469758235
+            },
+            "Component_[7111788383713797281]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7111788383713797281
+            },
+            "Component_[759284854067677112]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 759284854067677112
+            },
+            "Component_[8865032954538816529]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8865032954538816529
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[120615590370679]": {
+            "Source": "Village/Props/Crates/CardboardCrate.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12814684252445371072]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[198019490979191]": {
+            "Source": "Village/Props/Produce/Tomatoes.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16594310496878068982]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

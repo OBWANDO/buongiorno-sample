@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "2MTrim",
+        "Components": {
+            "Component_[10063095754367482807]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10063095754367482807
+            },
+            "Component_[12405393588789103757]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12405393588789103757
+            },
+            "Component_[15254264750443675045]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15254264750443675045,
+                "Child Entity Order": [
+                    "Entity_[65147462152234]"
+                ]
+            },
+            "Component_[15460734748225319019]": {
+                "$type": "SelectionComponent",
+                "Id": 15460734748225319019
+            },
+            "Component_[16723295735590596491]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16723295735590596491
+            },
+            "Component_[16852155682132145767]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16852155682132145767
+            },
+            "Component_[2759626054036077097]": {
+                "$type": "EditorLockComponent",
+                "Id": 2759626054036077097
+            },
+            "Component_[6279890303450763208]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6279890303450763208,
+                "Parent Entity": ""
+            },
+            "Component_[6566207942029043961]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6566207942029043961
+            },
+            "Component_[8991636554495494705]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8991636554495494705
+            },
+            "Component_[9765331769693148187]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9765331769693148187
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[65147462152234]": {
+            "Id": "Entity_[65147462152234]",
+            "Name": "2mtrim_e",
+            "Components": {
+                "Component_[10235865013650345391]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10235865013650345391
+                },
+                "Component_[10351583975683796585]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10351583975683796585
+                },
+                "Component_[10934395965812401773]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10934395965812401773,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15329229754252966080
+                        },
+                        {
+                            "ComponentId": 8011802433315799268,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5345754964252050322,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11773454021688638145]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11773454021688638145
+                },
+                "Component_[1310064834292111190]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1310064834292111190
+                },
+                "Component_[1339766327073161094]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1339766327073161094
+                },
+                "Component_[13561894749126286633]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13561894749126286633
+                },
+                "Component_[15329229754252966080]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15329229754252966080,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3584502484665766938]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3584502484665766938
+                },
+                "Component_[5345754964252050322]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5345754964252050322,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B332C087-333D-5F91-A5D1-22BFFD87CB59}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6428032136418415601]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6428032136418415601
+                },
+                "Component_[8011802433315799268]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8011802433315799268,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7F87D447-6C45-5BD9-A7A9-17A7D3DB8304}",
+                                    "subId": 282095234
+                                },
+                                "assetHint": "village/props/housetrims/source/2mtrim_e.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

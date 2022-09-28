@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LongChimney",
+        "Components": {
+            "Component_[12179949939509830402]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12179949939509830402
+            },
+            "Component_[13551210358031050965]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13551210358031050965
+            },
+            "Component_[15918490343631700059]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15918490343631700059,
+                "Child Entity Order": [
+                    "Entity_[17192759240172]"
+                ]
+            },
+            "Component_[17054555008568631862]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17054555008568631862
+            },
+            "Component_[17531504757715152656]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17531504757715152656,
+                "Parent Entity": ""
+            },
+            "Component_[4571884358270784190]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4571884358270784190
+            },
+            "Component_[557415384875263990]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 557415384875263990
+            },
+            "Component_[8489361398228548054]": {
+                "$type": "EditorLockComponent",
+                "Id": 8489361398228548054
+            },
+            "Component_[8899249216950981431]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8899249216950981431
+            },
+            "Component_[9249985477290229706]": {
+                "$type": "SelectionComponent",
+                "Id": 9249985477290229706
+            },
+            "Component_[9424530321898766258]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9424530321898766258
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[17192759240172]": {
+            "Id": "Entity_[17192759240172]",
+            "Name": "longchim_e",
+            "Components": {
+                "Component_[10061098089450479517]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10061098089450479517
+                },
+                "Component_[12439980691950180488]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12439980691950180488
+                },
+                "Component_[12558284401734632766]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12558284401734632766,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{522FFA68-DB36-5259-8CC5-C5F5AE227C61}"
+                                            },
+                                            "assetHint": "village/props/roofprops/source/roofprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13486160266918875694]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13486160266918875694,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E4843287-F984-5758-8B06-59B252B168BB}",
+                                    "subId": 268662737
+                                },
+                                "assetHint": "village/props/roofprops/source/longchim_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15477695346049305054]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15477695346049305054
+                },
+                "Component_[16844841912967426573]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16844841912967426573,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4051575044302578626
+                        },
+                        {
+                            "ComponentId": 13486160266918875694,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12558284401734632766,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[18311019023689937299]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18311019023689937299
+                },
+                "Component_[4051575044302578626]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4051575044302578626,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[863017533135926312]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 863017533135926312
+                },
+                "Component_[8914799787406343849]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8914799787406343849
+                },
+                "Component_[9773961214116887211]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9773961214116887211
+                },
+                "Component_[9996833525789588963]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9996833525789588963
+                }
+            }
+        }
+    }
+}

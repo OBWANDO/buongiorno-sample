@@ -1,0 +1,552 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "StoneWalls",
+        "Components": {
+            "Component_[11454893272923536800]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11454893272923536800
+            },
+            "Component_[11528941081942909539]": {
+                "$type": "EditorLockComponent",
+                "Id": 11528941081942909539
+            },
+            "Component_[12822181103079230571]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12822181103079230571
+            },
+            "Component_[14968544153420181328]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14968544153420181328,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        0.0,
+                        0.0,
+                        -5.184796333312988
+                    ]
+                }
+            },
+            "Component_[17554788602625579237]": {
+                "$type": "SelectionComponent",
+                "Id": 17554788602625579237
+            },
+            "Component_[18313039127123417453]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18313039127123417453
+            },
+            "Component_[2792548824384241584]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2792548824384241584
+            },
+            "Component_[3740461836489749810]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3740461836489749810
+            },
+            "Component_[621207392644753024]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 621207392644753024
+            },
+            "Component_[656491039927458839]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 656491039927458839
+            },
+            "Component_[6755059666570877596]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6755059666570877596,
+                "Child Entity Order": [
+                    "Entity_[166710924293316]",
+                    "Entity_[166723809195204]",
+                    "Entity_[166719514227908]",
+                    "Entity_[166715219260612]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[166710924293316]": {
+            "Id": "Entity_[166710924293316]",
+            "Name": "Wall_Right",
+            "Components": {
+                "Component_[11672964028432633108]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11672964028432633108
+                },
+                "Component_[12919193324999455372]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12919193324999455372
+                },
+                "Component_[15456805890898290500]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15456805890898290500
+                },
+                "Component_[17235078053216550913]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17235078053216550913
+                },
+                "Component_[17789665138981640017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17789665138981640017
+                },
+                "Component_[1937256402094378005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1937256402094378005
+                },
+                "Component_[2242892698472310082]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2242892698472310082,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{091843BD-F345-56B4-BBB8-304BC3FD074E}",
+                                    "subId": 275105854
+                                },
+                                "assetHint": "village/walls/source/wall_right.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4051316398752273695]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4051316398752273695,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{091843BD-F345-56B4-BBB8-304BC3FD074E}",
+                                                "subId": 2557649451
+                                            },
+                                            "assetHint": "assets/village/walls/source/wall_right_brickwalls_15881227434531660331.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2557649451
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5F5EBB68-FF54-5B7F-B461-C8234782A0DF}"
+                                            },
+                                            "assetHint": "village/buildings/materials/brickwall/bricks_brown.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{01DCBED7-5824-5F80-9354-0ABCF9DF0A29}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_grey.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4076757521175519393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4076757521175519393,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -11.480298042297363,
+                            -4.314175128936768,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5974983913621183064]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5974983913621183064
+                },
+                "Component_[7233237763050568717]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7233237763050568717,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4076757521175519393
+                        },
+                        {
+                            "ComponentId": 2242892698472310082,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4051316398752273695,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9181857434991473869]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9181857434991473869
+                }
+            }
+        },
+        "Entity_[166715219260612]": {
+            "Id": "Entity_[166715219260612]",
+            "Name": "Wall_Stairs_1",
+            "Components": {
+                "Component_[11672964028432633108]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11672964028432633108
+                },
+                "Component_[12919193324999455372]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12919193324999455372
+                },
+                "Component_[15456805890898290500]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15456805890898290500
+                },
+                "Component_[17235078053216550913]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17235078053216550913
+                },
+                "Component_[17616917880267909563]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17616917880267909563,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2557649451
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{572F9A96-2C3B-5C21-9AF6-14221C4CD549}"
+                                            },
+                                            "assetHint": "assets/village/walls/source/stonebrickswalls.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17789665138981640017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17789665138981640017
+                },
+                "Component_[1937256402094378005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1937256402094378005
+                },
+                "Component_[2242892698472310082]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2242892698472310082,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EE53D728-FFEC-5DFE-AFE8-DF8D175BA1C5}",
+                                    "subId": 273196435
+                                },
+                                "assetHint": "village/walls/source/wall_stairs.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4076757521175519393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4076757521175519393,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            7.408822059631348,
+                            2.7288122177124023,
+                            3.935354232788086
+                        ]
+                    }
+                },
+                "Component_[5974983913621183064]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5974983913621183064
+                },
+                "Component_[7233237763050568717]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7233237763050568717,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4076757521175519393
+                        },
+                        {
+                            "ComponentId": 2242892698472310082,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17616917880267909563,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9181857434991473869]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9181857434991473869
+                }
+            }
+        },
+        "Entity_[166719514227908]": {
+            "Id": "Entity_[166719514227908]",
+            "Name": "Wall_Stairs_2",
+            "Components": {
+                "Component_[11672964028432633108]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11672964028432633108
+                },
+                "Component_[12919193324999455372]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12919193324999455372
+                },
+                "Component_[15456805890898290500]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15456805890898290500
+                },
+                "Component_[17235078053216550913]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17235078053216550913
+                },
+                "Component_[17789665138981640017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17789665138981640017
+                },
+                "Component_[1937256402094378005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1937256402094378005
+                },
+                "Component_[2242892698472310082]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2242892698472310082,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EE53D728-FFEC-5DFE-AFE8-DF8D175BA1C5}",
+                                    "subId": 273196435
+                                },
+                                "assetHint": "village/walls/source/wall_stairs.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4076757521175519393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4076757521175519393,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            5.138793468475342,
+                            2.7288122177124023,
+                            3.935354232788086
+                        ]
+                    }
+                },
+                "Component_[5974983913621183064]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5974983913621183064
+                },
+                "Component_[7233237763050568717]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7233237763050568717,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4076757521175519393
+                        },
+                        {
+                            "ComponentId": 2242892698472310082,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7617116445503329968,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7617116445503329968]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7617116445503329968,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2557649451
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5F5EBB68-FF54-5B7F-B461-C8234782A0DF}"
+                                            },
+                                            "assetHint": "village/buildings/materials/brickwall/bricks_brown.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9181857434991473869]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9181857434991473869
+                }
+            }
+        },
+        "Entity_[166723809195204]": {
+            "Id": "Entity_[166723809195204]",
+            "Name": "Wall_Left",
+            "Components": {
+                "Component_[11672964028432633108]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11672964028432633108
+                },
+                "Component_[12919193324999455372]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12919193324999455372
+                },
+                "Component_[15456805890898290500]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15456805890898290500
+                },
+                "Component_[17235078053216550913]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17235078053216550913
+                },
+                "Component_[17789665138981640017]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17789665138981640017
+                },
+                "Component_[1937256402094378005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1937256402094378005
+                },
+                "Component_[2242892698472310082]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2242892698472310082,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{21B9CE1D-BD98-53F8-BFD8-DC2A12ED6809}",
+                                    "subId": 281711433
+                                },
+                                "assetHint": "village/walls/source/wall_left.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4076757521175519393]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4076757521175519393,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0673160552978516,
+                            -1.143449068069458,
+                            1.759223222732544
+                        ]
+                    }
+                },
+                "Component_[5974983913621183064]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5974983913621183064
+                },
+                "Component_[7233237763050568717]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7233237763050568717,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4076757521175519393
+                        },
+                        {
+                            "ComponentId": 2242892698472310082,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7489750044430056613,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7489750044430056613]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7489750044430056613,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2557649451
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5F5EBB68-FF54-5B7F-B461-C8234782A0DF}"
+                                            },
+                                            "assetHint": "village/buildings/materials/brickwall/bricks_brown.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{01DCBED7-5824-5F80-9354-0ABCF9DF0A29}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_grey.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9181857434991473869]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9181857434991473869
+                }
+            }
+        }
+    }
+}

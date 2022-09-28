@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Pepper",
+        "Components": {
+            "Component_[10475143977199942712]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10475143977199942712
+            },
+            "Component_[10477487918510062580]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10477487918510062580
+            },
+            "Component_[13097079980364773756]": {
+                "$type": "SelectionComponent",
+                "Id": 13097079980364773756
+            },
+            "Component_[14680699147609733404]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14680699147609733404
+            },
+            "Component_[14808213584722408809]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14808213584722408809,
+                "Parent Entity": ""
+            },
+            "Component_[1652856027059432035]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1652856027059432035,
+                "Child Entity Order": [
+                    "Entity_[621271204517049]"
+                ]
+            },
+            "Component_[3997597086936559647]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3997597086936559647
+            },
+            "Component_[7975037368194879825]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7975037368194879825
+            },
+            "Component_[8732002367239922225]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8732002367239922225
+            },
+            "Component_[8929083706236318061]": {
+                "$type": "EditorLockComponent",
+                "Id": 8929083706236318061
+            },
+            "Component_[9889024114242236827]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9889024114242236827
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[621271204517049]": {
+            "Id": "Entity_[621271204517049]",
+            "Name": "pepper_e",
+            "Components": {
+                "Component_[11800320860088849355]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11800320860088849355,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7C999C9C-13A1-5EA0-AF1F-05158E0822B2}"
+                                            },
+                                            "assetHint": "village/props/produce/source/produce.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11866795911647418080]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11866795911647418080
+                },
+                "Component_[13037394045255391140]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13037394045255391140
+                },
+                "Component_[13755551794068466824]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13755551794068466824
+                },
+                "Component_[1908763461454460743]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1908763461454460743
+                },
+                "Component_[210339254391984156]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 210339254391984156
+                },
+                "Component_[2259120857132082455]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2259120857132082455
+                },
+                "Component_[3158841046611933121]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3158841046611933121,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9613567801068160811
+                        },
+                        {
+                            "ComponentId": 6375843905985369735,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11800320860088849355,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3371214241635718963]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3371214241635718963
+                },
+                "Component_[6232349208229027094]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6232349208229027094
+                },
+                "Component_[6375843905985369735]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6375843905985369735,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3ECB9A87-F714-5D15-99FA-B317FB0811A9}",
+                                    "subId": 276475894
+                                },
+                                "assetHint": "village/props/produce/source/pepper_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[9613567801068160811]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9613567801068160811,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

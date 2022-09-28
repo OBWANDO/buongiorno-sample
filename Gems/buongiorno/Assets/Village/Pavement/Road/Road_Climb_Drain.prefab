@@ -1,0 +1,1156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Road_Climb_Drain",
+        "Components": {
+            "Component_[12252265634417467720]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12252265634417467720,
+                "Child Entity Order": [
+                    "Entity_[425682573189892]",
+                    "Entity_[425691163124484]",
+                    "Entity_[425652508418820]",
+                    "Entity_[425656803386116]",
+                    "Entity_[425665393320708]",
+                    "Entity_[425673983255300]",
+                    "Entity_[425661098353412]",
+                    "Entity_[425686868157188]",
+                    "Entity_[425669688288004]",
+                    "Entity_[425678278222596]"
+                ]
+            },
+            "Component_[12919319365165649075]": {
+                "$type": "SelectionComponent",
+                "Id": 12919319365165649075
+            },
+            "Component_[1576931186139022258]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1576931186139022258
+            },
+            "Component_[1666374741552904853]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1666374741552904853
+            },
+            "Component_[1890802354475386667]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1890802354475386667
+            },
+            "Component_[2270693059835655943]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2270693059835655943
+            },
+            "Component_[2773855047704340748]": {
+                "$type": "EditorLockComponent",
+                "Id": 2773855047704340748
+            },
+            "Component_[4371202814491140307]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4371202814491140307
+            },
+            "Component_[4568355370394586214]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4568355370394586214
+            },
+            "Component_[4759163094604344953]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4759163094604344953,
+                "Parent Entity": ""
+            },
+            "Component_[8345137882920945386]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8345137882920945386
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[425652508418820]": {
+            "Id": "Entity_[425652508418820]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 5750807024868913427,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0006217956542969,
+                            1.766829013824463,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5750807024868913427]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 5750807024868913427,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.0199999809265137
+                    ]
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425656803386116]": {
+            "Id": "Entity_[425656803386116]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.0007781982421875,
+                            1.766829013824463,
+                            0.5002918243408203
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425661098353412]": {
+            "Id": "Entity_[425661098353412]",
+            "Name": "Side Drain Climb",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7C77F27A-1D8B-581D-8741-38ABBA959F97}",
+                                    "subId": 279292061
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_drain_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.002956390380859375,
+                            -0.7579858303070068,
+                            0.45277929306030273
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[425665393320708]": {
+            "Id": "Entity_[425665393320708]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 17388057396963424503,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.0007781982421875,
+                            -1.0820746421813965,
+                            0.5002918243408203
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[17388057396963424503]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 17388057396963424503,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.0199999809265137
+                    ]
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425669688288004]": {
+            "Id": "Entity_[425669688288004]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0006217956542969,
+                            -0.43209218978881836,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425673983255300]": {
+            "Id": "Entity_[425673983255300]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            1.0004100799560547,
+                            1.766829013824463,
+                            0.9988555908203125
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425678278222596]": {
+            "Id": "Entity_[425678278222596]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.0007781982421875,
+                            -0.43209218978881836,
+                            0.5002918243408203
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425682573189892]": {
+            "Id": "Entity_[425682573189892]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            1.0004100799560547,
+                            -1.0820746421813965,
+                            0.9988555908203125
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425686868157188]": {
+            "Id": "Entity_[425686868157188]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8462385467923833429,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            1.0004100799560547,
+                            -0.43209218978881836,
+                            0.9988555908203125
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8462385467923833429]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 8462385467923833429,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.0199999809265137
+                    ]
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        },
+        "Entity_[425691163124484]": {
+            "Id": "Entity_[425691163124484]",
+            "Name": "Side Stone Climb",
+            "Components": {
+                "Component_[12368293288219761239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12368293288219761239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14373986473436057060
+                        },
+                        {
+                            "ComponentId": 8972348485806064807,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5176452931699266493,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14373986473436057060]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14373986473436057060,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.0006217956542969,
+                            -1.0820746421813965,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[15004675495248744287]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15004675495248744287
+                },
+                "Component_[15054366430824093090]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15054366430824093090
+                },
+                "Component_[15926998877361417409]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15926998877361417409
+                },
+                "Component_[3839959237212547428]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3839959237212547428
+                },
+                "Component_[4327847773227323439]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4327847773227323439
+                },
+                "Component_[4740286061645500375]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4740286061645500375
+                },
+                "Component_[5176452931699266493]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5176452931699266493,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8417814712010492586]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8417814712010492586
+                },
+                "Component_[8972348485806064807]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8972348485806064807,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B17A710-54D6-529D-907A-318BA2049C60}",
+                                    "subId": 270476971
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_climb.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9166419412565715338]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9166419412565715338
+                }
+            }
+        }
+    }
+}

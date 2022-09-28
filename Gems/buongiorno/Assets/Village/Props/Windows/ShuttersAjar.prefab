@@ -1,0 +1,303 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ShuttersAjar",
+        "Components": {
+            "Component_[11577618384752357741]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11577618384752357741
+            },
+            "Component_[11594123102869692281]": {
+                "$type": "EditorLockComponent",
+                "Id": 11594123102869692281
+            },
+            "Component_[13485431615352498660]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13485431615352498660,
+                "Parent Entity": ""
+            },
+            "Component_[13900769322569577768]": {
+                "$type": "SelectionComponent",
+                "Id": 13900769322569577768
+            },
+            "Component_[14458024177872240037]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14458024177872240037
+            },
+            "Component_[17621717926070869679]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17621717926070869679
+            },
+            "Component_[2680741528256266783]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2680741528256266783,
+                "Child Entity Order": [
+                    "Entity_[34452135571087]"
+                ]
+            },
+            "Component_[324032838571856249]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 324032838571856249
+            },
+            "Component_[6458283397615314211]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6458283397615314211
+            },
+            "Component_[6852979149669861177]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6852979149669861177
+            },
+            "Component_[7985752883387695510]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7985752883387695510
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[34452135571087]": {
+            "Id": "Entity_[34452135571087]",
+            "Name": "Shutters_ajar",
+            "Components": {
+                "Component_[10183241889171651572]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10183241889171651572
+                },
+                "Component_[12312585655655220919]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12312585655655220919
+                },
+                "Component_[12526355498671469010]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12526355498671469010
+                },
+                "Component_[13966780076294127315]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13966780076294127315
+                },
+                "Component_[14651997827678739968]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14651997827678739968,
+                    "Child Entity Order": [
+                        "Entity_[34456430538383]",
+                        "Entity_[34460725505679]"
+                    ]
+                },
+                "Component_[15147838913862120691]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15147838913862120691,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5409515076163939787
+                        }
+                    ]
+                },
+                "Component_[4977294452962803463]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4977294452962803463
+                },
+                "Component_[5409515076163939787]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5409515076163939787,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5779325845056646083]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5779325845056646083
+                },
+                "Component_[9698610498316028154]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9698610498316028154
+                }
+            }
+        },
+        "Entity_[34456430538383]": {
+            "Id": "Entity_[34456430538383]",
+            "Name": "shutter_e",
+            "Components": {
+                "Component_[10004282687397296759]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10004282687397296759
+                },
+                "Component_[10761033614721385249]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10761033614721385249,
+                    "Parent Entity": "Entity_[34452135571087]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.6123771667480469,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[13406074840872099944]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13406074840872099944
+                },
+                "Component_[14668324847214194707]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14668324847214194707
+                },
+                "Component_[181439184823848849]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 181439184823848849
+                },
+                "Component_[1824579638164953893]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1824579638164953893,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AEFC2321-8AB7-5052-8B00-B1C86E711092}",
+                                    "subId": 284084647
+                                },
+                                "assetHint": "village/props/windows/source/windows01/shutter_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1879609087707569143]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1879609087707569143,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE1ECB67-C7B6-5109-A719-056C0AF09582}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01_shutters.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2254466744017553123]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2254466744017553123
+                },
+                "Component_[4215569798901893610]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4215569798901893610
+                },
+                "Component_[4519791065104507569]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4519791065104507569
+                },
+                "Component_[6229727294070451839]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6229727294070451839
+                },
+                "Component_[787884577557624354]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 787884577557624354
+                }
+            }
+        },
+        "Entity_[34460725505679]": {
+            "Id": "Entity_[34460725505679]",
+            "Name": "shutter_e",
+            "Components": {
+                "Component_[10004282687397296759]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10004282687397296759
+                },
+                "Component_[10761033614721385249]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10761033614721385249,
+                    "Parent Entity": "Entity_[34452135571087]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.6055221557617188,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -27.340002059936523
+                        ]
+                    }
+                },
+                "Component_[13406074840872099944]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13406074840872099944
+                },
+                "Component_[14668324847214194707]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14668324847214194707
+                },
+                "Component_[181439184823848849]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 181439184823848849
+                },
+                "Component_[1824579638164953893]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1824579638164953893,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1B6FBBC6-F4EA-5424-B803-182033B15DC8}",
+                                    "subId": 282767294
+                                },
+                                "assetHint": "village/props/windows/source/windows01/shutter_e_x.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1879609087707569143]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1879609087707569143,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE1ECB67-C7B6-5109-A719-056C0AF09582}"
+                                            },
+                                            "assetHint": "village/props/windows/source/windows01/windows01_shutters.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2254466744017553123]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2254466744017553123
+                },
+                "Component_[4215569798901893610]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4215569798901893610
+                },
+                "Component_[4519791065104507569]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4519791065104507569
+                },
+                "Component_[6229727294070451839]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6229727294070451839
+                },
+                "Component_[787884577557624354]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 787884577557624354
+                }
+            }
+        }
+    }
+}

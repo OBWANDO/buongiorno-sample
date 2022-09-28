@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "stonedoortrim",
+        "Components": {
+            "Component_[10446559932225711278]": {
+                "$type": "SelectionComponent",
+                "Id": 10446559932225711278
+            },
+            "Component_[11678449668173159294]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11678449668173159294
+            },
+            "Component_[12389344028103192538]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12389344028103192538
+            },
+            "Component_[12829189575685781527]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12829189575685781527
+            },
+            "Component_[13789519877054095587]": {
+                "$type": "EditorLockComponent",
+                "Id": 13789519877054095587
+            },
+            "Component_[16090859469764432344]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16090859469764432344
+            },
+            "Component_[1652794873497667171]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1652794873497667171
+            },
+            "Component_[4158787980448056190]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4158787980448056190
+            },
+            "Component_[5646726081935664663]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5646726081935664663
+            },
+            "Component_[5978129856571358403]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5978129856571358403,
+                "Child Entity Order": [
+                    "Entity_[8407660861144]"
+                ]
+            },
+            "Component_[800703477629454814]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 800703477629454814,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[8407660861144]": {
+            "Id": "Entity_[8407660861144]",
+            "Name": "stonedoortrim_e",
+            "Components": {
+                "Component_[11433867258831540786]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11433867258831540786
+                },
+                "Component_[12684154000142796733]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12684154000142796733
+                },
+                "Component_[13059508402569163671]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13059508402569163671,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AF3EAB93-F87E-51D2-BD27-B9CA17DACD4B}",
+                                    "subId": 281236687
+                                },
+                                "assetHint": "village/props/trimkit/source/stonedoortrim_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16982830355820017300]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16982830355820017300,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[18271226271850280495]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18271226271850280495
+                },
+                "Component_[18272670887408291898]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18272670887408291898
+                },
+                "Component_[1868807048563776148]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1868807048563776148
+                },
+                "Component_[2446468846941738391]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2446468846941738391,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[304429269464700176]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 304429269464700176
+                },
+                "Component_[3376206324802733775]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3376206324802733775
+                },
+                "Component_[3515837236042220651]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3515837236042220651,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16982830355820017300
+                        },
+                        {
+                            "ComponentId": 13059508402569163671,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2446468846941738391,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4908060371705380138]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4908060371705380138
+                }
+            }
+        }
+    }
+}

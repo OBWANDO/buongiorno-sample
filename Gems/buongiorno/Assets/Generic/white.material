@@ -1,0 +1,12 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Generic/white.png",
+        "general.enableAreaLights": false,
+        "general.enableDirectionalLights": false,
+        "general.enableIBL": false,
+        "general.enablePunctualLights": false,
+        "general.enableShadows": false
+    }
+}

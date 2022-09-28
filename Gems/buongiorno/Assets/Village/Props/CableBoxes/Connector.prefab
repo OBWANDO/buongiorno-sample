@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Connector",
+        "Components": {
+            "Component_[10776424621037654975]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10776424621037654975
+            },
+            "Component_[11879731683525531468]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11879731683525531468
+            },
+            "Component_[1432988381002430655]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1432988381002430655,
+                "Parent Entity": ""
+            },
+            "Component_[3689900888270280726]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3689900888270280726,
+                "Child Entity Order": [
+                    "Entity_[119335501025262]"
+                ]
+            },
+            "Component_[5179222992189021281]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5179222992189021281
+            },
+            "Component_[5508920441069539686]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5508920441069539686
+            },
+            "Component_[5596062065177630238]": {
+                "$type": "EditorLockComponent",
+                "Id": 5596062065177630238
+            },
+            "Component_[7973163347465418837]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7973163347465418837
+            },
+            "Component_[8185568898137645793]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8185568898137645793
+            },
+            "Component_[8849117501529192154]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8849117501529192154
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[119335501025262]": {
+            "Id": "Entity_[119335501025262]",
+            "Name": "main_idk_e",
+            "Components": {
+                "Component_[1018329421097273275]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1018329421097273275,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12800884209479199283
+                        },
+                        {
+                            "ComponentId": 7602530842122236408,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17841966812828945956,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11768116823466257092]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11768116823466257092
+                },
+                "Component_[12800884209479199283]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12800884209479199283,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15117048899394924552]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15117048899394924552
+                },
+                "Component_[17841966812828945956]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17841966812828945956,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BB427461-14B4-5ADF-96F4-97FDD6D289A8}"
+                                            },
+                                            "assetHint": "village/props/cableboxes/source/cableboxes.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18040280409018197018]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18040280409018197018
+                },
+                "Component_[2562788915126737612]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2562788915126737612
+                },
+                "Component_[3528211178347432784]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3528211178347432784
+                },
+                "Component_[3656934149082358046]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3656934149082358046
+                },
+                "Component_[7059358070989653566]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7059358070989653566
+                },
+                "Component_[7602530842122236408]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7602530842122236408,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{50232E47-6D1A-5750-BE1A-026946A3FDED}",
+                                    "subId": 272708488
+                                },
+                                "assetHint": "village/props/cableboxes/source/cableboxes_connector.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

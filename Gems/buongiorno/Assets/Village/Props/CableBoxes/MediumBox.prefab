@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MediumBox",
+        "Components": {
+            "Component_[11274003357064950113]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11274003357064950113
+            },
+            "Component_[11881902394353800271]": {
+                "$type": "EditorLockComponent",
+                "Id": 11881902394353800271
+            },
+            "Component_[14233481702578050653]": {
+                "$type": "SelectionComponent",
+                "Id": 14233481702578050653
+            },
+            "Component_[14948111600885239602]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14948111600885239602
+            },
+            "Component_[15369401211515166034]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15369401211515166034
+            },
+            "Component_[17990987767035314662]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17990987767035314662
+            },
+            "Component_[3970515584638505330]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3970515584638505330
+            },
+            "Component_[4925984184995304719]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4925984184995304719,
+                "Child Entity Order": [
+                    "Entity_[157470515646446]"
+                ]
+            },
+            "Component_[7653511989388816654]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7653511989388816654
+            },
+            "Component_[7981455304702046374]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7981455304702046374
+            },
+            "Component_[9571553582369689213]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9571553582369689213,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[157470515646446]": {
+            "Id": "Entity_[157470515646446]",
+            "Name": "mediumbox_e",
+            "Components": {
+                "Component_[17082140371974043691]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17082140371974043691
+                },
+                "Component_[17660569070228087912]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17660569070228087912
+                },
+                "Component_[3493028236262814442]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3493028236262814442,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9359281761206250174
+                        },
+                        {
+                            "ComponentId": 3770767655069303551,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6619618980062771544,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3770767655069303551]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3770767655069303551,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{492903AB-FF5D-5903-B5E1-B87A5265C2B6}",
+                                    "subId": 280363787
+                                },
+                                "assetHint": "village/props/cableboxes/source/mediumbox_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5598751187328686310]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5598751187328686310
+                },
+                "Component_[5600739735466827434]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5600739735466827434
+                },
+                "Component_[6619618980062771544]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6619618980062771544,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BB427461-14B4-5ADF-96F4-97FDD6D289A8}"
+                                            },
+                                            "assetHint": "village/props/cableboxes/source/cableboxes.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6779382747014063482]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6779382747014063482
+                },
+                "Component_[7639677593166996544]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7639677593166996544
+                },
+                "Component_[9359281761206250174]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9359281761206250174,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9408991471639283]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9408991471639283
+                },
+                "Component_[9884534690478690918]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9884534690478690918
+                }
+            }
+        }
+    }
+}

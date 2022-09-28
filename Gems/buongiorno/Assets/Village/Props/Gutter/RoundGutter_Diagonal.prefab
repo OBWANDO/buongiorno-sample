@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "RoundGutter_Diagonal",
+        "Components": {
+            "Component_[14447793954706730233]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14447793954706730233
+            },
+            "Component_[15918543017075036689]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15918543017075036689
+            },
+            "Component_[1818439897515070793]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1818439897515070793,
+                "Child Entity Order": [
+                    "Entity_[22314244791203]"
+                ]
+            },
+            "Component_[3914007750636846214]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3914007750636846214
+            },
+            "Component_[438139845534423917]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 438139845534423917
+            },
+            "Component_[5262467529096894787]": {
+                "$type": "SelectionComponent",
+                "Id": 5262467529096894787
+            },
+            "Component_[6366894555866944750]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6366894555866944750
+            },
+            "Component_[6379166031522683481]": {
+                "$type": "EditorLockComponent",
+                "Id": 6379166031522683481
+            },
+            "Component_[6493411090557300867]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6493411090557300867,
+                "Parent Entity": ""
+            },
+            "Component_[691173813039612595]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 691173813039612595
+            },
+            "Component_[8160921655582015950]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8160921655582015950
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[22314244791203]": {
+            "Id": "Entity_[22314244791203]",
+            "Name": "gutter_r_diagonal_e",
+            "Components": {
+                "Component_[11385973453187134138]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11385973453187134138
+                },
+                "Component_[11509388454223715366]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11509388454223715366
+                },
+                "Component_[17121997951103929093]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17121997951103929093
+                },
+                "Component_[17896677720939697957]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17896677720939697957
+                },
+                "Component_[2891028778188565003]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2891028778188565003,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D34C98FE-F41E-5457-B605-2FFE797F40F4}",
+                                    "subId": 270934190
+                                },
+                                "assetHint": "village/props/gutter/source/gutter_r_diagonal_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[3247902829497430494]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3247902829497430494
+                },
+                "Component_[5862100769612048480]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5862100769612048480,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6334339934275546585]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6334339934275546585
+                },
+                "Component_[7566974363621173620]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7566974363621173620
+                },
+                "Component_[8093510780708211278]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8093510780708211278,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C19A7AFA-FE14-5AA8-A5E5-7810AE9BC15D}"
+                                            },
+                                            "assetHint": "village/props/gutter/source/roundgutter.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8101604891441917187]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8101604891441917187
+                },
+                "Component_[8852261168944153374]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8852261168944153374,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5862100769612048480
+                        },
+                        {
+                            "ComponentId": 2891028778188565003,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8093510780708211278,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

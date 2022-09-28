@@ -1,0 +1,173 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "StreetLamp",
+        "Components": {
+            "Component_[10739470176677282883]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10739470176677282883
+            },
+            "Component_[10849024389632822472]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10849024389632822472
+            },
+            "Component_[11974256500376247471]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11974256500376247471
+            },
+            "Component_[12105176399184004565]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12105176399184004565,
+                "Parent Entity": ""
+            },
+            "Component_[13909250880988517883]": {
+                "$type": "EditorLockComponent",
+                "Id": 13909250880988517883
+            },
+            "Component_[14885642456792054]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14885642456792054,
+                "Child Entity Order": [
+                    "Entity_[100299127923662]"
+                ]
+            },
+            "Component_[2143328981976032808]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2143328981976032808
+            },
+            "Component_[3764576109470005283]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3764576109470005283
+            },
+            "Component_[4004785709227758466]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4004785709227758466
+            },
+            "Component_[4750451518311474043]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4750451518311474043
+            },
+            "Component_[6120191301624970879]": {
+                "$type": "SelectionComponent",
+                "Id": 6120191301624970879
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[100299127923662]": {
+            "Id": "Entity_[100299127923662]",
+            "Name": "streetlamp_e",
+            "Components": {
+                "Component_[10130390616959623097]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10130390616959623097
+                },
+                "Component_[10183096873362410034]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10183096873362410034
+                },
+                "Component_[11678258193841162342]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11678258193841162342
+                },
+                "Component_[14765111680742364363]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14765111680742364363,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5741858667736752267
+                        },
+                        {
+                            "ComponentId": 2407389088966109851,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2894446113315719876,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17533082817696208510]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17533082817696208510
+                },
+                "Component_[2407389088966109851]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2407389088966109851,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{79414BB8-294D-5D20-B742-1C5E55D024EB}",
+                                    "subId": 280788397
+                                },
+                                "assetHint": "village/props/roadprops01/source/streetlamp_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2894446113315719876]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2894446113315719876,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4CD5A45A-26B2-5B52-AFB9-08A9046A8A11}"
+                                            },
+                                            "assetHint": "village/props/roadprops01/source/roadprops01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5004296006134884629]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5004296006134884629
+                },
+                "Component_[5741858667736752267]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5741858667736752267,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7125723713343630930]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7125723713343630930
+                },
+                "Component_[7497413778968995298]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7497413778968995298
+                },
+                "Component_[8991156089574889166]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8991156089574889166
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[86817225581518]": {
+            "Source": "Village/Props/RoadProps01/LampTop.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15958321338778090666]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15958321338778090666]/Transform Data/Translate/2",
+                    "value": 3.0279595851898193
+                }
+            ]
+        }
+    }
+}

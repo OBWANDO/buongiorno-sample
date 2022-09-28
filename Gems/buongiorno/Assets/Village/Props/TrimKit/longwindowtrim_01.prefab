@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "longwindowtrim_01",
+        "Components": {
+            "Component_[12622825198661197546]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12622825198661197546
+            },
+            "Component_[13953943945409935976]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13953943945409935976,
+                "Parent Entity": ""
+            },
+            "Component_[14672361988900185446]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14672361988900185446
+            },
+            "Component_[14679599349265144570]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14679599349265144570
+            },
+            "Component_[15043800232369855642]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15043800232369855642
+            },
+            "Component_[15230294199396987659]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15230294199396987659
+            },
+            "Component_[2196427034587379410]": {
+                "$type": "EditorLockComponent",
+                "Id": 2196427034587379410
+            },
+            "Component_[6421837582996847540]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6421837582996847540
+            },
+            "Component_[7866833267879648524]": {
+                "$type": "SelectionComponent",
+                "Id": 7866833267879648524
+            },
+            "Component_[8781821916396136568]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8781821916396136568,
+                "Child Entity Order": [
+                    "Entity_[4967392057048]"
+                ]
+            },
+            "Component_[9163127994501117698]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9163127994501117698
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4967392057048]": {
+            "Id": "Entity_[4967392057048]",
+            "Name": "longwindowtrim_01_e",
+            "Components": {
+                "Component_[13325553655192765346]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13325553655192765346
+                },
+                "Component_[13771324703659560497]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13771324703659560497
+                },
+                "Component_[1383592276912269951]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1383592276912269951,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15232229470842866081]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15232229470842866081,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8241CEB3-54DB-58CB-8AC6-E51BC6BD0614}",
+                                    "subId": 283822057
+                                },
+                                "assetHint": "village/props/trimkit/source/longwindowtrim_01_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15574110167118135316]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15574110167118135316,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16172557669489761921]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16172557669489761921
+                },
+                "Component_[5675995116897310486]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5675995116897310486,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15574110167118135316
+                        },
+                        {
+                            "ComponentId": 15232229470842866081,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1383592276912269951,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5871417226807528545]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5871417226807528545
+                },
+                "Component_[764200987130013544]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 764200987130013544
+                },
+                "Component_[818266716553499411]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 818266716553499411
+                },
+                "Component_[8259296629984072458]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8259296629984072458
+                },
+                "Component_[890869978422134654]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 890869978422134654
+                }
+            }
+        }
+    }
+}

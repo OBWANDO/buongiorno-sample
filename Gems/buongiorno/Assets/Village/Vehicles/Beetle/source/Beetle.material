@@ -1,0 +1,19 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Vehicles/Beetle/source/Beetle_BaseColor.png",
+        "irradiance.color": [
+            0.23529411852359772,
+            0.47843137383461,
+            0.6509804129600525,
+            1.0
+        ],
+        "irradiance.factor": 0.20000000298023224,
+        "metallic.textureMap": "Village/Vehicles/Beetle/source/Beetle_Metallic.png",
+        "normal.textureMap": "Village/Vehicles/Beetle/source/Beetle_Normal.png",
+        "occlusion.diffuseTextureMap": "Village/Vehicles/Beetle/source/Beetle_AO.png",
+        "occlusion.specularTextureMap": "Village/Vehicles/Beetle/source/Beetle_AO.png",
+        "roughness.textureMap": "Village/Vehicles/Beetle/source/Beetle_Roughness.png"
+    }
+}

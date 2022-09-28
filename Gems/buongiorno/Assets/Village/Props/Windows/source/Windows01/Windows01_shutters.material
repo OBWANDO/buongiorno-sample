@@ -1,0 +1,15 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "parentMaterial": "Village/Props/Windows/source/Windows01/Windows01.material",
+    "properties": {
+        "irradiance": {
+            "color": [
+                0.3490196168422699,
+                0.48235294222831726,
+                0.42352941632270813,
+                1.0
+            ]
+        }
+    }
+}

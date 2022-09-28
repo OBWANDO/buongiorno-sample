@@ -1,0 +1,159 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Vespa",
+        "Components": {
+            "Component_[12046161224912409880]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12046161224912409880
+            },
+            "Component_[12347874066149235651]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12347874066149235651
+            },
+            "Component_[12632110533389068492]": {
+                "$type": "SelectionComponent",
+                "Id": 12632110533389068492
+            },
+            "Component_[12840605102787501383]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12840605102787501383
+            },
+            "Component_[15619750242425424822]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15619750242425424822
+            },
+            "Component_[17925524168186485208]": {
+                "$type": "EditorLockComponent",
+                "Id": 17925524168186485208
+            },
+            "Component_[1991080682128318069]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1991080682128318069
+            },
+            "Component_[2115762836011197312]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2115762836011197312,
+                "Child Entity Order": [
+                    "Entity_[61077907521763]"
+                ]
+            },
+            "Component_[2812507408028634462]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2812507408028634462,
+                "Parent Entity": ""
+            },
+            "Component_[5325121730289373538]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5325121730289373538
+            },
+            "Component_[6094699747175470664]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6094699747175470664
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[61077907521763]": {
+            "Id": "Entity_[61077907521763]",
+            "Name": "vespa",
+            "Components": {
+                "Component_[12958711467246512784]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12958711467246512784
+                },
+                "Component_[13409969854707462991]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13409969854707462991,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.5296989679336548
+                    }
+                },
+                "Component_[14980870014667483232]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14980870014667483232
+                },
+                "Component_[15357094888297535162]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15357094888297535162
+                },
+                "Component_[16719891026030704596]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16719891026030704596,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6EC4F755-9E1A-5194-B31A-61C7CF6F275A}"
+                                            },
+                                            "assetHint": "village/vehicles/vespa/source/vespa.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17176305210592529426]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17176305210592529426
+                },
+                "Component_[3568883472549927642]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3568883472549927642
+                },
+                "Component_[5285975676165806715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5285975676165806715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13409969854707462991
+                        },
+                        {
+                            "ComponentId": 9059999613532710270,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16719891026030704596,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6518256677507992791]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6518256677507992791
+                },
+                "Component_[7035637883988418645]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7035637883988418645
+                },
+                "Component_[9059999613532710270]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9059999613532710270,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6E4ABC83-7F45-5D89-9D06-E16463EB701D}",
+                                    "subId": 276110194
+                                },
+                                "assetHint": "village/vehicles/vespa/source/vespa.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[986510501201814357]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 986510501201814357
+                }
+            }
+        }
+    }
+}

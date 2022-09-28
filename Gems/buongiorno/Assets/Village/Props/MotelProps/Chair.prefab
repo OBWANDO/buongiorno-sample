@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Chair",
+        "Components": {
+            "Component_[10228612909227145070]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10228612909227145070
+            },
+            "Component_[11744945869152187144]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11744945869152187144
+            },
+            "Component_[12593624506720038648]": {
+                "$type": "EditorLockComponent",
+                "Id": 12593624506720038648
+            },
+            "Component_[13431177481161348110]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13431177481161348110,
+                "Parent Entity": ""
+            },
+            "Component_[1454147827862309212]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1454147827862309212
+            },
+            "Component_[16127827789873212409]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16127827789873212409
+            },
+            "Component_[16717585048763566112]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16717585048763566112
+            },
+            "Component_[1881558128840304026]": {
+                "$type": "SelectionComponent",
+                "Id": 1881558128840304026
+            },
+            "Component_[3956546118681564626]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3956546118681564626
+            },
+            "Component_[4241487059482316129]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4241487059482316129,
+                "Child Entity Order": [
+                    "Entity_[14013269641379]"
+                ]
+            },
+            "Component_[6937064079906169972]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6937064079906169972
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[14013269641379]": {
+            "Id": "Entity_[14013269641379]",
+            "Name": "chair_e",
+            "Components": {
+                "Component_[12032504491698814654]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12032504491698814654
+                },
+                "Component_[13599390152313392543]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13599390152313392543,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DEEA4A41-0A90-57CE-BD2A-34FEA3D3D07B}",
+                                    "subId": 275221047
+                                },
+                                "assetHint": "village/props/motelprops/source/chair_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15011581529996592619]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15011581529996592619,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16950804393734164465
+                        },
+                        {
+                            "ComponentId": 13599390152313392543,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17885264201370283238,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16950804393734164465]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16950804393734164465,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17885264201370283238]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17885264201370283238,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2222021466895880387]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2222021466895880387
+                },
+                "Component_[3282801207858765807]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3282801207858765807
+                },
+                "Component_[5390560130684099048]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5390560130684099048
+                },
+                "Component_[5835631366639350479]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5835631366639350479
+                },
+                "Component_[6980463179576958013]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6980463179576958013
+                },
+                "Component_[6991404826665097326]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6991404826665097326
+                },
+                "Component_[7655507001954219813]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7655507001954219813
+                }
+            }
+        }
+    }
+}

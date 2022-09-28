@@ -1,0 +1,42 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_BaseColor.png"
+        },
+        "general": {
+            "applySpecularAA": true,
+            "forwardPassIBLSpecular": true
+        },
+        "irradiance": {
+            "color": [
+                0.5490196347236633,
+                0.5490196347236633,
+                0.5490196347236633,
+                1.0
+            ],
+            "factor": 0.0
+        },
+        "normal": {
+            "textureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_AO.png",
+            "specularTextureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_AO.png"
+        },
+        "parallax": {
+            "factor": 0.10000000149011612,
+            "textureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_Height.png"
+        },
+        "roughness": {
+            "factor": 0.5,
+            "textureMap": "Village/Pavement/Flat_Spots/Source/ParisStone/ParisStone_Roughness.png"
+        },
+        "specularF0": {
+            "enableMultiScatterCompensation": true
+        }
+    }
+}

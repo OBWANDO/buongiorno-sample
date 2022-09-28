@@ -1,0 +1,15 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "parentMaterial": "Village/Props/MotelProps/source/MotelProps.material",
+    "properties": {
+        "irradiance": {
+            "color": [
+                0.8156862854957581,
+                0.7607843279838562,
+                0.47058823704719543,
+                1.0
+            ]
+        }
+    }
+}

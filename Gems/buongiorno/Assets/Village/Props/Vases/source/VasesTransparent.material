@@ -1,0 +1,11 @@
+{
+    "description": "",
+    "parentMaterial": "Village/Props/Vases/source/Vases.material",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "opacity": {
+            "mode": "Cutout"
+        }
+    }
+}

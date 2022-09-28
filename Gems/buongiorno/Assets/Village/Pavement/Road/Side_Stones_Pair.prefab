@@ -1,0 +1,301 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Side_Stones_Pair",
+        "Components": {
+            "Component_[10010904035087260455]": {
+                "$type": "EditorLockComponent",
+                "Id": 10010904035087260455
+            },
+            "Component_[10433027323000295988]": {
+                "$type": "SelectionComponent",
+                "Id": 10433027323000295988
+            },
+            "Component_[1094962045641018909]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1094962045641018909
+            },
+            "Component_[13265233614587914295]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13265233614587914295
+            },
+            "Component_[15866297212693916432]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15866297212693916432,
+                "Parent Entity": ""
+            },
+            "Component_[17434700277992502687]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17434700277992502687
+            },
+            "Component_[17619799997951918060]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17619799997951918060
+            },
+            "Component_[2411045988187951123]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2411045988187951123
+            },
+            "Component_[647011984963012798]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 647011984963012798,
+                "Child Entity Order": [
+                    "Entity_[85306414981892]",
+                    "Entity_[85310709949188]"
+                ]
+            },
+            "Component_[6525204266545608588]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6525204266545608588
+            },
+            "Component_[8621487030246399180]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8621487030246399180
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[85306414981892]": {
+            "Id": "Entity_[85306414981892]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4524FA17-5CC9-56B2-BE31-2C1B0BCF46A0}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 1796791591148259703,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[1796791591148259703]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 1796791591148259703,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        2.0
+                    ]
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.5010597705841064,
+                            -0.00033402442932128906,
+                            -2.384185791015625e-7
+                        ],
+                        "Rotate": [
+                            6.898133051436162e-7,
+                            -0.7232688665390015,
+                            -179.99989318847656
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[85310709949188]": {
+            "Id": "Entity_[85310709949188]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4524FA17-5CC9-56B2-BE31-2C1B0BCF46A0}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_beige.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2253267273788319173]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 2253267273788319173,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.5
+                    ]
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.5010596513748169,
+                            0.00033473968505859375,
+                            -0.013000000268220901
+                        ],
+                        "Rotate": [
+                            1.0672149386437013e-7,
+                            2.124742048970063e-10,
+                            0.2281426340341568
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        }
+    }
+}

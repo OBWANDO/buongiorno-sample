@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Cypress",
+        "Components": {
+            "Component_[12538212519244689597]": {
+                "$type": "SelectionComponent",
+                "Id": 12538212519244689597
+            },
+            "Component_[13129626011335372531]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13129626011335372531
+            },
+            "Component_[13340801114058848878]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13340801114058848878
+            },
+            "Component_[13963648239834030493]": {
+                "$type": "EditorLockComponent",
+                "Id": 13963648239834030493
+            },
+            "Component_[14427012056196479220]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14427012056196479220
+            },
+            "Component_[2570191713505446501]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2570191713505446501,
+                "Child Entity Order": [
+                    "Entity_[3391211711438199]"
+                ]
+            },
+            "Component_[2570991236471433276]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2570991236471433276
+            },
+            "Component_[266025232681467548]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 266025232681467548
+            },
+            "Component_[4262302987060447029]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4262302987060447029,
+                "Parent Entity": ""
+            },
+            "Component_[5157828680097520605]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5157828680097520605
+            },
+            "Component_[7330892475143522053]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7330892475143522053
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3391211711438199]": {
+            "Id": "Entity_[3391211711438199]",
+            "Name": "cypress_e",
+            "Components": {
+                "Component_[10193965278290272541]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10193965278290272541
+                },
+                "Component_[10483803753221771453]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10483803753221771453,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4335199019441054703
+                        },
+                        {
+                            "ComponentId": 15279668646044703039,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6610255033765805101,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12726234704226118014]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12726234704226118014
+                },
+                "Component_[14986637975175416836]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14986637975175416836
+                },
+                "Component_[15279668646044703039]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15279668646044703039,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{9EFA740E-A2B5-59AC-8688-77E98780854B}",
+                                    "subId": 275688095
+                                },
+                                "assetHint": "village/vegetation/source/cypress_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16520356020824143610]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16520356020824143610
+                },
+                "Component_[241453981451306370]": {
+                    "$type": "SelectionComponent",
+                    "Id": 241453981451306370
+                },
+                "Component_[4335199019441054703]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4335199019441054703,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5117636549448566072]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5117636549448566072
+                },
+                "Component_[6610255033765805101]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6610255033765805101,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{60902BAD-FAEC-54E8-8F55-02BECAE382F1}"
+                                            },
+                                            "assetHint": "village/vegetation/source/trees.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9202647783973122250]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9202647783973122250
+                },
+                "Component_[9278749714480577773]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9278749714480577773
+                }
+            }
+        }
+    }
+}

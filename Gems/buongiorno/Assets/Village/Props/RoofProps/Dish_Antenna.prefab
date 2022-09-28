@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Dish_Antenna",
+        "Components": {
+            "Component_[10182738978807400390]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10182738978807400390
+            },
+            "Component_[11851108818810817743]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11851108818810817743
+            },
+            "Component_[12769438303887482370]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12769438303887482370
+            },
+            "Component_[14483044636136778361]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14483044636136778361
+            },
+            "Component_[16127175290542036151]": {
+                "$type": "EditorLockComponent",
+                "Id": 16127175290542036151
+            },
+            "Component_[17996067236315533213]": {
+                "$type": "SelectionComponent",
+                "Id": 17996067236315533213
+            },
+            "Component_[6900506247329736836]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6900506247329736836,
+                "Parent Entity": ""
+            },
+            "Component_[7220275000642958107]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7220275000642958107
+            },
+            "Component_[7451575433335453210]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7451575433335453210,
+                "Child Entity Order": [
+                    "Entity_[18416824919532]"
+                ]
+            },
+            "Component_[7637212192224627364]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7637212192224627364
+            },
+            "Component_[7811370079820812084]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7811370079820812084
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[18416824919532]": {
+            "Id": "Entity_[18416824919532]",
+            "Name": "dish_antena_e",
+            "Components": {
+                "Component_[10527669157135819137]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10527669157135819137
+                },
+                "Component_[11248673182063024788]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11248673182063024788,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D93C3D89-CC92-5C5B-AF4D-D153382E6B01}",
+                                    "subId": 274762526
+                                },
+                                "assetHint": "village/props/roofprops/source/dish_antena_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1300643190634824075]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1300643190634824075
+                },
+                "Component_[14746749648719272763]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14746749648719272763,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15215518526479205667]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15215518526479205667,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{522FFA68-DB36-5259-8CC5-C5F5AE227C61}"
+                                            },
+                                            "assetHint": "village/props/roofprops/source/roofprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18198664668583009330]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18198664668583009330
+                },
+                "Component_[3480872339554488131]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3480872339554488131,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14746749648719272763
+                        },
+                        {
+                            "ComponentId": 11248673182063024788,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15215518526479205667,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5887213523594224226]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5887213523594224226
+                },
+                "Component_[6364568795653266300]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6364568795653266300
+                },
+                "Component_[6673925270784529198]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6673925270784529198
+                },
+                "Component_[7478049964166675878]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7478049964166675878
+                },
+                "Component_[8810728952076100025]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8810728952076100025
+                }
+            }
+        }
+    }
+}

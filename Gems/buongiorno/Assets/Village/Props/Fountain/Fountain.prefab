@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Fountain",
+        "Components": {
+            "Component_[11381458140957253555]": {
+                "$type": "SelectionComponent",
+                "Id": 11381458140957253555
+            },
+            "Component_[11935303890828020343]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11935303890828020343
+            },
+            "Component_[13257275949698106497]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13257275949698106497
+            },
+            "Component_[147006915626340328]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 147006915626340328
+            },
+            "Component_[1864929228199832744]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1864929228199832744,
+                "Child Entity Order": [
+                    "Entity_[41654647706025]"
+                ]
+            },
+            "Component_[2100677126345260303]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2100677126345260303
+            },
+            "Component_[2378394873022435174]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2378394873022435174
+            },
+            "Component_[5362288302853016520]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5362288302853016520
+            },
+            "Component_[5557026214222203657]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5557026214222203657,
+                "Parent Entity": ""
+            },
+            "Component_[783922501104031171]": {
+                "$type": "EditorLockComponent",
+                "Id": 783922501104031171
+            },
+            "Component_[8136441281830228440]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8136441281830228440
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[41654647706025]": {
+            "Id": "Entity_[41654647706025]",
+            "Name": "fountain",
+            "Components": {
+                "Component_[12047100852255127352]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12047100852255127352
+                },
+                "Component_[12833621109174923693]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12833621109174923693,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13281789751310900867]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13281789751310900867
+                },
+                "Component_[13672956496399426465]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13672956496399426465,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5C89BB74-6C16-5AA6-A0C9-4E2AD74A15BF}"
+                                            },
+                                            "assetHint": "village/props/fountain/source/fountain.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15487131385663646349]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15487131385663646349,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{96646688-BBD7-5C67-AEF3-696B4220FB61}",
+                                    "subId": 281316718
+                                },
+                                "assetHint": "village/props/fountain/source/fontana_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15536533706536592633]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15536533706536592633
+                },
+                "Component_[2435402919140821847]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2435402919140821847
+                },
+                "Component_[2599820126280867237]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2599820126280867237
+                },
+                "Component_[3613722230176599204]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3613722230176599204
+                },
+                "Component_[5692468207405717422]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5692468207405717422
+                },
+                "Component_[5732051556879381349]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5732051556879381349,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12833621109174923693
+                        },
+                        {
+                            "ComponentId": 15487131385663646349,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13672956496399426465,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8549803769090329034]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8549803769090329034
+                }
+            }
+        }
+    }
+}

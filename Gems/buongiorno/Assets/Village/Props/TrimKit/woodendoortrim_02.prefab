@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "woodendoortrim_02",
+        "Components": {
+            "Component_[104696679428695197]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 104696679428695197,
+                "Child Entity Order": [
+                    "Entity_[11899469272792]"
+                ]
+            },
+            "Component_[10963793358003179126]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10963793358003179126
+            },
+            "Component_[13005820939602534472]": {
+                "$type": "SelectionComponent",
+                "Id": 13005820939602534472
+            },
+            "Component_[15329670045180563671]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15329670045180563671
+            },
+            "Component_[1968661468690303003]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1968661468690303003
+            },
+            "Component_[4459165162085280516]": {
+                "$type": "EditorLockComponent",
+                "Id": 4459165162085280516
+            },
+            "Component_[4859396953822415255]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4859396953822415255
+            },
+            "Component_[7924810813255450961]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7924810813255450961
+            },
+            "Component_[8432653654785621518]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8432653654785621518
+            },
+            "Component_[8665121119744801759]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8665121119744801759
+            },
+            "Component_[9370177158821708152]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9370177158821708152,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11899469272792]": {
+            "Id": "Entity_[11899469272792]",
+            "Name": "woodendoortrim_02_e",
+            "Components": {
+                "Component_[10037797377010522105]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10037797377010522105
+                },
+                "Component_[11686238197207243359]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11686238197207243359,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12012060943734298773]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12012060943734298773,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13205440566289136087]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13205440566289136087
+                },
+                "Component_[13506989991470520937]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13506989991470520937
+                },
+                "Component_[1937672754478459051]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1937672754478459051
+                },
+                "Component_[2394995981771962269]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2394995981771962269
+                },
+                "Component_[2859214347699246533]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2859214347699246533
+                },
+                "Component_[389443278054799348]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 389443278054799348
+                },
+                "Component_[4123105539030708018]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4123105539030708018
+                },
+                "Component_[6123403455977520199]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6123403455977520199,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12012060943734298773
+                        },
+                        {
+                            "ComponentId": 8955949189514554367,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11686238197207243359,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8955949189514554367]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8955949189514554367,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{59542990-3463-5E85-8F71-7BFA12C41179}",
+                                    "subId": 280636245
+                                },
+                                "assetHint": "village/props/trimkit/source/woodendoortrim_02_e.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

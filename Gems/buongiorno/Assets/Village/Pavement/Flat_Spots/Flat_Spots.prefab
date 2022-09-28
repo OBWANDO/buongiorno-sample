@@ -1,0 +1,613 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Flat_Spots",
+        "Components": {
+            "Component_[11651596126682846216]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11651596126682846216,
+                "Parent Entity": ""
+            },
+            "Component_[11831710371682136156]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11831710371682136156
+            },
+            "Component_[12333622462837680574]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12333622462837680574
+            },
+            "Component_[13220790531675786941]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13220790531675786941
+            },
+            "Component_[15457416937112227851]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15457416937112227851
+            },
+            "Component_[15949335218829067074]": {
+                "$type": "EditorLockComponent",
+                "Id": 15949335218829067074
+            },
+            "Component_[17972121257665365647]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17972121257665365647
+            },
+            "Component_[3676757985162442089]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3676757985162442089
+            },
+            "Component_[5336157441673807185]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5336157441673807185
+            },
+            "Component_[62166966472726665]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 62166966472726665,
+                "Child Entity Order": [
+                    "Entity_[99395901863108]",
+                    "Entity_[99383016961220]",
+                    "Entity_[99378721993924]",
+                    "Entity_[99387311928516]",
+                    "Entity_[99391606895812]"
+                ]
+            },
+            "Component_[8106255553372779733]": {
+                "$type": "SelectionComponent",
+                "Id": 8106255553372779733
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[99378721993924]": {
+            "Id": "Entity_[99378721993924]",
+            "Name": "Walkway_Mid",
+            "Components": {
+                "Component_[13305928572994408429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13305928572994408429,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.005809307098388672,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[1612518282289355510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1612518282289355510
+                },
+                "Component_[16526314829776379347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16526314829776379347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C14530B3-C082-5495-A9F7-207D8DB3B63B}",
+                                    "subId": 277375766
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/walkway_mid_lev.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17469422556404784715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17469422556404784715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13305928572994408429
+                        },
+                        {
+                            "ComponentId": 16526314829776379347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17673928172678222876,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17673928172678222876]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17673928172678222876,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2128806578
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{08234D77-D4E7-5570-A980-A3CE994EBF45}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/walkwaystone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2525745926205321703]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2525745926205321703
+                },
+                "Component_[2719555246693627756]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2719555246693627756
+                },
+                "Component_[3481729918054224279]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3481729918054224279
+                },
+                "Component_[4249190339411591255]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4249190339411591255
+                },
+                "Component_[5117861166815741114]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5117861166815741114
+                },
+                "Component_[5751001559738715010]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5751001559738715010
+                },
+                "Component_[690989146066651833]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 690989146066651833
+                }
+            }
+        },
+        "Entity_[99383016961220]": {
+            "Id": "Entity_[99383016961220]",
+            "Name": "Walkway_Bottom",
+            "Components": {
+                "Component_[13305928572994408429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13305928572994408429,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.005809307098388672,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[1612518282289355510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1612518282289355510
+                },
+                "Component_[16526314829776379347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16526314829776379347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{99380051-FE30-5F2B-9C71-24F8BE744A3A}",
+                                    "subId": 275735013
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/walkway_bottom_lev.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17469422556404784715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17469422556404784715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13305928572994408429
+                        },
+                        {
+                            "ComponentId": 16526314829776379347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3809814425925280940,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2525745926205321703]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2525745926205321703
+                },
+                "Component_[2719555246693627756]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2719555246693627756
+                },
+                "Component_[3481729918054224279]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3481729918054224279
+                },
+                "Component_[3809814425925280940]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3809814425925280940,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2128806578
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{08234D77-D4E7-5570-A980-A3CE994EBF45}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/walkwaystone.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3078353505
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{01DCBED7-5824-5F80-9354-0ABCF9DF0A29}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall_grey.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4249190339411591255]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4249190339411591255
+                },
+                "Component_[5117861166815741114]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5117861166815741114
+                },
+                "Component_[5751001559738715010]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5751001559738715010
+                },
+                "Component_[690989146066651833]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 690989146066651833
+                }
+            }
+        },
+        "Entity_[99387311928516]": {
+            "Id": "Entity_[99387311928516]",
+            "Name": "Walkway_Top",
+            "Components": {
+                "Component_[13305928572994408429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13305928572994408429,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.005809307098388672,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[1612518282289355510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1612518282289355510
+                },
+                "Component_[16526314829776379347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16526314829776379347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{71DE3021-C848-5512-8B9E-F41E091A4FC9}",
+                                    "subId": 284647508
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/walkway_top_lev.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17469422556404784715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17469422556404784715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13305928572994408429
+                        },
+                        {
+                            "ComponentId": 16526314829776379347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7124182037416647873,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2525745926205321703]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2525745926205321703
+                },
+                "Component_[2719555246693627756]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2719555246693627756
+                },
+                "Component_[3481729918054224279]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3481729918054224279
+                },
+                "Component_[4249190339411591255]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4249190339411591255
+                },
+                "Component_[5117861166815741114]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5117861166815741114
+                },
+                "Component_[5751001559738715010]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5751001559738715010
+                },
+                "Component_[690989146066651833]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 690989146066651833
+                },
+                "Component_[7124182037416647873]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7124182037416647873,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2128806578
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{08234D77-D4E7-5570-A980-A3CE994EBF45}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/walkwaystone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[99391606895812]": {
+            "Id": "Entity_[99391606895812]",
+            "Name": "Flat_Spot_Mid",
+            "Components": {
+                "Component_[13305928572994408429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13305928572994408429,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.02323770523071289,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[1612518282289355510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1612518282289355510
+                },
+                "Component_[16526314829776379347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16526314829776379347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1892E72-D742-5C6A-AFD6-CCD0765B5DFE}",
+                                    "subId": 278259261
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/flat_spot_mid_lev.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17469422556404784715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17469422556404784715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13305928572994408429
+                        },
+                        {
+                            "ComponentId": 16526314829776379347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4140471763646079216,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2525745926205321703]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2525745926205321703
+                },
+                "Component_[2719555246693627756]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2719555246693627756
+                },
+                "Component_[3481729918054224279]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3481729918054224279
+                },
+                "Component_[4140471763646079216]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4140471763646079216,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2128806578
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{08234D77-D4E7-5570-A980-A3CE994EBF45}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/walkwaystone.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4249190339411591255]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4249190339411591255
+                },
+                "Component_[5117861166815741114]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5117861166815741114
+                },
+                "Component_[5751001559738715010]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5751001559738715010
+                },
+                "Component_[690989146066651833]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 690989146066651833
+                }
+            }
+        },
+        "Entity_[99395901863108]": {
+            "Id": "Entity_[99395901863108]",
+            "Name": "Flat_Spot_Bottom",
+            "Components": {
+                "Component_[13305928572994408429]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13305928572994408429,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.005809307098388672,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14276214650119749687]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14276214650119749687,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2633339738
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2FE0DF27-7BED-5D29-AEAF-2B8648430C27}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/parisstones.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1612518282289355510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1612518282289355510
+                },
+                "Component_[16526314829776379347]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16526314829776379347,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3013310E-1653-5081-91FC-1A4174242927}",
+                                    "subId": 274481821
+                                },
+                                "assetHint": "village/pavement/flat_spots/source/flat_spot_bottom_lev.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17469422556404784715]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17469422556404784715,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13305928572994408429
+                        },
+                        {
+                            "ComponentId": 16526314829776379347,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14276214650119749687,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2525745926205321703]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2525745926205321703
+                },
+                "Component_[2719555246693627756]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2719555246693627756
+                },
+                "Component_[3481729918054224279]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3481729918054224279
+                },
+                "Component_[4249190339411591255]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4249190339411591255
+                },
+                "Component_[5117861166815741114]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5117861166815741114
+                },
+                "Component_[5751001559738715010]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5751001559738715010
+                },
+                "Component_[690989146066651833]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 690989146066651833
+                }
+            }
+        }
+    }
+}

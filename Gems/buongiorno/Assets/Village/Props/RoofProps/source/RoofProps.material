@@ -1,0 +1,32 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "RoofProps_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.012771801091730595,
+                0.012771801091730595,
+                0.03021286427974701,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "RoofProps_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "RoofProps_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "RoofProps_AO.png",
+            "specularTextureMap": "RoofProps_AO.png"
+        },
+        "roughness": {
+            "textureMap": "RoofProps_Roughness.png"
+        }
+    }
+}

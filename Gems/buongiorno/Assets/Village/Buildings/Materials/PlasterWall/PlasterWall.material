@@ -1,0 +1,29 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Buildings/Materials/PlasterWall/Plaster_White_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.7833829522132874,
+                0.7400014996528625,
+                0.6443579792976379,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Village/Buildings/Materials/PlasterWall/Plaster_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Buildings/Materials/PlasterWall/Plaster_AO.png",
+            "specularTextureMap": "Village/Buildings/Materials/PlasterWall/Plaster_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Buildings/Materials/PlasterWall/Plaster_Roughness.png"
+        }
+    }
+}

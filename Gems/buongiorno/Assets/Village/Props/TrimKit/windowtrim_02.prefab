@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "windowtrim_02",
+        "Components": {
+            "Component_[11623786508256260161]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11623786508256260161
+            },
+            "Component_[1181663700341440010]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1181663700341440010
+            },
+            "Component_[1272651818143892889]": {
+                "$type": "EditorLockComponent",
+                "Id": 1272651818143892889
+            },
+            "Component_[13630520491974749943]": {
+                "$type": "SelectionComponent",
+                "Id": 13630520491974749943
+            },
+            "Component_[15237285403395316017]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15237285403395316017
+            },
+            "Component_[18343646015446953901]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18343646015446953901
+            },
+            "Component_[2249567790187049824]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2249567790187049824
+            },
+            "Component_[302910971459150129]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 302910971459150129
+            },
+            "Component_[3476059870747897786]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3476059870747897786,
+                "Parent Entity": ""
+            },
+            "Component_[3980952781824109417]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3980952781824109417
+            },
+            "Component_[7011318865091204793]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7011318865091204793,
+                "Child Entity Order": [
+                    "Entity_[9928079283928]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[9928079283928]": {
+            "Id": "Entity_[9928079283928]",
+            "Name": "windowtrim_02_e",
+            "Components": {
+                "Component_[10629225214776295815]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10629225214776295815
+                },
+                "Component_[12011981010847911472]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12011981010847911472
+                },
+                "Component_[14597334481436172082]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14597334481436172082
+                },
+                "Component_[2243375188025728364]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2243375188025728364,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D9107D95-4D57-5E88-ABAE-FD0A5B0CB3C5}",
+                                    "subId": 285183793
+                                },
+                                "assetHint": "village/props/trimkit/source/windowtrim_02_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2487979421158684971]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2487979421158684971
+                },
+                "Component_[3305524033189999333]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3305524033189999333
+                },
+                "Component_[6318836252317180179]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6318836252317180179,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E71BD566-712C-5B53-B7AC-956FAA07B0B9}"
+                                            },
+                                            "assetHint": "village/props/trimkit/source/trimkit.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6518358064797806474]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6518358064797806474
+                },
+                "Component_[6679605299127731496]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6679605299127731496
+                },
+                "Component_[7059069602035448026]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7059069602035448026
+                },
+                "Component_[7653855426261466988]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7653855426261466988,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7935870752961226500
+                        },
+                        {
+                            "ComponentId": 2243375188025728364,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6318836252317180179,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7935870752961226500]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7935870752961226500,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

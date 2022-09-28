@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Tomatoes",
+        "Components": {
+            "Component_[10962385311173924206]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10962385311173924206
+            },
+            "Component_[11842519148147713948]": {
+                "$type": "EditorLockComponent",
+                "Id": 11842519148147713948
+            },
+            "Component_[14762795275563554338]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14762795275563554338
+            },
+            "Component_[16594310496878068982]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16594310496878068982,
+                "Parent Entity": ""
+            },
+            "Component_[4612916311907495669]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4612916311907495669
+            },
+            "Component_[4625672598518433787]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4625672598518433787
+            },
+            "Component_[5030467710468475110]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5030467710468475110
+            },
+            "Component_[5096836049680843763]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5096836049680843763,
+                "Child Entity Order": [
+                    "Entity_[737626163532985]"
+                ]
+            },
+            "Component_[7758230740480380315]": {
+                "$type": "SelectionComponent",
+                "Id": 7758230740480380315
+            },
+            "Component_[7993363637490856236]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7993363637490856236
+            },
+            "Component_[8012362680639611237]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8012362680639611237
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[737626163532985]": {
+            "Id": "Entity_[737626163532985]",
+            "Name": "tomatoes_e",
+            "Components": {
+                "Component_[10364430799778404777]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10364430799778404777
+                },
+                "Component_[10743566735958129081]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10743566735958129081
+                },
+                "Component_[14920889826884224656]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14920889826884224656
+                },
+                "Component_[14939871082267127764]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14939871082267127764
+                },
+                "Component_[15473682399624503912]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15473682399624503912
+                },
+                "Component_[16308255666465454097]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16308255666465454097,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4142253990918021154
+                        },
+                        {
+                            "ComponentId": 4038427672841697964,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4702055308595361390,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4038427672841697964]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4038427672841697964,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{58F76D6E-26FF-5BB5-A72A-EDED3CAB5A86}",
+                                    "subId": 280517605
+                                },
+                                "assetHint": "village/props/produce/source/tomatoes_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[4142253990918021154]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4142253990918021154,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[4702055308595361390]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4702055308595361390,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7C999C9C-13A1-5EA0-AF1F-05158E0822B2}"
+                                            },
+                                            "assetHint": "village/props/produce/source/produce.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5283318395364630955]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5283318395364630955
+                },
+                "Component_[6476420723994857609]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6476420723994857609
+                },
+                "Component_[7231056642659239845]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7231056642659239845
+                }
+            }
+        }
+    }
+}

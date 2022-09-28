@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PartFence",
+        "Components": {
+            "Component_[10245470495325551394]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10245470495325551394
+            },
+            "Component_[10855756341573937282]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10855756341573937282
+            },
+            "Component_[12718641677829981900]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12718641677829981900
+            },
+            "Component_[13483246981652524364]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13483246981652524364
+            },
+            "Component_[17379236076660678034]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17379236076660678034,
+                "Child Entity Order": [
+                    "Entity_[81557024167097]"
+                ]
+            },
+            "Component_[1766232867254947874]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1766232867254947874
+            },
+            "Component_[18183975360868151264]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 18183975360868151264
+            },
+            "Component_[3973213687118521920]": {
+                "$type": "SelectionComponent",
+                "Id": 3973213687118521920
+            },
+            "Component_[6432313191897788567]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6432313191897788567,
+                "Parent Entity": ""
+            },
+            "Component_[7589853042127524375]": {
+                "$type": "EditorLockComponent",
+                "Id": 7589853042127524375
+            },
+            "Component_[9212261337018030460]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9212261337018030460
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[81557024167097]": {
+            "Id": "Entity_[81557024167097]",
+            "Name": "partfence_e",
+            "Components": {
+                "Component_[10609467656249981492]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10609467656249981492
+                },
+                "Component_[14748835574602812031]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14748835574602812031,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7893996937081630980
+                        },
+                        {
+                            "ComponentId": 9958921682271599638,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8685579995817851816,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17945377816442642874]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17945377816442642874
+                },
+                "Component_[18106792512337186792]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18106792512337186792
+                },
+                "Component_[200297561538654462]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 200297561538654462
+                },
+                "Component_[2721066059532131409]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2721066059532131409
+                },
+                "Component_[5778966739693225807]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5778966739693225807
+                },
+                "Component_[7893996937081630980]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7893996937081630980,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8685579995817851816]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8685579995817851816,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9331815131189199796]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9331815131189199796
+                },
+                "Component_[9460130575716730524]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9460130575716730524
+                },
+                "Component_[9958921682271599638]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9958921682271599638,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BDEC77F4-E4FC-5477-9308-F223ED249298}",
+                                    "subId": 283530008
+                                },
+                                "assetHint": "village/props/motelprops/source/partfence_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Characters/Marcello/Marcello_BaseColor.png"
+        },
+        "normal": {
+            "textureMap": "Characters/Marcello/Marcello_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Characters/Marcello/Marcello_AO.png",
+            "specularTextureMap": "Characters/Marcello/Marcello_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Characters/Marcello/Marcello_Roughness.png"
+        }
+    }
+}

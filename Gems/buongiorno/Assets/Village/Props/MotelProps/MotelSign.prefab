@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MotelSign",
+        "Components": {
+            "Component_[12433325686680700100]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12433325686680700100
+            },
+            "Component_[13100695241425115354]": {
+                "$type": "SelectionComponent",
+                "Id": 13100695241425115354
+            },
+            "Component_[13389878755145547037]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13389878755145547037,
+                "Parent Entity": ""
+            },
+            "Component_[383419356991637868]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 383419356991637868
+            },
+            "Component_[5453795163706732340]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5453795163706732340
+            },
+            "Component_[5674633147562057642]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5674633147562057642
+            },
+            "Component_[7113332068046961198]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7113332068046961198
+            },
+            "Component_[7500992315596787767]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7500992315596787767
+            },
+            "Component_[8234932912863328245]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8234932912863328245
+            },
+            "Component_[8319572523979240790]": {
+                "$type": "EditorLockComponent",
+                "Id": 8319572523979240790
+            },
+            "Component_[9425130929804084300]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9425130929804084300,
+                "Child Entity Order": [
+                    "Entity_[45340761098403]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[45340761098403]": {
+            "Id": "Entity_[45340761098403]",
+            "Name": "motelsignhodlers_e",
+            "Components": {
+                "Component_[10471507299806910510]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10471507299806910510
+                },
+                "Component_[11185791433076584121]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11185791433076584121,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{62AF462F-EBDB-595B-883B-B7BD21A25F60}"
+                                            },
+                                            "assetHint": "village/props/motelprops/source/motelprops.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12690735695737716899]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12690735695737716899
+                },
+                "Component_[13169221008328819195]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13169221008328819195,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14729174344863543575
+                        },
+                        {
+                            "ComponentId": 13170635785553170185,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11185791433076584121,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13170635785553170185]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13170635785553170185,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6517B614-BAC6-5C99-B519-71AED641C805}",
+                                    "subId": 281666407
+                                },
+                                "assetHint": "village/props/motelprops/source/motelsignhodlers_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13438713069107704978]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13438713069107704978
+                },
+                "Component_[14258106251425762859]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14258106251425762859
+                },
+                "Component_[14729174344863543575]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14729174344863543575,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17018178958960448640]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17018178958960448640
+                },
+                "Component_[4560160831390083405]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4560160831390083405
+                },
+                "Component_[9618077814483701175]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9618077814483701175
+                },
+                "Component_[966308864763313293]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 966308864763313293
+                }
+            }
+        }
+    }
+}

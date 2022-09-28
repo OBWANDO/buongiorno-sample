@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ClothesHanger",
+        "Components": {
+            "Component_[12282313032674308564]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12282313032674308564
+            },
+            "Component_[14250610552729836102]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14250610552729836102,
+                "Parent Entity": ""
+            },
+            "Component_[4397970136274601988]": {
+                "$type": "SelectionComponent",
+                "Id": 4397970136274601988
+            },
+            "Component_[5163064784006845902]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5163064784006845902,
+                "Child Entity Order": [
+                    "Entity_[36442770496180]"
+                ]
+            },
+            "Component_[5360360857624345769]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5360360857624345769
+            },
+            "Component_[626723832912445485]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 626723832912445485
+            },
+            "Component_[6716622401862885197]": {
+                "$type": "EditorLockComponent",
+                "Id": 6716622401862885197
+            },
+            "Component_[8529881675696957464]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8529881675696957464
+            },
+            "Component_[8682180558893199122]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8682180558893199122
+            },
+            "Component_[9388671147857664202]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9388671147857664202
+            },
+            "Component_[9852108110291059655]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9852108110291059655
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[36442770496180]": {
+            "Id": "Entity_[36442770496180]",
+            "Name": "clotheshanger_e",
+            "Components": {
+                "Component_[11467388162596412180]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11467388162596412180
+                },
+                "Component_[16496293001494681501]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16496293001494681501,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7DE70043-9080-5C84-9A35-3E73F9BF8755}"
+                                            },
+                                            "assetHint": "village/props/balconies/source/balconies.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17882464122124476186]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17882464122124476186,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 840078290360479653
+                        },
+                        {
+                            "ComponentId": 5357278130222840755,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16496293001494681501,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17978242323344654432]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17978242323344654432
+                },
+                "Component_[2229964403013766680]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2229964403013766680
+                },
+                "Component_[2391005611297978274]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2391005611297978274
+                },
+                "Component_[2427411891416628894]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2427411891416628894
+                },
+                "Component_[4465774624267180092]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4465774624267180092
+                },
+                "Component_[5357278130222840755]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5357278130222840755,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CE832849-E023-5245-8039-6986A7EAFEF0}",
+                                    "subId": 282433195
+                                },
+                                "assetHint": "village/props/balconies/source/clotheshanger_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[555519356866664860]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 555519356866664860
+                },
+                "Component_[8095925061983945680]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8095925061983945680
+                },
+                "Component_[840078290360479653]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 840078290360479653,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

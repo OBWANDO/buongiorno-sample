@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "parentMaterial": "Village/Vehicles/IceTruck/IceTruck.material",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "irradiance": {
+            "color": [
+                0.2367437183856964,
+                0.2367437183856964,
+                0.2367437183856964,
+                1.0
+            ]
+        },
+        "opacity": {
+            "factor": 0.699999988079071,
+            "mode": "Blended"
+        }
+    }
+}

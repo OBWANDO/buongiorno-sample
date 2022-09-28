@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "1MTrim",
+        "Components": {
+            "Component_[10963828001688425425]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10963828001688425425,
+                "Parent Entity": ""
+            },
+            "Component_[14687693705724884913]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14687693705724884913
+            },
+            "Component_[15311667194710494942]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15311667194710494942,
+                "Child Entity Order": [
+                    "Entity_[52597567713322]"
+                ]
+            },
+            "Component_[16039152823308112642]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16039152823308112642
+            },
+            "Component_[26589094619084631]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 26589094619084631
+            },
+            "Component_[3267703444331649651]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3267703444331649651
+            },
+            "Component_[4280129998734601197]": {
+                "$type": "SelectionComponent",
+                "Id": 4280129998734601197
+            },
+            "Component_[6253352325580197796]": {
+                "$type": "EditorLockComponent",
+                "Id": 6253352325580197796
+            },
+            "Component_[7163051047603987456]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7163051047603987456
+            },
+            "Component_[8193488784934847930]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8193488784934847930
+            },
+            "Component_[8356431740329822232]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8356431740329822232
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[52597567713322]": {
+            "Id": "Entity_[52597567713322]",
+            "Name": "1mtrim_e",
+            "Components": {
+                "Component_[13883990152567419225]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13883990152567419225
+                },
+                "Component_[16035439255171827488]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16035439255171827488,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{302977A6-1A94-5CEC-9356-CB7E3496AB47}",
+                                    "subId": 274688353
+                                },
+                                "assetHint": "village/props/housetrims/source/1mtrim_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17871775090086195050]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17871775090086195050,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[18267872451895946806]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18267872451895946806
+                },
+                "Component_[18355799301481484521]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18355799301481484521
+                },
+                "Component_[2090558101294705122]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2090558101294705122
+                },
+                "Component_[2199377031913202986]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2199377031913202986,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17871775090086195050
+                        },
+                        {
+                            "ComponentId": 16035439255171827488,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7893257680095094016,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[479030751294784834]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 479030751294784834
+                },
+                "Component_[6158383911047152714]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6158383911047152714
+                },
+                "Component_[6696373505488526162]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6696373505488526162
+                },
+                "Component_[7893257680095094016]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7893257680095094016,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B332C087-333D-5F91-A5D1-22BFFD87CB59}"
+                                            },
+                                            "assetHint": "village/buildings/materials/plasterwall/plasterwall.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8045578073733973700]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8045578073733973700
+                }
+            }
+        }
+    }
+}

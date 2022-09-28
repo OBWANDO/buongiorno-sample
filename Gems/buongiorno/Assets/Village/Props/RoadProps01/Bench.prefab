@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Bench",
+        "Components": {
+            "Component_[10015879245229270422]": {
+                "$type": "SelectionComponent",
+                "Id": 10015879245229270422
+            },
+            "Component_[10699514749150919779]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10699514749150919779
+            },
+            "Component_[15581755382002508236]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15581755382002508236
+            },
+            "Component_[15709644936808323286]": {
+                "$type": "EditorLockComponent",
+                "Id": 15709644936808323286
+            },
+            "Component_[17011125415826359337]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17011125415826359337,
+                "Parent Entity": ""
+            },
+            "Component_[1715208167246747362]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1715208167246747362
+            },
+            "Component_[2032139269019239903]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2032139269019239903
+            },
+            "Component_[3994864659101053239]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3994864659101053239,
+                "Child Entity Order": [
+                    "Entity_[33160199152590]"
+                ]
+            },
+            "Component_[5152521691846310144]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5152521691846310144
+            },
+            "Component_[5716283336834354163]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5716283336834354163
+            },
+            "Component_[7720958264553443177]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7720958264553443177
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[33160199152590]": {
+            "Id": "Entity_[33160199152590]",
+            "Name": "bench_e",
+            "Components": {
+                "Component_[10688014696850196643]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10688014696850196643
+                },
+                "Component_[11000045980845661258]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11000045980845661258
+                },
+                "Component_[13848577779517093531]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13848577779517093531
+                },
+                "Component_[15024254460386506616]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15024254460386506616
+                },
+                "Component_[17638180747472548043]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17638180747472548043
+                },
+                "Component_[18313091745871726432]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18313091745871726432,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7311783248601008896
+                        },
+                        {
+                            "ComponentId": 9194766617293825713,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5379813690368326740,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3096992793435751480]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3096992793435751480
+                },
+                "Component_[4672422106088577406]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4672422106088577406
+                },
+                "Component_[5379813690368326740]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5379813690368326740,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4CD5A45A-26B2-5B52-AFB9-08A9046A8A11}"
+                                            },
+                                            "assetHint": "village/props/roadprops01/source/roadprops01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7311783248601008896]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7311783248601008896,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8092580644363997807]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8092580644363997807
+                },
+                "Component_[9194766617293825713]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9194766617293825713,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B370EFC3-46CC-5B9B-99B4-0A228AE7DDD8}",
+                                    "subId": 282248014
+                                },
+                                "assetHint": "village/props/roadprops01/source/bench_e.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "parentMaterial": "Village/Buildings/Materials/PlasterWall/PlasterWall_Beige.material",
+    "propertyValues": {
+        "baseColor.factor": 0.5299999713897705,
+        "irradiance.color": [
+            0.401358038187027,
+            0.29715418815612793,
+            0.26401159167289734,
+            1.0
+        ]
+    }
+}

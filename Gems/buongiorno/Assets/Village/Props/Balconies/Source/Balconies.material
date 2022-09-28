@@ -1,0 +1,24 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Balconies_BaseColor.png"
+        },
+        "metallic": {
+            "textureMap": "Balconies_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Balconies_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Balconies_AO.png",
+            "specularTextureMap": "Balconies_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Balconies_Roughness.png"
+        }
+    }
+}

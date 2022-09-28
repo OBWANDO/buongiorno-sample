@@ -1,0 +1,20 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Vehicles/Vespa/source/Vespa_BaseColor.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            1.0,
+            0.9176470637321472,
+            0.03529411926865578,
+            1.0
+        ],
+        "metallic.textureMap": "Village/Vehicles/Vespa/source/Vespa_Metallic.png",
+        "normal.textureMap": "Village/Vehicles/Vespa/source/Vespa_Normal.png",
+        "occlusion.diffuseTextureMap": "Village/Vehicles/Vespa/source/Vespa_AO.png",
+        "occlusion.specularTextureMap": "Village/Vehicles/Vespa/source/Vespa_AO.png",
+        "roughness.textureMap": "Village/Vehicles/Vespa/source/Vespa_Roughness.png",
+        "specularF0.factor": 1.0
+    }
+}

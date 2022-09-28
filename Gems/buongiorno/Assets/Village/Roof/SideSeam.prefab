@@ -1,0 +1,156 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "SideSeam",
+        "Components": {
+            "Component_[11959645169918689551]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11959645169918689551
+            },
+            "Component_[12851751197949888097]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12851751197949888097
+            },
+            "Component_[13664120017514064728]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13664120017514064728
+            },
+            "Component_[14507478223728596831]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14507478223728596831
+            },
+            "Component_[14802047253937791059]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14802047253937791059
+            },
+            "Component_[2278671696146219326]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2278671696146219326,
+                "Child Entity Order": [
+                    "Entity_[309072341345174]"
+                ]
+            },
+            "Component_[398240700774713842]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 398240700774713842
+            },
+            "Component_[4048218724619991353]": {
+                "$type": "EditorLockComponent",
+                "Id": 4048218724619991353
+            },
+            "Component_[4194963358991693926]": {
+                "$type": "SelectionComponent",
+                "Id": 4194963358991693926
+            },
+            "Component_[4424785646652858521]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4424785646652858521,
+                "Parent Entity": ""
+            },
+            "Component_[4633097278172104392]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4633097278172104392
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[309072341345174]": {
+            "Id": "Entity_[309072341345174]",
+            "Name": "SideSeam",
+            "Components": {
+                "Component_[10551417767055770902]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10551417767055770902
+                },
+                "Component_[1211693328463638142]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1211693328463638142
+                },
+                "Component_[13770892476658768018]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13770892476658768018,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1268928397
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B2D1A4BC-FC2D-50B9-BD38-A67F799C1A12}"
+                                            },
+                                            "assetHint": "village/roof/standardrooftiles.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14040908781087763062]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14040908781087763062
+                },
+                "Component_[15000016300347426838]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15000016300347426838,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17476897999133922373]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17476897999133922373
+                },
+                "Component_[18071855117008937951]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18071855117008937951,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6A58D166-A796-5D90-B551-47685D58FEFE}",
+                                    "subId": 269989095
+                                },
+                                "assetHint": "village/roof/source/sideseam.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3360991967426130247]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3360991967426130247,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15000016300347426838
+                        },
+                        {
+                            "ComponentId": 18071855117008937951,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13770892476658768018,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4288739448612391262]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4288739448612391262
+                },
+                "Component_[4521216745659581396]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4521216745659581396
+                },
+                "Component_[4709831071385344768]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4709831071385344768
+                },
+                "Component_[7880207036859881331]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7880207036859881331
+                }
+            }
+        }
+    }
+}

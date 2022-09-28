@@ -1,0 +1,164 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HotelWindow",
+        "Components": {
+            "Component_[10230210606206577135]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10230210606206577135
+            },
+            "Component_[11696905020006499612]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11696905020006499612,
+                "Child Entity Order": [
+                    "Entity_[18189548726953]"
+                ]
+            },
+            "Component_[12179580104125220390]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12179580104125220390
+            },
+            "Component_[14833714135280607107]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14833714135280607107
+            },
+            "Component_[14932840817307899067]": {
+                "$type": "EditorLockComponent",
+                "Id": 14932840817307899067
+            },
+            "Component_[16566003526919234440]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16566003526919234440,
+                "Parent Entity": ""
+            },
+            "Component_[1797892881277932256]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1797892881277932256
+            },
+            "Component_[2966784566929086673]": {
+                "$type": "SelectionComponent",
+                "Id": 2966784566929086673
+            },
+            "Component_[5582865272326525002]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5582865272326525002
+            },
+            "Component_[8966650059332073269]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8966650059332073269
+            },
+            "Component_[9414605950439180540]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9414605950439180540
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[18189548726953]": {
+            "Id": "Entity_[18189548726953]",
+            "Name": "HotelWindow",
+            "Components": {
+                "Component_[13961962448043558625]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13961962448043558625
+                },
+                "Component_[17289492664641395334]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17289492664641395334,
+                    "Child Entity Order": [
+                        "Instance_[6485762845353]/ContainerEntity",
+                        "Instance_[11854471965353]/ContainerEntity"
+                    ]
+                },
+                "Component_[249307627363704414]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 249307627363704414
+                },
+                "Component_[2840481923011860142]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2840481923011860142
+                },
+                "Component_[3829381298468834558]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3829381298468834558
+                },
+                "Component_[47059551717321231]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 47059551717321231,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5351211118876228989]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5351211118876228989
+                },
+                "Component_[6324694517230708797]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6324694517230708797,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 47059551717321231
+                        }
+                    ]
+                },
+                "Component_[7794854625597834421]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7794854625597834421
+                },
+                "Component_[8421001644450637470]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8421001644450637470
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[11854471965353]": {
+            "Source": "Village/Props/Windows/Window03.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5501540002361298252]/Parent Entity",
+                    "value": "../Entity_[18189548726953]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5501540002361298252]/Transform Data/UniformScale",
+                    "value": 1.2000000476837158
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[6485762845353]": {
+            "Source": "Village/Props/TrimKit/windowtrim_01.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5288187991890231624]/Parent Entity",
+                    "value": "../Entity_[18189548726953]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5288187991890231624]/Transform Data/Translate/0",
+                    "value": -0.01706218719482422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5288187991890231624]/Transform Data/Translate/1",
+                    "value": 0.029603958129882813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5288187991890231624]/Transform Data/Translate/2",
+                    "value": 0.6472434997558594
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

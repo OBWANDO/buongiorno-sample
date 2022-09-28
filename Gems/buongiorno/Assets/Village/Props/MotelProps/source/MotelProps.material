@@ -1,0 +1,30 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Props/MotelProps/source/MotelPropsKit_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.5224536657333374,
+                0.530937671661377,
+                0.5442129969596863,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Village/Props/MotelProps/source/MotelPropsKit_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Village/Props/MotelProps/source/MotelPropsKit_Normal.png"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Village/Props/MotelProps/source/MotelPropsKit_AO.png",
+            "specularTextureMap": "Village/Props/MotelProps/source/MotelPropsKit_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Props/MotelProps/source/MotelPropsKit_Roughness.png"
+        }
+    }
+}

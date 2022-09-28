@@ -1,0 +1,157 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "RoundGutter_Vertical_Open",
+        "Components": {
+            "Component_[10996671297082986790]": {
+                "$type": "SelectionComponent",
+                "Id": 10996671297082986790
+            },
+            "Component_[12228974545471214324]": {
+                "$type": "EditorLockComponent",
+                "Id": 12228974545471214324
+            },
+            "Component_[13317890463719265654]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13317890463719265654
+            },
+            "Component_[14910178669842683252]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14910178669842683252,
+                "Child Entity Order": [
+                    "Entity_[181361495714876]"
+                ]
+            },
+            "Component_[17035254886141983702]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17035254886141983702
+            },
+            "Component_[4337814431368397100]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4337814431368397100,
+                "Parent Entity": ""
+            },
+            "Component_[7269474073786308210]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7269474073786308210
+            },
+            "Component_[7276781826373182361]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7276781826373182361
+            },
+            "Component_[7997631966635714286]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7997631966635714286
+            },
+            "Component_[8609121240795890575]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8609121240795890575
+            },
+            "Component_[8946419411586850346]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8946419411586850346
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[181361495714876]": {
+            "Id": "Entity_[181361495714876]",
+            "Name": "gutter_r_vertical_open_e",
+            "Components": {
+                "Component_[12316786217709811958]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12316786217709811958
+                },
+                "Component_[12674162233486718489]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12674162233486718489
+                },
+                "Component_[13449055100584518412]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13449055100584518412
+                },
+                "Component_[14541470689456802048]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14541470689456802048,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6C47F423-7AD5-5E70-9501-0F63C061F173}",
+                                    "subId": 268604405
+                                },
+                                "assetHint": "village/props/gutter/source/gutter_r_vertical_open_e.azmodel"
+                            },
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "Component_[15524500271550089279]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15524500271550089279,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 660583361062313256
+                        },
+                        {
+                            "ComponentId": 14541470689456802048,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15753368885962261149,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15753368885962261149]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15753368885962261149,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C19A7AFA-FE14-5AA8-A5E5-7810AE9BC15D}"
+                                            },
+                                            "assetHint": "village/props/gutter/source/roundgutter.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15767154221499616800]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15767154221499616800
+                },
+                "Component_[18144953785021562133]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18144953785021562133
+                },
+                "Component_[2379117888746060928]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2379117888746060928
+                },
+                "Component_[6184258899065904267]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6184258899065904267
+                },
+                "Component_[660583361062313256]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 660583361062313256,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6726181841721616689]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6726181841721616689
+                }
+            }
+        }
+    }
+}

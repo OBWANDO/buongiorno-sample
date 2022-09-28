@@ -1,0 +1,840 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Road_Straight_NoDrain",
+        "Components": {
+            "Component_[10625271788856756247]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10625271788856756247
+            },
+            "Component_[1203299805594623687]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1203299805594623687
+            },
+            "Component_[12311500962350530478]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12311500962350530478
+            },
+            "Component_[16915806939115695555]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16915806939115695555
+            },
+            "Component_[2195065145442558371]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2195065145442558371
+            },
+            "Component_[2784817352284479487]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2784817352284479487
+            },
+            "Component_[5430476610576564183]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5430476610576564183,
+                "Child Entity Order": [
+                    "Entity_[295845711831812]",
+                    "Entity_[295824236995332]",
+                    "Entity_[295828531962628]",
+                    "Entity_[295832826929924]",
+                    "Entity_[295837121897220]",
+                    "Entity_[295850006799108]",
+                    "Entity_[295841416864516]"
+                ]
+            },
+            "Component_[6023588711501527936]": {
+                "$type": "SelectionComponent",
+                "Id": 6023588711501527936
+            },
+            "Component_[614027210681213359]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 614027210681213359
+            },
+            "Component_[8104604970210495724]": {
+                "$type": "EditorLockComponent",
+                "Id": 8104604970210495724
+            },
+            "Component_[8815491285057710589]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8815491285057710589,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[295824236995332]": {
+            "Id": "Entity_[295824236995332]",
+            "Name": "Road Square",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2FE0DF27-7BED-5D29-AEAF-2B8648430C27}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/parisstones.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CDC27E19-8220-5A18-BA97-6061576E437F}",
+                                    "subId": 270560977
+                                },
+                                "assetHint": "village/pavement/road/source/road_square.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.0008490234613418579,
+                            -2.200000286102295,
+                            2.384185791015625e-7
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295828531962628]": {
+            "Id": "Entity_[295828531962628]",
+            "Name": "Road Square",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2FE0DF27-7BED-5D29-AEAF-2B8648430C27}"
+                                            },
+                                            "assetHint": "village/pavement/flat_spots/source/parisstones.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CDC27E19-8220-5A18-BA97-6061576E437F}",
+                                    "subId": 270560977
+                                },
+                                "assetHint": "village/pavement/road/source/road_square.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.0008490234613418579,
+                            2.200000286102295,
+                            4.76837158203125e-7
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295832826929924]": {
+            "Id": "Entity_[295832826929924]",
+            "Name": "Road Square",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2452167476
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7FDA7617-EC96-5396-8443-F1D96B6EF67E}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/road_main.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CDC27E19-8220-5A18-BA97-6061576E437F}",
+                                    "subId": 270560977
+                                },
+                                "assetHint": "village/pavement/road/source/road_square.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.000849016010761261,
+                            0.001936197280883789,
+                            2.384185791015625e-7
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295837121897220]": {
+            "Id": "Entity_[295837121897220]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 4512933607926388742,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.5016915798187256,
+                            1.0992605686187744,
+                            0.0410003662109375
+                        ],
+                        "Rotate": [
+                            0.0000011871936749230372,
+                            -0.6293180584907532,
+                            -179.99989318847656
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[4512933607926388742]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 4512933607926388742,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        1.5
+                    ]
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295841416864516]": {
+            "Id": "Entity_[295841416864516]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 1796791591148259703,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[1796791591148259703]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 1796791591148259703,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        2.0
+                    ]
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.5004218816757202,
+                            -1.1004003286361694,
+                            0.0410008430480957
+                        ],
+                        "Rotate": [
+                            0.0000013688576245840522,
+                            -0.723268985748291,
+                            -179.99989318847656
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295845711831812]": {
+            "Id": "Entity_[295845711831812]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.501697301864624,
+                            -1.0997331142425537,
+                            0.0410006046295166
+                        ],
+                        "Rotate": [
+                            1.2689064909920944e-8,
+                            3.27069614058928e-7,
+                            0.22814466059207916
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        },
+        "Entity_[295850006799108]": {
+            "Id": "Entity_[295850006799108]",
+            "Name": "Side Stone Straight",
+            "Components": {
+                "Component_[10029467698305342396]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10029467698305342396
+                },
+                "Component_[1188897297792733885]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1188897297792733885,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2649504006
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14CEBFC7-B6DE-5A32-ACE3-D08DE61D4358}"
+                                            },
+                                            "assetHint": "village/pavement/road/source/side_stone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13227570611442522992]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13227570611442522992
+                },
+                "Component_[1409020449625759801]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1409020449625759801
+                },
+                "Component_[16009873289653913015]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16009873289653913015,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3B6660E8-A4B8-5E17-BEBF-099D0C85FC46}",
+                                    "subId": 268703536
+                                },
+                                "assetHint": "village/pavement/road/source/side_stone_straight.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17358950936051367549]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17358950936051367549
+                },
+                "Component_[17541673945199207471]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17541673945199207471,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2694114268514493813
+                        },
+                        {
+                            "ComponentId": 16009873289653913015,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1188897297792733885,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17846951058960740028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17846951058960740028
+                },
+                "Component_[2694114268514493813]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2694114268514493813,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.5004199743270874,
+                            1.0989365577697754,
+                            0.0410006046295166
+                        ]
+                    }
+                },
+                "Component_[4429791419480506471]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4429791419480506471
+                },
+                "Component_[5296483131186700932]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5296483131186700932
+                },
+                "Component_[7689769091238194789]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7689769091238194789
+                }
+            }
+        }
+    }
+}

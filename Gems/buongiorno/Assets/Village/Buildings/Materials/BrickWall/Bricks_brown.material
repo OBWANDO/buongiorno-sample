@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Village/Buildings/Materials/BrickWall/Bricks_Brown_BaseColor.png"
+        },
+        "irradiance": {
+            "color": [
+                0.5028916001319885,
+                0.3467002511024475,
+                0.2541542649269104,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Village/Buildings/Materials/BrickWall/Bricks_Normal.png"
+        },
+        "occlusion": {
+            "diffuseFactor": 0.5,
+            "diffuseTextureMap": "Village/Buildings/Materials/BrickWall/Bricks_AO.png",
+            "specularTextureMap": "Village/Buildings/Materials/BrickWall/Bricks_AO.png"
+        },
+        "roughness": {
+            "textureMap": "Village/Buildings/Materials/BrickWall/Bricks_Roughness.png"
+        }
+    }
+}

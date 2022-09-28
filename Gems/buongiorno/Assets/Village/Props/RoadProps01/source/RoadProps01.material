@@ -1,0 +1,18 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureMap": "Village/Props/RoadProps01/source/RoadProps_BaseColor.png",
+        "irradiance.color": [
+            0.8503395318984985,
+            0.8210574388504028,
+            0.7331807613372803,
+            1.0
+        ],
+        "metallic.textureMap": "Village/Props/RoadProps01/source/RoadProps_Metallic.png",
+        "normal.textureMap": "Village/Props/RoadProps01/source/RoadProps_Normal.png",
+        "occlusion.diffuseTextureMap": "Village/Props/RoadProps01/source/RoadProps_AO.png",
+        "occlusion.specularTextureMap": "Village/Props/RoadProps01/source/RoadProps_AO.png",
+        "roughness.textureMap": "Village/Props/RoadProps01/source/RoadProps_Roughness.png"
+    }
+}

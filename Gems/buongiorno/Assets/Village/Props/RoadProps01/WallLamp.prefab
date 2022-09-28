@@ -1,0 +1,185 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "WallLamp",
+        "Components": {
+            "Component_[10360247439736958622]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10360247439736958622,
+                "Child Entity Order": [
+                    "Entity_[154110773175246]"
+                ]
+            },
+            "Component_[11741289672823155838]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11741289672823155838
+            },
+            "Component_[14117307606052288352]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14117307606052288352
+            },
+            "Component_[16001710295592066144]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16001710295592066144
+            },
+            "Component_[16311025463724720950]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16311025463724720950,
+                "Parent Entity": ""
+            },
+            "Component_[2177953535183100870]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2177953535183100870
+            },
+            "Component_[2603822413347225079]": {
+                "$type": "EditorLockComponent",
+                "Id": 2603822413347225079
+            },
+            "Component_[3186079695552503792]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3186079695552503792
+            },
+            "Component_[3467107395349823847]": {
+                "$type": "SelectionComponent",
+                "Id": 3467107395349823847
+            },
+            "Component_[5497644302973736175]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5497644302973736175
+            },
+            "Component_[5968535707667990461]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5968535707667990461
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[154110773175246]": {
+            "Id": "Entity_[154110773175246]",
+            "Name": "walllamp_e",
+            "Components": {
+                "Component_[11061736658734126277]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11061736658734126277
+                },
+                "Component_[14048410884925930068]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14048410884925930068,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4A6630FA-45B4-5FDE-B6A1-0140F934C95B}",
+                                    "subId": 276296203
+                                },
+                                "assetHint": "village/props/roadprops01/source/walllamp_e.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14486550829741190803]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14486550829741190803
+                },
+                "Component_[15413437749358552391]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15413437749358552391
+                },
+                "Component_[17979323720918893341]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17979323720918893341,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.5275113582611084,
+                            0.04261268675327301,
+                            0.5282996892929077
+                        ]
+                    }
+                },
+                "Component_[3632242386763644187]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3632242386763644187,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17979323720918893341
+                        },
+                        {
+                            "ComponentId": 14048410884925930068,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8315680176969862773,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6496426934902893086]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6496426934902893086
+                },
+                "Component_[8094048979914075024]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8094048979914075024
+                },
+                "Component_[8315680176969862773]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8315680176969862773,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2825317767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4CD5A45A-26B2-5B52-AFB9-08A9046A8A11}"
+                                            },
+                                            "assetHint": "village/props/roadprops01/source/roadprops01.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9107713594992058807]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9107713594992058807
+                },
+                "Component_[9328000838730980906]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9328000838730980906
+                },
+                "Component_[9613351328969513506]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613351328969513506
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[140714770179022]": {
+            "Source": "Village/Props/RoadProps01/LampTop.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15958321338778090666]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15958321338778090666]/Transform Data/Translate/0",
+                    "value": -0.5393681526184082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15958321338778090666]/Transform Data/Translate/1",
+                    "value": 0.0416475385427475
+                }
+            ]
+        }
+    }
+}

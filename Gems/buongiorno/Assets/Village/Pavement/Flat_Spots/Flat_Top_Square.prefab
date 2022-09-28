@@ -1,0 +1,1711 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Flat_Top_Square",
+        "Components": {
+            "Component_[1040127508764995594]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1040127508764995594
+            },
+            "Component_[12452222054238201672]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12452222054238201672
+            },
+            "Component_[14235615511671245876]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14235615511671245876
+            },
+            "Component_[17039629876544595148]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17039629876544595148,
+                "Parent Entity": ""
+            },
+            "Component_[2115465241031663738]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2115465241031663738
+            },
+            "Component_[2903746729182754565]": {
+                "$type": "SelectionComponent",
+                "Id": 2903746729182754565
+            },
+            "Component_[4441206247939039428]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4441206247939039428
+            },
+            "Component_[4545681074176574185]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4545681074176574185
+            },
+            "Component_[4719878289360177845]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4719878289360177845
+            },
+            "Component_[5288468950859643223]": {
+                "$type": "EditorLockComponent",
+                "Id": 5288468950859643223
+            },
+            "Component_[5740709930097051028]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5740709930097051028
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[1142596748821658]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 2.202549457550049
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065516948699951
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142601043788954]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 6.202549934387207
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.986934185028076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142605338756250]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 2.202547073364258
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142609633723546]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 6.202552318572998
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.9869346618652344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142613928690842]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 4.20255184173584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.986936569213867
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142618223658138]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 6.202548503875732
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142622518625434]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 2.202549934387207
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.986936330795288
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142626813592730]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 4.2025465965271
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013066291809082031
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142631108560026]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 4.202547073364258
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013065814971924
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142635403527322]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 4.202548980712891
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869346618652344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142639698494618]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 2.202549457550049
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869353771209717
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 2.384185791015625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1142643993461914]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 6.202548503875732
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013066411018371582
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1371041206157499]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.986934185028076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394470810928282]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 12.202554702758787
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869344234466553
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394475105895578]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 8.202548027038574
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.0130655765533447
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 2.384185791015625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394479400862874]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 10.20254898071289
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.986936092376709
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394483695830170]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 10.202549934387209
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.0130674839019775
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394487990797466]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 12.202554702758787
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.9869349002838135
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394492285764762]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 10.20255184173584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869351387023928
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394496580732058]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 8.20255184173584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.986937284469605
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394500875699354]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 8.202554702758789
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.01306527853012085
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 4.76837158203125e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394505170666650]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 8.202552795410156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.98693585395813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394509465633946]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 12.202550888061523
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.0130670070648193
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394513760601242]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 12.20254898071289
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065636157989502
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1394518055568538]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 10.202554702758787
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065993785858154
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1649024932627610]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.79745388031006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 4.013065814971924
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1649029227594906]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 4.013067245483398
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1649033522562202]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 4.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1649037817529498]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -3.7974538803100586
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 4.013065814971924
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1747276604490906]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.79745388031006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 6.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1747280899458202]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 6.013067722320557
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[1747285194425498]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 6.013067245483398
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2316995426370714]": {
+            "Source": "Village/Pavement/Road/Side_Stones_Pair.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/0",
+                    "value": -10.734997749328612
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/1",
+                    "value": -2.6924850940704346
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Translate/2",
+                    "value": 0.03575491905212402
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/0",
+                    "value": 2.4760823249816895
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/1",
+                    "value": -1.067216999217635e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15866297212693916432]/Transform Data/Rotate/2",
+                    "value": -89.99994659423828
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2415564925813914]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.7974536418914795
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 4.013065814971924
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[2940377852980652]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.797452449798584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -5.98693323135376
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                }
+            ]
+        },
+        "Instance_[2940382147947948]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.797453880310059
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -5.986934661865234
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                }
+            ]
+        },
+        "Instance_[2943255481068972]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.797452449798584
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -5.986933708190918
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                }
+            ]
+        },
+        "Instance_[307710941054106]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.9869346618652344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[345296199861402]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -3.9869346618652344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[382915818407066]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.986934185028076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[382920113374362]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.986934185028076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[382924408341658]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.79745388031006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869349002838137
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533810904417434]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.79745388031006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.0130653381347656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533815199384730]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.797453880310059
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065874576568604
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533819494352026]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -9.79745388031006
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.0130651593208313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533823789319322]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065993785858154
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533828084286618]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -5.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013066053390503
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[533832379253914]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -7.7974534034729
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013065814971924
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893402746307738]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 0.20254695415496823
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.986934185028076
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893407041275034]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 0.20254695415496823
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013066232204437256
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.000001430511474609375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893419926176922]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -3.7974538803100586
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.0130653381347656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893424221144218]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.797453999519348
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893432811078810]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": 0.20254671573638916
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 2.013066291809082
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893437106046106]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.7974541187286377
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013066232204437256
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000016689300537109375
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893441401013402]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -1.7974528074264526
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869344234466553
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 7.152557373046875e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893445695980698]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -3.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": 0.013065218925476074
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 0.0000011920928955078125
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[893449990947994]": {
+            "Source": "Village/Pavement/Flat_Spots/Paris_Square_2x2.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/0",
+                    "value": -3.797452926635742
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/1",
+                    "value": -1.9869349002838137
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9160696305955967952]/Transform Data/Translate/2",
+                    "value": 9.5367431640625e-7
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}
